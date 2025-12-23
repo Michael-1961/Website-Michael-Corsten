@@ -21,9 +21,11 @@ Generates static HTML/CSS/JS files in `dist/` for deployment (e.g., GitHub Pages
 
 ## Update Content
 
-Edit the JSON files in `src/data/`:
+Edit the JSON files in the `content/` folder:
 
 - `contact.json` - Contact information
 - `publications.json` - Publication list
 - `projects.json` - Research projects
 - `research.json` - Research focus areas
+- `cv.json` - Education and career
+- `labels.json` - UI text translations (German/English)
