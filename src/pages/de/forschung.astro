@@ -1,0 +1,62 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import research from '../../data/research.json';
+import projects from '../../data/projects.json';
+import labels from '../../data/labels.json';
+
+const lang = 'de';
+const t = labels[lang];
+---
+
+<BaseLayout title="Forschung - Prof. Dr. Michael Corsten" lang={lang}>
+  <div class="page-container">
+    <!-- Page Header -->
+    <div class="mb-12">
+      <h1 class="section-header">{t.nav.research}</h1>
+      <p class="text-lg text-slate-600 dark:text-slate-400 max-w-3xl">
+        Meine Forschung konzentriert sich auf zentrale gesellschaftliche Fragen der Bildung, politischen Kultur und sozialen Praktiken.
+      </p>
+    </div>
+
+    <!-- Research Focus Areas -->
+    <section class="mb-16">
+      <h2 class="text-2xl font-semibold text-slate-900 dark:text-white mb-6">{t.sections.researchFocus}</h2>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        {research.focusAreas.map((area) => (
+          <div class="card card-hover group">
+            <div class="flex items-center gap-3">
+              <div class="w-2 h-2 rounded-full bg-blue-500 group-hover:scale-125 transition-transform"></div>
+              <h3 class="font-medium text-slate-900 dark:text-white">{area.title[lang]}</h3>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- Research Projects -->
+    <section>
+      <h2 class="text-2xl font-semibold text-slate-900 dark:text-white mb-6">{t.sections.researchProjects}</h2>
+      <div class="space-y-4">
+        {projects.projects.map((project) => (
+          <div class="card card-hover">
+            <div class="flex flex-col gap-2">
+              <div class="flex items-start justify-between gap-4">
+                <h3 class="font-medium text-slate-900 dark:text-white">{project.title[lang]}</h3>
+                {project.years && (
+                  <span class="flex-shrink-0 text-sm text-slate-500 dark:text-slate-400 bg-slate-100 dark:bg-slate-700 px-2 py-1 rounded">
+                    {project.years}
+                  </span>
+                )}
+              </div>
+              {project.lead && (
+                <p class="text-sm text-slate-600 dark:text-slate-400">
+                  <span class="font-medium">{t.labels.projectLead}:</span> {project.lead}
+                </p>
+              )}
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+  </div>
+</BaseLayout>

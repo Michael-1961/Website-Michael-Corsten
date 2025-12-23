@@ -11,28 +11,21 @@ const t = labels[lang];
 const currentYear = new Date().getFullYear();
 ---
 
-<footer class="bg-primary-900 text-primary-100 mt-16">
-  <div class="container-narrow py-12">
-    <div class="grid md:grid-cols-2 gap-8">
-      <div>
-        <h3 class="text-white text-lg font-serif mb-4">{contact.name}</h3>
-        <p class="text-primary-300 text-sm">
-          {contact.title[lang]}<br />
-          {contact.institution[lang]}<br />
+<footer class="border-t border-slate-200 dark:border-slate-800 mt-auto">
+  <div class="max-w-6xl mx-auto px-6 py-8">
+    <div class="flex flex-col md:flex-row items-center justify-between gap-4">
+      <!-- Name and Title -->
+      <div class="text-center md:text-left">
+        <p class="font-medium text-slate-900 dark:text-white">{contact.name}</p>
+        <p class="text-sm text-slate-500 dark:text-slate-400">
           {contact.university[lang]}
         </p>
       </div>
-      <div>
-        <h4 class="text-white text-lg font-serif mb-4">{t.sections.contact}</h4>
-        <p class="text-primary-300 text-sm">
-          {contact.address}<br />
-          {t.labels.phone}: {contact.phone}<br />
-          {t.labels.office}: {contact.office}
-        </p>
-      </div>
-    </div>
-    <div class="border-t border-primary-700 mt-8 pt-8 text-center text-primary-400 text-sm">
-      &copy; {currentYear} {contact.name}. {t.footer.copyright}.
+
+      <!-- Copyright -->
+      <p class="text-sm text-slate-500 dark:text-slate-400">
+        &copy; {currentYear} {t.footer.copyright}
+      </p>
     </div>
   </div>
 </footer>

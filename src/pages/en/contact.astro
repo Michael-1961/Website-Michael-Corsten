@@ -1,0 +1,90 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import contact from '../../data/contact.json';
+import labels from '../../data/labels.json';
+
+const lang = 'en';
+const t = labels[lang];
+---
+
+<BaseLayout title="Contact - Prof. Dr. Michael Corsten" lang={lang}>
+  <div class="page-container">
+    <!-- Page Header -->
+    <div class="mb-12">
+      <h1 class="section-header">{t.nav.contact}</h1>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-8 max-w-4xl">
+      <!-- Address -->
+      <div class="card">
+        <div class="flex items-center gap-3 mb-4">
+          <div class="w-10 h-10 rounded-xl bg-blue-100 dark:bg-blue-900/30 flex items-center justify-center">
+            <svg class="w-5 h-5 text-blue-600 dark:text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+            </svg>
+          </div>
+          <h2 class="text-lg font-semibold text-slate-900 dark:text-white">{t.labels.address}</h2>
+        </div>
+        <p class="text-slate-600 dark:text-slate-400">
+          University of Hildesheim<br />
+          {contact.address}
+        </p>
+      </div>
+
+      <!-- Office -->
+      <div class="card">
+        <div class="flex items-center gap-3 mb-4">
+          <div class="w-10 h-10 rounded-xl bg-emerald-100 dark:bg-emerald-900/30 flex items-center justify-center">
+            <svg class="w-5 h-5 text-emerald-600 dark:text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+            </svg>
+          </div>
+          <h2 class="text-lg font-semibold text-slate-900 dark:text-white">{t.labels.office}</h2>
+        </div>
+        <p class="text-slate-600 dark:text-slate-400">{contact.office}</p>
+      </div>
+
+      <!-- Phone -->
+      <div class="card">
+        <div class="flex items-center gap-3 mb-4">
+          <div class="w-10 h-10 rounded-xl bg-purple-100 dark:bg-purple-900/30 flex items-center justify-center">
+            <svg class="w-5 h-5 text-purple-600 dark:text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+            </svg>
+          </div>
+          <h2 class="text-lg font-semibold text-slate-900 dark:text-white">{t.labels.phone}</h2>
+        </div>
+        <a href={`tel:${contact.phone.replace(/\s/g, '')}`} class="text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+          {contact.phone}
+        </a>
+      </div>
+
+      <!-- Fax -->
+      <div class="card">
+        <div class="flex items-center gap-3 mb-4">
+          <div class="w-10 h-10 rounded-xl bg-orange-100 dark:bg-orange-900/30 flex items-center justify-center">
+            <svg class="w-5 h-5 text-orange-600 dark:text-orange-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z" />
+            </svg>
+          </div>
+          <h2 class="text-lg font-semibold text-slate-900 dark:text-white">{t.labels.fax}</h2>
+        </div>
+        <p class="text-slate-600 dark:text-slate-400">{contact.fax}</p>
+      </div>
+
+      <!-- Office Hours -->
+      <div class="card md:col-span-2">
+        <div class="flex items-center gap-3 mb-4">
+          <div class="w-10 h-10 rounded-xl bg-rose-100 dark:bg-rose-900/30 flex items-center justify-center">
+            <svg class="w-5 h-5 text-rose-600 dark:text-rose-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </div>
+          <h2 class="text-lg font-semibold text-slate-900 dark:text-white">{t.labels.officeHours}</h2>
+        </div>
+        <p class="text-slate-600 dark:text-slate-400">{contact.officeHours[lang]}</p>
+      </div>
+    </div>
+  </div>
+</BaseLayout>

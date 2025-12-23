@@ -12,26 +12,27 @@ const { title, lang = 'de' } = Astro.props;
 ---
 
 <!DOCTYPE html>
-<html lang={lang}>
+<html lang={lang} class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Prof. Dr. Michael Corsten - Geschäftsführender Leiter, Institut für Sozialwissenschaften, Universität Hildesheim" />
+    <meta name="description" content="Prof. Dr. Michael Corsten - Professor for Sociology, University of Hildesheim" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <title>{title}</title>
-    <style>
-      body {
-        font-family: 'Inter', system-ui, sans-serif;
-      }
-      h1, h2, h3, h4, h5, h6, .font-serif {
-        font-family: 'Playfair Display', Georgia, serif;
-      }
-    </style>
+    <script is:inline>
+      // Inline script to prevent flash of wrong theme
+      (function() {
+        const theme = localStorage.getItem('theme');
+        if (theme === 'dark' || (!theme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+          document.documentElement.classList.add('dark');
+        }
+      })();
+    </script>
   </head>
-  <body class="min-h-screen flex flex-col">
+  <body class="min-h-screen flex flex-col bg-white dark:bg-slate-900 text-slate-900 dark:text-slate-100 antialiased transition-colors duration-200">
     <Header lang={lang} />
     <main class="flex-grow">
       <slot />

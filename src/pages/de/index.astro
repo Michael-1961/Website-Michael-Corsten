@@ -4,38 +4,38 @@ import contact from '../../data/contact.json';
 import labels from '../../data/labels.json';
 import { getLocalizedRoute } from '../../i18n/utils';
 
-const lang = 'en';
+const lang = 'de';
 const t = labels[lang];
 
 const navCards = [
   {
     title: t.nav.research,
-    description: 'Research focus areas and current projects',
+    description: 'Forschungsschwerpunkte und aktuelle Projekte',
     href: getLocalizedRoute('research', lang),
     icon: 'research',
   },
   {
     title: t.nav.publications,
-    description: 'Academic publications and works',
+    description: 'Wissenschaftliche Publikationen und Veröffentlichungen',
     href: getLocalizedRoute('publications', lang),
     icon: 'publications',
   },
   {
     title: t.nav.cv,
-    description: 'Academic career and qualifications',
+    description: 'Akademischer Werdegang und Qualifikationen',
     href: getLocalizedRoute('cv', lang),
     icon: 'cv',
   },
   {
     title: t.nav.contact,
-    description: 'Contact information and office hours',
+    description: 'Kontaktinformationen und Sprechzeiten',
     href: getLocalizedRoute('contact', lang),
     icon: 'contact',
   },
 ];
 ---
 
-<BaseLayout title="Prof. Dr. Michael Corsten - University of Hildesheim" lang={lang}>
+<BaseLayout title="Prof. Dr. Michael Corsten - Universität Hildesheim" lang={lang}>
   <!-- Hero Section -->
   <section class="relative overflow-hidden">
     <div class="absolute inset-0 bg-gradient-to-br from-slate-50 to-slate-100 dark:from-slate-900 dark:to-slate-800"></div>

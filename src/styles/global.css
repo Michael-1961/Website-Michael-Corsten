@@ -4,44 +4,42 @@
 
 @layer base {
   html {
-    scroll-behavior: smooth;
+    @apply scroll-smooth;
   }
 
   body {
-    @apply antialiased text-primary-800 bg-white;
+    @apply antialiased;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
   }
 
-  h1, h2, h3, h4, h5, h6 {
-    @apply font-serif text-primary-900;
-  }
-
-  a {
-    @apply text-accent-600 hover:text-accent-700 transition-colors;
+  /* Better focus styles */
+  :focus-visible {
+    @apply outline-none ring-2 ring-blue-500 ring-offset-2 ring-offset-white dark:ring-offset-slate-900;
   }
 }
 
 @layer components {
-  .section-title {
-    @apply text-2xl md:text-3xl font-serif font-normal text-primary-900 mb-6 pb-2 border-b border-primary-200;
+  /* Page wrapper */
+  .page-container {
+    @apply max-w-6xl mx-auto px-6 py-16 md:py-24;
   }
 
-  .container-narrow {
-    @apply max-w-4xl mx-auto px-4 sm:px-6 lg:px-8;
+  /* Section headers */
+  .section-header {
+    @apply text-3xl md:text-4xl font-semibold text-slate-900 dark:text-white tracking-tight mb-8;
   }
 
-  .publication-entry {
-    @apply py-3 border-b border-primary-100 last:border-b-0;
+  /* Cards */
+  .card {
+    @apply bg-white dark:bg-slate-800 rounded-2xl p-6 shadow-sm border border-slate-200 dark:border-slate-700;
   }
 
-  .publication-authors {
-    @apply text-primary-700;
+  .card-hover {
+    @apply hover:shadow-lg hover:border-slate-300 dark:hover:border-slate-600 transition-all duration-300;
   }
+}
 
-  .publication-title {
-    @apply font-medium text-primary-900;
-  }
-
-  .publication-details {
-    @apply text-primary-600 text-sm;
-  }
+/* Selection color */
+::selection {
+  @apply bg-blue-100 dark:bg-blue-900/50;
 }
