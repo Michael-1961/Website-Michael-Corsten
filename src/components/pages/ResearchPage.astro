@@ -40,10 +40,20 @@ const projects = allProjects.filter(p => p.id.startsWith(`${lang}/`));
                   <span class="font-medium">{t.labels.responsible}:</span> {area.data.lead}
                 </p>
               )}
-              {area.body && (
-                <p class="text-sm text-slate-600 dark:text-slate-400 line-clamp-2">
-                  {area.body.substring(0, 200)}...
+              {area.data.team && (
+                <p class="text-sm text-slate-600 dark:text-slate-400">
+                  <span class="font-medium">{t.labels.team}:</span> {area.data.team}
                 </p>
+              )}
+              {area.data.subtopics && area.data.subtopics.length > 0 && (
+                <div class="text-sm text-slate-600 dark:text-slate-400">
+                  <span class="font-medium">{t.labels.subtopics}:</span>
+                  <ul class="list-disc list-inside mt-1 ml-2">
+                    {area.data.subtopics.map((topic: string) => (
+                      <li>{topic}</li>
+                    ))}
+                  </ul>
+                </div>
               )}
             </div>
           </a>
@@ -73,9 +83,14 @@ const projects = allProjects.filter(p => p.id.startsWith(`${lang}/`));
                   <span class="font-medium">{t.labels.projectLead}:</span> {project.data.lead}
                 </p>
               )}
-              {project.body && (
-                <p class="text-sm text-slate-600 dark:text-slate-400 line-clamp-2">
-                  {project.body.substring(0, 200)}...
+              {project.data.team && (
+                <p class="text-sm text-slate-600 dark:text-slate-400">
+                  <span class="font-medium">{t.labels.team}:</span> {project.data.team}
+                </p>
+              )}
+              {project.data.funding && (
+                <p class="text-sm text-slate-600 dark:text-slate-400">
+                  <span class="font-medium">{t.labels.funding}:</span> {project.data.funding}
                 </p>
               )}
             </div>
