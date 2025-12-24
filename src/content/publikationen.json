@@ -4,7 +4,7 @@
       "year": 2025,
       "entries": [
         {
-          "id": "schnulze",
+          "id": "schnulze25",
           "authors": "Corsten, Michael; Schubert, Volker",
           "title": "Die Schnulze. Warum wir sie trotzdem lieben. Erkundungen an den Grenzen des Geschmacks",
           "edition": "1. Aufl.",
@@ -14,7 +14,7 @@
           "link": "https://www.velbrueck.de/Programm-oxid/Die-Schnulze.html"
         },
         {
-          "id": "soziale-arbeit-solidarität",
+          "id": "soziale-arbeit25",
           "authors": "Corsten, Michael; Kahle, Patrick",
           "title": "Soziale Arbeit als professionalisierte Solidarität",
           "in": "Soziale Arbeit und Soziologie",
@@ -23,6 +23,14 @@
           "publisher": "Beltz Juventa",
           "type": "chapter",
           "link": "https://www.beltz.de/fileadmin/beltz/leseproben/9783779988885_shortened.pdf"
+        },
+        {
+          "authors": "Corsten, Michael; Maleyka, Larissa",
+          "title": "Die Präsentation der biographischen Visitenkarte: Erzählstimulus und Selbsteinführung am Interviewbeginn",
+          "journal": "BIOS - Zeitschrift für Biographieforschung, Oral History und Lebensverlaufsanalysen",
+          "type": "article",
+          "id": "visitenkarte25",
+          "doi": "10.3224/bios.v37i1+2.06"
         }
       ]
     },
@@ -30,17 +38,18 @@
       "year": 2024,
       "entries": [
         {
-          "id": "mythisierung-vergessen",
+          "id": "mythisierung24",
           "authors": "Corsten, Michael; Pierburg, Melanie",
           "title": "\"Was mit ihr passiert ist, weiß ich nicht mehr\": Mythisierungsweisen des Vergessenen",
           "journal": "Zeitschrift für Biographieforschung, Oral History und Lebensverlaufsanalysen (BIOS)",
           "volume": "36 (1/2023)",
           "pages": "94-114",
           "type": "article",
-          "link": "https://www.budrich-journals.de/index.php/bios/article/view/44983"
+          "link": "https://www.budrich-journals.de/index.php/bios/article/view/44983",
+          "doi": "10.3224/bios.v36i1.06"
         },
         {
-          "id": "kohorte-generation",
+          "id": "kohorte24",
           "authors": "Corsten, Michael; Holderberg, Per",
           "title": "Kohorte und Generation",
           "in": "Handbuch Sozialstrukturanalyse",
@@ -48,10 +57,10 @@
           "location": "Wiesbaden",
           "publisher": "Springer VS",
           "type": "chapter",
-          "link": "https://link.springer.com/referenceworkentry/10.1007/978-3-658-39759-3_46-1"
+          "doi": "10.1007/978-3-658-39759-3_46-1"
         },
         {
-          "id": "identitätspolitik",
+          "id": "identitaet24",
           "authors": "Corsten, Michael",
           "title": "Identitätspolitik und soziale Klassifikation",
           "in": "Handbuch Sozialstrukturanalyse",
@@ -59,7 +68,69 @@
           "location": "Wiesbaden",
           "publisher": "Springer VS",
           "type": "chapter",
-          "link": "https://link.springer.com/referenceworkentry/10.1007/978-3-658-39759-3_64-1#Sec9"
+          "doi": "10.1007/978-3-658-39759-3_64-1"
+        },
+        {
+          "authors": "Kahle, Patrick; Corsten, Michael",
+          "title": "Why does domestic migration of refugees in rural arrival regions make no sense to professionals?",
+          "in": "Rural Geographies in Transition: Rethinking sustainable futures of rural areas",
+          "type": "chapter",
+          "id": "refugees24"
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "entries": [
+        {
+          "authors": "Corsten, Michael",
+          "title": "Längsschnittdesigns für qualitative Interviews und ihr analytisches Potenzial",
+          "in": "Sozialwissenschaftliche Methoden und Methodologien: Temporalität, Materialität, Sozialität",
+          "type": "chapter",
+          "id": "laengsschnitt-designs23",
+          "doi": "10.1007/978-3-658-41914-1_6"
+        },
+        {
+          "authors": "Corsten, Michael; Pierburg, Melanie",
+          "title": "\"Man wirft der DDR ja viel Negatives vor\": Bildungserfahrungen im Spannungsfeld von biographischen Erinnerungen und kollektivem Wissen",
+          "in": "Polarisierte Welten. Verhandlungen des 41. Kongresses der Deutschen Gesellschaft für Soziologie",
+          "type": "conference",
+          "id": "ddr23"
+        },
+        {
+          "authors": "Corsten, Michael; Gordt, Sandra; Pierburg, Melanie",
+          "title": "Schicksal oder Romantik?",
+          "journal": "Zeitschrift für Pädagogik",
+          "volume": "69, Beiheft 2023",
+          "type": "article",
+          "id": "schicksal23",
+          "doi": "10.3262/zpb2301090"
+        },
+        {
+          "authors": "Corsten, Michael; Kahle, Patrick",
+          "title": "Politische Kultur, Solidarität und zivilgesellschaftliches Engagement",
+          "in": "Kongress der Deutschen Gesellschaft für Soziologie: Polarisierte Welten",
+          "type": "conference",
+          "id": "polkultur23"
+        },
+        {
+          "authors": "Corsten, Michael",
+          "title": "Sympathie für schmutzige Hände? Oder: Wie viel menschliche Imperfektion verträgt die Moral?",
+          "in": "Moral - Menschenrechte - Demokratie",
+          "pages": "11-23",
+          "type": "chapter",
+          "id": "haende23",
+          "doi": "10.1007/978-3-658-37698-7_2"
+        },
+        {
+          "authors": "Corsten, Michael",
+          "title": "Macht Kommunikation Macht? [Review of: Facetten der Kommunikationsmacht]",
+          "journal": "Soziologische Revue",
+          "volume": "46 (4)",
+          "pages": "328-339",
+          "type": "article",
+          "id": "kommacht23",
+          "doi": "10.1515/srsr-2023-2064"
         }
       ]
     },
@@ -67,7 +138,7 @@
       "year": 2022,
       "entries": [
         {
-          "id": "claiming-solidarity",
+          "id": "claiming-soli22",
           "authors": "Kneuer, Marianne; Corsten, Michael; Schammann, Hannes; Kahle, Patrick; Wallaschek, Stefan; Ziegler, Franziska",
           "title": "Claiming solidarity: A multilevel discursive reconstruction of solidarity",
           "type": "article",
@@ -76,6 +147,33 @@
           "volume": "25 (3)",
           "pages": "366-385",
           "publisher": "SAGE Publications"
+        },
+        {
+          "authors": "Jafke, Larissa; Maleyka, Larissa; Herma, Holger; Spindler, Kristina; Corsten, Michael; Audehm, Kathrin",
+          "title": "Sich als Subjekt des Sprechens über das eigene Leben einführen",
+          "in": "Positioning the Subject: Methodologien der Subjektivierungsforschung",
+          "type": "chapter",
+          "id": "sich-subjekt22",
+          "doi": "10.1007/978-3-658-38539-2_6"
+        },
+        {
+          "authors": "Corsten, Michael",
+          "title": "Biographie zwischen sozialer Funktion und sozialer Praxis",
+          "in": "Handbuch Biographie: Methoden, Traditionen, Theorien",
+          "pages": "143-151",
+          "type": "chapter",
+          "id": "biographie-funktion22",
+          "doi": "10.1007/978-3-476-05229-2_15"
+        },
+        {
+          "authors": "Corsten, Michael",
+          "title": "Soziologie der Dinge [Book Review]",
+          "journal": "KZfSS Kölner Zeitschrift für Soziologie und Sozialpsychologie",
+          "volume": "74 (1)",
+          "pages": "133-136",
+          "type": "article",
+          "id": "dinge22",
+          "doi": "10.1007/s11577-022-00823-w"
         }
       ]
     },
@@ -83,7 +181,7 @@
       "year": 2021,
       "entries": [
         {
-          "id": "claiming-solidarity-2021",
+          "id": "claiming-soli21",
           "authors": "Kneuer, Marianne; Corsten, Michael; Heid, Ulrich; Schammann, Hannes; Kahle, Patrick; Wallaschek, Stefan; Ziegler, Franziska",
           "title": "Claiming Solidarity",
           "journal": "European Journal of Social Theory",
@@ -92,15 +190,16 @@
           "type": "article"
         },
         {
-          "id": "praxis-buch",
+          "id": "praxis21",
           "authors": "Corsten, Michael",
           "title": "Praxis. Ausüben. Begreifen",
           "location": "Weilerswist",
           "publisher": "Velbrück",
-          "type": "edited"
+          "type": "edited",
+          "doi": "10.5771/9783748912583"
         },
         {
-          "id": "praxis-kapitel",
+          "id": "praxis-einleitung21",
           "authors": "Corsten, Michael",
           "title": "Praxis. Ausüben. Begreifen. (Aus der Praxis heraus die Welt begreifen)",
           "in": "Praxis. Ausüben. Begreifen",
@@ -111,18 +210,18 @@
           "type": "chapter"
         },
         {
-          "id": "mythos",
+          "id": "mythos21",
           "authors": "Corsten, Michael; Jafke, Larissa",
           "title": "Mythos",
           "in": "Handbuch Sozialwissenschaftliche Gedächtnisforschung",
           "editors": "Berek, Mathias et al.",
           "location": "Wiesbaden",
           "publisher": "VS Springer",
-          "doi": "10.1007/978-3-658-26593-9_82-1",
-          "type": "chapter"
+          "type": "chapter",
+          "doi": "10.1007/978-3-658-26593-9_82-1"
         },
         {
-          "id": "generation-corona-beruf",
+          "id": "generation-co21",
           "authors": "Corsten, Michael; Oswald, Sascha; Wittchen, Tobias",
           "title": "Gebremst oder gefordert? Berufliche Zukunftsgestaltung auf Widerruf für junge Erwachsene während der COVID-19-Pandemie",
           "journal": "BWP - Berufsbildung in Wissenschaft und Praxis",
@@ -131,7 +230,7 @@
           "type": "article"
         },
         {
-          "id": "generation-corona",
+          "id": "generation-co01",
           "authors": "Corsten, Michael; Oswald, Sascha; Wittchen, Tobias",
           "title": "Gibt es eine Generation Corona?",
           "journal": "Impulse für Gesundheitsförderung",
@@ -145,24 +244,26 @@
       "year": 2020,
       "entries": [
         {
-          "id": "symbolische-praxis",
+          "id": "symbolische-p20",
           "authors": "Corsten, Michael",
           "title": "Die symbolische Geltungsweise sozialer Praxis",
           "journal": "Zeitschrift für Soziologie",
           "volume": "49 (1)",
           "pages": "11-27",
-          "type": "article"
+          "type": "article",
+          "doi": "10.1515/zfsoz-2020-0002"
         },
         {
-          "id": "lebenslauf-sozialisation",
+          "id": "lebenslauf-so20",
           "authors": "Corsten, Michael",
           "title": "Lebenslauf und Sozialisation",
           "location": "Wiesbaden",
           "publisher": "VS Springer",
-          "type": "book"
+          "type": "book",
+          "doi": "10.1007/978-3-658-30397-6"
         },
         {
-          "id": "biographieren-bühne",
+          "id": "biographieren20",
           "authors": "Corsten, Michael",
           "title": "Die Beschreibung des eigenen Lebens aufführen",
           "in": "BIOGRAFIEren auf der Bühne",
@@ -173,16 +274,17 @@
           "type": "chapter"
         },
         {
-          "id": "heimat-diskurse",
+          "id": "heimat20",
           "authors": "Corsten, Michael; Kahle, Patrick",
           "title": "Heimat-Diskurse in der Gesellschaft der Singularitäten",
           "journal": "Zeitschrift für Kultur- und Kollektivwissenschaft",
           "volume": "6 (1)",
           "pages": "111-144",
-          "type": "article"
+          "type": "article",
+          "doi": "10.14361/zkkw-2020-060106"
         },
         {
-          "id": "jugend-längsschnitt",
+          "id": "jugend-längss20",
           "authors": "Schierbaum, Anja; Corsten, Michael",
           "title": "Jugend und Biographie - Zur längsschnittlichen Untersuchung von Herausforderungen im Jugendalter",
           "in": "Qualitative Längsschnittforschung. Bestimmungen, Forschungspraxis und Reflexionen",
@@ -190,10 +292,11 @@
           "location": "Leverkusen",
           "publisher": "Barbara Budrich",
           "pages": "201-219",
-          "type": "chapter"
+          "type": "chapter",
+          "doi": "10.2307/j.ctvx1hvg3.12"
         },
         {
-          "id": "videoanalyse",
+          "id": "videoanalyse-schule20",
           "authors": "Corsten, Michael; Pierburg, Melanie; Wolff, Dennis; Hauenschild, Katrin; Schmidt-Thieme, Barbara; Schütte, Ulrike; Zourelidis, Sabrina",
           "title": "Qualitative Videoanalyse in Schule und Unterricht",
           "location": "Weinheim",
@@ -206,16 +309,17 @@
       "year": 2019,
       "entries": [
         {
-          "id": "bilden-schnulzen",
+          "id": "bilden-schnul19",
           "authors": "Corsten, Michael; Schubert, Volker",
           "title": "Bilden Schnulzen?",
           "journal": "ZfK – Zeitschrift für Kulturwissenschaften",
           "volume": "2/2019",
           "pages": "69-87",
-          "type": "article"
+          "type": "article",
+          "doi": "10.14361/zfk-2019-130208"
         },
         {
-          "id": "soziologie-literatur",
+          "id": "soziologie-li19",
           "authors": "Corsten, Michael",
           "title": "Die schwierige Liebe der Soziologie zur Literatur",
           "in": "Die Liebe der Soziologie",
@@ -226,7 +330,7 @@
           "type": "chapter"
         },
         {
-          "id": "bildungsaspirationen",
+          "id": "bildungsaspir19",
           "authors": "Corsten, Michael; Audehm, Kathrin",
           "title": "Quellen biographisch resistenter Bildungsaspirationen",
           "in": "Komplexe Dynamiken globaler und lokaler Entwicklungen. Verhandlungen des 39 Kongresses der Deutschen Gesellschaft für Soziologie in Göttingen 2018, 39",
@@ -235,7 +339,7 @@
           "link": "https://publikationen.soziologie.de/index.php/kongressband_2018/article/view/1042"
         },
         {
-          "id": "pop-schlager-60er",
+          "id": "pop-schlager19",
           "authors": "Audehm, Kathrin; Corsten, Michael",
           "title": "Vergnüglich entrückt – Pop- und Schlager-Sternchen der 1960er Jahre",
           "in": "Zeiten des Aufbruchs. Populäre Musik als Medium des gesellschaftlichen Wandels seit den 1960er Jahren",
@@ -243,10 +347,11 @@
           "location": "Wiesbaden",
           "publisher": "VS Springer",
           "pages": "135-163",
-          "type": "chapter"
+          "type": "chapter",
+          "doi": "10.1007/978-3-658-21410-4_6"
         },
         {
-          "id": "kohorteneffekte-wahl",
+          "id": "kohorteneffek19",
           "authors": "Holderberg, Per; Corsten, Michael",
           "title": "Zur Differenzierung von Alters-, Perioden- und Kohorten-effekten in Zeitreihendaten am Beispiel der Wahlbeteiligung",
           "in": "Einstellungen und Verhalten der deutschen Bevölkerung. Blickpunkt Gesellschaft",
@@ -254,7 +359,622 @@
           "location": "Wiesbaden",
           "publisher": "Springer VS",
           "pages": "191-227",
-          "type": "chapter"
+          "type": "chapter",
+          "doi": "10.1007/978-3-658-21999-4_7"
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "entries": [
+        {
+          "authors": "Corsten, Michael; Moritz, Christine",
+          "title": "Handbuch Qualitative Videoanalyse",
+          "publisher": "Springer VS",
+          "type": "edited",
+          "id": "handbuch-qual18",
+          "doi": "10.1007/978-3-658-15894-1"
+        },
+        {
+          "authors": "Corsten, Michael",
+          "title": "Ecstasy as 'this-worldly path to salvation': the techno youth scene as a proto-religious collective",
+          "in": "Alternative religions among European youth",
+          "pages": "91-124",
+          "type": "chapter",
+          "id": "ecstasy18"
+        },
+        {
+          "authors": "Corsten, Michael",
+          "title": "Videoanalyse - Quo vadis?",
+          "in": "Handbuch Qualitative Videoanalyse",
+          "pages": "799-817",
+          "type": "chapter",
+          "id": "videoanalyse-quo18"
+        },
+        {
+          "authors": "Maleyka, Larissa; Oswald, Sascha; Herma, Holger; Corsten, Michael",
+          "title": "Filmische Selbstdokumentationen als Datenmaterial",
+          "in": "Handbuch Qualitative Videoanalyse",
+          "pages": "719-733",
+          "type": "chapter",
+          "id": "filmische-sel18"
+        },
+        {
+          "authors": "Audehm, Kathrin; Corsten, Michael; Frei, Peter; Hauenschild, Katrin",
+          "title": "Ethnographie des Unterrichts mithilfe von Videodaten",
+          "in": "Handbuch Qualitative Videoanalyse",
+          "pages": "503-520",
+          "type": "chapter",
+          "id": "ethnographie18"
+        },
+        {
+          "authors": "Corsten, Michael",
+          "title": "Die 68er - The last Generation",
+          "in": "Jahrbuch für Historische Bildungsforschung. Generationen- und Lebensverläufe",
+          "type": "chapter",
+          "id": "68er18"
+        }
+      ]
+    },
+    {
+      "year": 2017,
+      "entries": [
+        {
+          "authors": "Corsten, Michael; Schierbaum, Anja",
+          "title": "Habitusgenese und bildungsbiographische Selbsteliminierung",
+          "in": "Kongress der Deutschen Gesellschaft für Soziologie: Geschlossene Gesellschaften",
+          "type": "conference",
+          "id": "habitusgenese17",
+          "doi": "10.21241/ssoar.104190"
+        },
+        {
+          "authors": "Corsten, Michael",
+          "title": "The Birth of Society from Symbolic Violence",
+          "in": "112th Annual Meeting of the American Sociological Association: Culture, Cognition and Communication",
+          "type": "conference",
+          "id": "birth-society17"
+        }
+      ]
+    },
+    {
+      "year": 2016,
+      "entries": [
+        {
+          "authors": "Audehm, Kathrin; Corsten, Michael; Frei, Peter; Hauenschild, Katrin",
+          "title": "Resonanz als Individualisierung von Unterricht?",
+          "in": "Individualisierung im Grundschulunterricht: Anspruch, Realisierung und Konsequenzen",
+          "type": "chapter",
+          "id": "resonanz16",
+          "doi": "10.1007/978-3-658-15565-0_34"
+        },
+        {
+          "authors": "Corsten, Michael; Leser, Irene",
+          "title": "\"Da gibt's ab und zu Zickenkrieg\" - Kinderrechte und Konflikte unter Kindern",
+          "in": "Bildung und Menschenrechte: Interdisziplinäre Beiträge zur Menschenrechtsbildung",
+          "type": "chapter",
+          "id": "kinderrechte16",
+          "doi": "10.1007/978-3-658-11687-3_11"
+        }
+      ]
+    },
+    {
+      "year": 2015,
+      "entries": [
+        {
+          "authors": "Corsten, Michael; Herma, Holger",
+          "title": "Internetbasierte Daten als sprachsoziologische Rätsel",
+          "in": "Die qualitative Analyse internetbasierter Daten: Methodische Herausforderungen und Potenziale",
+          "type": "chapter",
+          "id": "internetdaten15"
+        }
+      ]
+    },
+    {
+      "year": 2014,
+      "entries": [
+        {
+          "authors": "Beetz, Michael; Rosa, Hartmut; Winkler, Tobias; Corsten, Michael",
+          "title": "Was bewegt Deutschland?",
+          "publisher": "Beltz Verlagsgruppe",
+          "type": "book",
+          "id": "was-bewegt14"
+        }
+      ]
+    },
+    {
+      "year": 2013,
+      "entries": [
+        {
+          "authors": "Brose, Hans-Georg; Wohlrab-Sahr, Monika; Corsten, Michael",
+          "title": "Soziale Zeit und Biographie: Über die Gestaltung von Alltagszeit und Lebenszeit",
+          "publisher": "Springer-Verlag",
+          "type": "book",
+          "id": "soziale-zeit13",
+          "doi": "10.1007/978-3-322-97034-3"
+        },
+        {
+          "authors": "Corsten, Michael",
+          "title": "Das Ich und die Liebe: Subjektivität, Intimität, Vergesellschaftung",
+          "publisher": "Springer-Verlag",
+          "type": "book",
+          "id": "liebe13",
+          "doi": "10.1007/978-3-322-93666-0"
+        },
+        {
+          "authors": "Barlösius, Eva; Bröckling, Ulrich; Deutschmann, Christoph; Fischer, Joachim; Giegel, Hans-Joachim; Hark, Sabine; et al.",
+          "title": "Der Mensch - nach Rücksprache mit der Soziologie",
+          "publisher": "Campus Verlag",
+          "type": "edited",
+          "id": "mensch13"
+        },
+        {
+          "authors": "Kauppert, Michael; Corsten, Michael",
+          "title": "Tiefsinnige Frage, leichtfertige Antworten? Der Mensch vor einer Rücksprache mit der Soziologie",
+          "in": "Der Mensch - nach Rücksprache mit der Soziologie",
+          "pages": "7-31",
+          "type": "chapter",
+          "id": "mensch-frage13"
+        }
+      ]
+    },
+    {
+      "year": 2012,
+      "entries": [
+        {
+          "authors": "Corsten, Michael",
+          "title": "Die subjektive Entschiedenheit beruflicher Praxis - Annotationen zur Theorie des beruflichen Habitus",
+          "in": "Beruflichkeit zwischen institutionellem Wandel und biographischem Projekt",
+          "type": "chapter",
+          "id": "subjektive-entschieden12"
+        },
+        {
+          "authors": "Beetz, Michael; Corsten, Michael; Rosa, Hartmut; Winkler, Tobias",
+          "title": "Mitmachen und Mitreden. Sozialmoralische Orientierungen von bürgerschaftlich Engagierten im Ost-West-Vergleich",
+          "in": "Aufbruch der entsicherten Gesellschaft: Deutschland nach der Wiedervereinigung",
+          "type": "chapter",
+          "id": "sozialmoralisch12"
+        }
+      ]
+    },
+    {
+      "year": 2011,
+      "entries": [
+        {
+          "authors": "Corsten, Michael",
+          "title": "Media as the historical new for young generations",
+          "in": "Broadband Society and Generational Changes",
+          "publisher": "Peter Lang",
+          "location": "Frankfurt",
+          "pages": "37-49",
+          "type": "chapter",
+          "id": "medien11"
+        },
+        {
+          "authors": "Corsten, Michael",
+          "title": "Quantitative und qualitative Methoden: Methodenpluralismus in den Kulturwissenschaften?",
+          "in": "Handbuch der Kulturwissenschaften",
+          "pages": "175-192",
+          "type": "chapter",
+          "id": "quantitative11"
+        },
+        {
+          "authors": "Corsten, Michael",
+          "title": "Grundfragen der Soziologie",
+          "publisher": "utb GmbH",
+          "type": "book",
+          "id": "grundfragen-s11",
+          "doi": "10.36198/9783838534947"
+        },
+        {
+          "authors": "Corsten, Michael",
+          "title": "Was ist eigentlich aus den katholischen Arbeitertöchtern vom Lande geworden?",
+          "in": "Genderkompetenz und Schulwelten: Alte Ungleichheiten - neue Hemmnisse",
+          "pages": "55-67",
+          "type": "chapter",
+          "id": "arbeitertoechter11"
+        },
+        {
+          "authors": "Bohler, Karl Friedrich; Corsten, Michael",
+          "title": "Begegnungen von Kulturen",
+          "publisher": "VS Verlag",
+          "type": "edited",
+          "id": "kulturen11"
+        },
+        {
+          "authors": "Corsten, Michael",
+          "title": "Das Private im Populären - der charmante Dilettantismus der Lena Meyer-Landrut",
+          "in": "Soziologie des Privaten",
+          "pages": "201-223",
+          "type": "chapter",
+          "id": "private-populaer11"
+        }
+      ]
+    },
+    {
+      "year": 2010,
+      "entries": [
+        {
+          "authors": "Corsten, Michael; Krug, Melanie; Moritz, Christine",
+          "title": "Videographie praktizieren: Herangehensweisen, Möglichkeiten und Grenzen",
+          "publisher": "Springer-Verlag",
+          "type": "edited",
+          "id": "videographie10",
+          "doi": "10.1007/978-3-531-92054-2"
+        },
+        {
+          "authors": "Corsten, Michael",
+          "title": "Karl Mannheims Kultursoziologie: Eine Einführung",
+          "publisher": "Campus Verlag",
+          "type": "book",
+          "id": "karl-mannheim10"
+        },
+        {
+          "authors": "Corsten, Michael",
+          "title": "Videographie praktizieren - Ansprüche und Folgen. Ein methodisch-theoretischer Streifzug durch die Beiträge des Bandes",
+          "in": "Videographie praktizieren: Herangehensweisen, Möglichkeiten und Grenzen",
+          "pages": "7-22",
+          "type": "chapter",
+          "id": "videographie-einleitung10"
+        },
+        {
+          "authors": "Krug, Melanie; Corsten, Michael",
+          "title": "Sind Nicht-Engagierte nicht eigensinnig?",
+          "in": "Macht - Eigensinn - Engagement: Lernprozesse gesellschaftlicher Teilhabe",
+          "pages": "41-61",
+          "type": "chapter",
+          "id": "nicht-engagierte10"
+        },
+        {
+          "authors": "Corsten, Michael; Bohler, Karl Friedrich",
+          "title": "Begegnungen von Kulturen?",
+          "in": "Begegnungen von Kulturen",
+          "pages": "7-13",
+          "type": "chapter",
+          "id": "kulturen-einleitung10"
+        },
+        {
+          "authors": "Corsten, Michael; Rosa, Hartmut",
+          "title": "Prekäre biographische Lagen und der Wir-Sinn einer neuen Jugendgeneration",
+          "type": "book",
+          "id": "prekaer10"
+        },
+        {
+          "authors": "Corsten, Michael",
+          "title": "Berufliche Sozialisationstheorie und -forschung",
+          "publisher": "Juventa-Verlag",
+          "type": "book",
+          "id": "berufsozialis10"
+        },
+        {
+          "authors": "Corsten, Michael; Bohler, Karl Friedrich; Rosa, Hartmut",
+          "title": "Kultur und gesellschaftliche Praxis",
+          "in": "Videographie praktizieren: Herangehensweisen, Möglichkeiten und Grenzen",
+          "publisher": "VS-Verlag",
+          "type": "chapter",
+          "id": "kultur-praxis10"
+        },
+        {
+          "authors": "Best, Heinrich; Bluhm, Katharina; Corsten, Michael",
+          "title": "Einleitung zum Plenum: The 'Great Transformation' of Post-Socialist Societies",
+          "in": "Unsichere Zeiten: Herausforderungen gesellschaftlicher Transformationen",
+          "pages": "263-264",
+          "type": "chapter",
+          "id": "transformation10"
+        }
+      ]
+    },
+    {
+      "year": 2009,
+      "entries": [
+        {
+          "authors": "Corsten, Michael",
+          "title": "Lokales Sozialkapital als sozial-moralische Landkarte: Subjektive Visualisierungen der eigenen Stadt",
+          "journal": "Forschungsjournal Soziale Bewegungen",
+          "volume": "22 (3)",
+          "pages": "88-99",
+          "type": "article",
+          "id": "lokales-sozia09",
+          "doi": "10.1515/fjsb-2009-0310"
+        }
+      ]
+    },
+    {
+      "year": 2008,
+      "entries": [
+        {
+          "authors": "Corsten, Michael; Giegel, Hans-Joachim; Kauppert, Michael; Rosa, Hartmut",
+          "title": "Quellen bürgerschaftlichen Engagements",
+          "publisher": "VS Verlag für Sozialwissenschaften",
+          "type": "book",
+          "id": "quellen-b08"
+        }
+      ]
+    },
+    {
+      "year": 2007,
+      "entries": [
+        {
+          "authors": "Corsten, Michael; Kauppert, Michael",
+          "title": "Wir-Sinn und fokussierte Motive. Zur biographischen Genese bürgerschaftlichen Engagements",
+          "journal": "Zeitschrift für Soziologie",
+          "volume": "36 (5)",
+          "pages": "346-363",
+          "type": "article",
+          "id": "wir-sinn07",
+          "doi": "10.1515/zfsoz-2007-0502"
+        }
+      ]
+    },
+    {
+      "year": 2006,
+      "entries": [
+        {
+          "authors": "Corsten, Michael",
+          "title": "Die gesellschaftliche Relevanz beruflicher Bildung im Spiegel von Sozialisationsstudien",
+          "journal": "Zeitschrift für Berufs- und Wirtschaftspädagogik",
+          "volume": "102 (3)",
+          "pages": "391-404",
+          "type": "article",
+          "id": "berufsbildung06"
+        },
+        {
+          "authors": "Corsten, Michael",
+          "title": "Narrative Explanations of Biographical Developments",
+          "publisher": "University of Huddersfield",
+          "type": "book",
+          "id": "narrative06"
+        }
+      ]
+    },
+    {
+      "year": 2005,
+      "entries": [
+        {
+          "authors": "Corsten, Michael; Rosa, Hartmut; Schrader, Ralph",
+          "title": "Die Gerechtigkeit der Gesellschaft",
+          "publisher": "Springer-Verlag",
+          "type": "book",
+          "id": "gerechtigkeit05"
+        },
+        {
+          "authors": "Corsten, Michael",
+          "title": "Die kulturelle Verankerung der sozialistischen Leitungskader (in der DDR und in der Nachwendegesellschaft)",
+          "journal": "Historical Social Research / Historische Sozialforschung",
+          "pages": "181-205",
+          "type": "article",
+          "id": "kader05"
+        }
+      ]
+    },
+    {
+      "year": 2003,
+      "entries": [
+        {
+          "authors": "Corsten, Michael",
+          "title": "Biographical Revisions and the Coherence of a Generation",
+          "in": "Childhood in Generational Perspective",
+          "pages": "137-165",
+          "type": "chapter",
+          "id": "biographical03"
+        },
+        {
+          "authors": "Corsten, Michael; Hillmert, Steffen",
+          "title": "Bildungs- und Berufskarrieren in Zeiten gestiegener Konkurrenz: Eine lebenslauftheoretische Perspektive auf den Wandel der Arbeitsgesellschaft und ihr theoretischer Ertrag",
+          "journal": "Zeitschrift für Berufs- und Wirtschaftspädagogik",
+          "volume": "99 (1)",
+          "pages": "42-60",
+          "type": "article",
+          "id": "bildungskarrieren03"
+        }
+      ]
+    },
+    {
+      "year": 2002,
+      "entries": [
+        {
+          "authors": "Corsten, Michael; Herma, Holger; Traue, Boris",
+          "title": "Körperpraktiken und die Integrität der Person: Körper-Selbst-Diskurse in der Kosmetikbranche und der Technoszene",
+          "in": "Körperrepräsentationen: Die Ordnung des Sozialen und der Körper",
+          "pages": "225-260",
+          "type": "chapter",
+          "id": "koerperpraktiken02"
+        }
+      ]
+    },
+    {
+      "year": 2001,
+      "entries": [
+        {
+          "authors": "Corsten, Michael; Hillmert, Steffen",
+          "title": "Qualifikation, Berufseinstieg und Arbeitsmarktverhalten unter Bedingungen erhöhter Konkurrenz: was prägt Bildungs- und Erwerbsverläufe in den achtziger und neunziger Jahren?",
+          "publisher": "Max-Planck-Institut für Bildungsforschung",
+          "type": "book",
+          "id": "konkurrenz01"
+        },
+        {
+          "authors": "Corsten, Michael",
+          "title": "Biographie, Lebensverlauf und das \"Problem der Generation\"",
+          "journal": "Bios",
+          "volume": "14 (2)",
+          "pages": "32-59",
+          "type": "article",
+          "id": "problem-generation01"
+        },
+        {
+          "authors": "Corsten, Michael",
+          "title": "Was hält Event-Szenen in Schwung",
+          "in": "Techno Soziologie. Erkundungen einer Jugendkultur",
+          "editors": "Hitzler, Ronald; Pfadenhauer, Michaela",
+          "type": "chapter",
+          "id": "eventszenen01"
+        },
+        {
+          "authors": "Corsten, Michael",
+          "title": "Beruf, Inklusion und die Transformation der Arbeitsgesellschaft",
+          "in": "Aspekte des Berufs in der Moderne",
+          "pages": "265-286",
+          "type": "chapter",
+          "id": "inklusion01"
+        },
+        {
+          "authors": "Corsten, Michael",
+          "title": "Berufsbildungsforschung in der Soziologie",
+          "in": "Berufsbildungsforschung in ausgewählten Wissenschaften und Wissenschaftsbereichen",
+          "type": "chapter",
+          "id": "berufsbildung-soziologie01"
+        },
+        {
+          "authors": "Corsten, Michael",
+          "title": "Sociological Images of Modern Germany",
+          "journal": "International Journal of Politics, Culture, and Society",
+          "volume": "15 (2)",
+          "pages": "379-393",
+          "type": "article",
+          "id": "sociological01"
+        }
+      ]
+    },
+    {
+      "year": 1999,
+      "entries": [
+        {
+          "authors": "Corsten, Michael",
+          "title": "The time of generations",
+          "journal": "Time & Society",
+          "volume": "8 (2-3)",
+          "pages": "249-272",
+          "type": "article",
+          "id": "time-generations99",
+          "doi": "10.1177/0961463X99008002003"
+        },
+        {
+          "authors": "Corsten, Michael",
+          "title": "Institutionelle und biographische Konstruktion beruflicher Wirklichkeit: Vorklärung einer Theorie beruflicher Sozialisation",
+          "in": "Konstruktivistische Sozialisationsforschung: Lebensweltliche Erfahrungskontexte",
+          "type": "chapter",
+          "id": "institutionell99"
+        }
+      ]
+    },
+    {
+      "year": 1998,
+      "entries": [
+        {
+          "authors": "Corsten, Michael",
+          "title": "Die Kultivierung beruflicher Handlungsstile: Einbettung, Nutzung und Gestaltung von Berufskompetenzen",
+          "publisher": "Campus Verlag",
+          "type": "book",
+          "id": "kultivierung98"
+        },
+        {
+          "authors": "Corsten, Michael",
+          "title": "Between constructivism and realism: Searle's theory of the construction of social reality",
+          "journal": "Philosophy of the Social Sciences",
+          "volume": "28 (1)",
+          "pages": "102-121",
+          "type": "article",
+          "id": "searle98",
+          "doi": "10.1177/004839319802800105"
+        },
+        {
+          "authors": "Lempert, Wolfgang; Corsten, Michael",
+          "title": "Soziale Bedingungen moralischen Lernens in Küchen und Labors - Resultate einer explorativen Studie des Max-Planck-Instituts für Bildungsforschung, Berlin",
+          "in": "Beiträge zur Berufs- und Wirtschaftspädagogik: Forschungsberichte",
+          "type": "chapter",
+          "id": "moralisches-lernen98"
+        }
+      ]
+    },
+    {
+      "year": 1997,
+      "entries": [
+        {
+          "authors": "Corsten, Michael; Lempert, Wolfgang",
+          "title": "Beruf und Moral: exemplarische Analysen beruflicher Werdegänge, betrieblicher Kontexte und sozialer Orientierungen erwerbstätiger Lehrabsolventen",
+          "publisher": "Dt. Studien-Verlag",
+          "type": "book",
+          "id": "beruf-moral-buch97"
+        },
+        {
+          "authors": "Lempert, Wolfgang; Corsten, Michael",
+          "title": "Soziale Bedingungen der Entwicklung moralischer Orientierungen im Beruf",
+          "journal": "Zeitschrift für Sozialisationsforschung und Erziehungssoziologie",
+          "volume": "17",
+          "pages": "339-355",
+          "type": "article",
+          "id": "moral-orientierungen97"
+        },
+        {
+          "authors": "Corsten, Michael",
+          "title": "Moral und die Inklusion in funktional differenzierte Systeme",
+          "in": "Differenz und Integration: Die Zukunft moderner Gesellschaften",
+          "type": "chapter",
+          "id": "moral-inklusion97"
+        }
+      ]
+    },
+    {
+      "year": 1996,
+      "entries": [
+        {
+          "authors": "Corsten, Michael; Lempert, Wolfgang",
+          "title": "Moralische Kompetenz in einfachen Berufen als «human capital» und als humanes Kapital: Bedarf, Entwicklungschancen und Förderungsmöglichkeiten in Ausbildungs- und Arbeitsstätten",
+          "journal": "Die Unternehmung",
+          "pages": "75-88",
+          "type": "article",
+          "id": "moralische-kompetenz96"
+        }
+      ]
+    },
+    {
+      "year": 1995,
+      "entries": [
+        {
+          "authors": "Corsten, Michael",
+          "title": "Berufsbiographien als institutionelle Skripte",
+          "in": "Biographische Sozialisation",
+          "editors": "Corsten, Michael; Hoerning, Erika M.",
+          "pages": "39-53",
+          "type": "chapter",
+          "id": "berufsbiograp95"
+        }
+      ]
+    },
+    {
+      "year": 1994,
+      "entries": [
+        {
+          "authors": "Corsten, Michael",
+          "title": "Beschriebenes und wirkliches Leben. Die soziale Realität biographischer Kontexte und Biographie als soziale Realität",
+          "journal": "bios",
+          "volume": "7 (2)",
+          "pages": "185-205",
+          "type": "article",
+          "id": "biographie-realitaet94"
+        }
+      ]
+    },
+    {
+      "year": 1993,
+      "entries": [
+        {
+          "authors": "Brose, Hans-Georg; Wohlrab-Sahr, Monika; Corsten, Michael",
+          "title": "Biographische Zeitperspektiven und zeitbezogenes Erleben und Handeln im Alltag",
+          "in": "Soziale Zeit und Biographie: Über die Gestaltung von Alltagszeit und Lebenszeit",
+          "type": "chapter",
+          "id": "zeitperspektiven93"
+        }
+      ]
+    },
+    {
+      "year": 1992,
+      "entries": [
+        {
+          "authors": "Corsten, Michael; Lempert, Wolfgang",
+          "title": "Moralische Dimensionen der Arbeitssphäre: Literaturbericht, Fallstudien und Bedingungsanalysen zum betrieblichen und beruflichen Handeln und Lernen",
+          "publisher": "Max-Planck-Institut für Bildungsforschung",
+          "type": "book",
+          "id": "moralische-di92"
         }
       ]
     }
