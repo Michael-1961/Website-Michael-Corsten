@@ -1,6 +1,64 @@
 {
   "publications": [
     {
+      "year": 2025,
+      "entries": [
+        {
+          "authors": "Corsten, Michael; Schubert, Volker",
+          "title": "Die Schnulze. Warum wir sie trotzdem lieben. Erkundungen an den Grenzen des Geschmacks",
+          "edition": "1. Aufl.",
+          "location": "Weilerswist",
+          "publisher": "Dittrich",
+          "type": "book",
+          "link": "https://www.velbrueck.de/Programm-oxid/Die-Schnulze.html"
+        },
+        {
+          "authors": "Corsten, Michael; Kahle, Patrick",
+          "title": "Soziale Arbeit als professionalisierte Solidarität",
+          "in": "Soziale Arbeit und Soziologie",
+          "editors": "Sander, T.; Langer, A.",
+          "location": "Weinheim",
+          "publisher": "Beltz Juventa",
+          "type": "chapter",
+          "link": "https://www.beltz.de/fileadmin/beltz/leseproben/9783779988885_shortened.pdf"
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "entries": [
+        {
+          "authors": "Corsten, Michael; Pierburg, Melanie",
+          "title": "\"Was mit ihr passiert ist, weiß ich nicht mehr\": Mythisierungsweisen des Vergessenen",
+          "journal": "Zeitschrift für Biographieforschung, Oral History und Lebensverlaufsanalysen (BIOS)",
+          "volume": "36 (1/2023)",
+          "pages": "94-114",
+          "type": "article",
+          "link": "https://www.budrich-journals.de/index.php/bios/article/view/44983"
+        },
+        {
+          "authors": "Corsten, Michael; Holderberg, Per",
+          "title": "Kohorte und Generation",
+          "in": "Handbuch Sozialstrukturanalyse",
+          "editors": "Böhnke, P.; Konietzka, D.",
+          "location": "Wiesbaden",
+          "publisher": "Springer VS",
+          "type": "chapter",
+          "link": "https://link.springer.com/referenceworkentry/10.1007/978-3-658-39759-3_46-1"
+        },
+        {
+          "authors": "Corsten, Michael",
+          "title": "Identitätspolitik und soziale Klassifikation",
+          "in": "Handbuch Sozialstrukturanalyse",
+          "editors": "Böhnke, P.; Konietzka, D.",
+          "location": "Wiesbaden",
+          "publisher": "Springer VS",
+          "type": "chapter",
+          "link": "https://link.springer.com/referenceworkentry/10.1007/978-3-658-39759-3_64-1#Sec9"
+        }
+      ]
+    },
+    {
       "year": 2022,
       "entries": [
         {

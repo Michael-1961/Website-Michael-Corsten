@@ -1,7 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import publications from '../../../content/publications.json';
-import departmentPubs from '../../../content/departmentPublications.json';
 import labels from '../../../content/labels.json';
 
 interface Props {
@@ -64,30 +63,10 @@ function formatPublication(pub: any): string {
       <h1 class="section-header">{t.nav.publications}</h1>
     </div>
 
-    <!-- Personal Publications -->
-    <section class="mb-16">
-      <h2 class="text-2xl font-semibold text-slate-900 dark:text-white mb-6">{t.sections.publications}</h2>
+    <!-- Publications -->
+    <section>
       <div class="space-y-8">
         {publications.publications.map((yearGroup) => (
-          <div>
-            <h3 class="text-lg font-semibold text-blue-600 dark:text-blue-400 mb-4 sticky top-20 bg-white dark:bg-slate-900 py-2">{yearGroup.year}</h3>
-            <div class="space-y-4">
-              {yearGroup.entries.map((pub) => (
-                <div class="pl-4 border-l-2 border-slate-200 dark:border-slate-700 hover:border-blue-500 dark:hover:border-blue-400 transition-colors">
-                  <p class="text-sm leading-relaxed" set:html={formatPublication(pub)} />
-                </div>
-              ))}
-            </div>
-          </div>
-        ))}
-      </div>
-    </section>
-
-    <!-- Department Publications -->
-    <section>
-      <h2 class="text-2xl font-semibold text-slate-900 dark:text-white mb-6">{t.sections.departmentPublications}</h2>
-      <div class="space-y-8">
-        {departmentPubs.departmentPublications.map((yearGroup) => (
           <div>
             <h3 class="text-lg font-semibold text-blue-600 dark:text-blue-400 mb-4 sticky top-20 bg-white dark:bg-slate-900 py-2">{yearGroup.year}</h3>
             <div class="space-y-4">
