@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import publications from '../../content/publikationen.json';
 import labels from '../../content/labels.json';
+import { formatPublication } from '../../utils/formatPublication';
 
 interface Props {
   lang: 'de' | 'en';
@@ -9,51 +10,6 @@ interface Props {
 
 const { lang } = Astro.props;
 const t = labels[lang];
-
-function formatPublication(pub: any): string {
-  let result = `<span class="text-slate-700 dark:text-slate-300">${pub.authors}</span>: `;
-  result += `<span class="font-medium text-slate-900 dark:text-white">${pub.title}</span>`;
-
-  if (pub.edition) {
-    result += ` (${pub.edition})`;
-  }
-
-  if (pub.in) {
-    result += `. In: ${pub.in}`;
-  }
-
-  if (pub.journal) {
-    result += `. <em>${pub.journal}</em>`;
-  }
-
-  if (pub.volume) {
-    result += `, ${pub.volume}`;
-  }
-
-  if (pub.pages) {
-    result += `, ${t.labels.pages} ${pub.pages}`;
-  }
-
-  if (pub.publisher) {
-    result += `. ${pub.publisher}`;
-  }
-
-  if (pub.location) {
-    result += `. ${pub.location}`;
-  }
-
-  if (pub.doi) {
-    result += `. <a href="https://doi.org/${pub.doi}" class="text-blue-600 dark:text-blue-400 hover:underline" target="_blank" rel="noopener">DOI</a>`;
-  }
-
-  if (pub.link) {
-    const linkLabel = pub.linkLabel || 'Link';
-    result += `. <a href="${pub.link}" class="text-blue-600 dark:text-blue-400 hover:underline" target="_blank" rel="noopener">${linkLabel}</a>`;
-  }
-
-  result += '.';
-  return result;
-}
 ---
 
 <BaseLayout title={`${t.nav.publications} - Prof. Dr. Michael Corsten`} lang={lang}>
@@ -72,7 +28,7 @@ function formatPublication(pub: any): string {
             <div class="space-y-4">
               {yearGroup.entries.map((pub) => (
                 <div class="pl-4 border-l-2 border-slate-200 dark:border-slate-700 hover:border-blue-500 dark:hover:border-blue-400 transition-colors">
-                  <p class="text-sm leading-relaxed" set:html={formatPublication(pub)} />
+                  <p class="text-sm leading-relaxed" set:html={formatPublication(pub, lang)} />
                 </div>
               ))}
             </div>

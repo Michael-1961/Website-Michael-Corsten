@@ -2,6 +2,5 @@
 title: Solidarity
 ---
 
-# Solidarity
 
 ???

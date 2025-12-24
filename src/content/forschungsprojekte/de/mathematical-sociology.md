@@ -1,8 +1,10 @@
 ---
 title: Mathematische Modellierung sozialer Netzwerkdynamiken
+papers:
+  - kohorte-generation
+  - kohorteneffekte-wahl
+  - symbolische-praxis
 ---
-
-# Mathematische Modellierung sozialer Netzwerkdynamiken
 
 ## Projektübersicht
 

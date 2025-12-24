@@ -33,7 +33,8 @@
       "officeHours": "Sprechzeiten",
       "address": "Adresse",
       "pages": "S.",
-      "university": "Universität Hildesheim"
+      "university": "Universität Hildesheim",
+      "relatedPublications": "Publikationen"
     },
     "footer": {
       "copyright": "Alle Rechte vorbehalten"
@@ -82,7 +83,8 @@
       "officeHours": "Office Hours",
       "address": "Address",
       "pages": "pp.",
-      "university": "University of Hildesheim"
+      "university": "University of Hildesheim",
+      "relatedPublications": "Publications"
     },
     "footer": {
       "copyright": "All rights reserved"

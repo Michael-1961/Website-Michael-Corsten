@@ -2,7 +2,6 @@
 title: Symbolische Praxis und moderne Subjektivität
 ---
 
-# Symbolische Praxis und moderne Subjektivität
 
 Der Forschungsschwerpunkt "Soziologie des Subjekts, der Sprachhandlungen und der Kommunikation in digitalen Medien" befasst sich mit Formen der kulturellen Produktion von Subjektivität. Dabei werden empirische Untersuchungen zu Bildungsprozessen des Subjekts verbunden mit allgemeinen theoretischen Analysen. Im Vordergrund dieser Analysen steht einerseits die Subjektgenese im Rahmen einer empirischen Sozialisationsforschung und die Untersuchung sprachlicher Handlungen, andererseits die Errichtung von Subjektpositionen in der digitalen und analogen Kommunikation und hieraus hervorgehende Formen der Durchsetzung von Kommunikationsmacht.
 

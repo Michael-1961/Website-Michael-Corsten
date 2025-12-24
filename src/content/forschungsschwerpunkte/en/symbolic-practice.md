@@ -2,7 +2,6 @@
 title: Symbolic Practice and Modern Subjectivity
 ---
 
-# Symbolic Practice and Modern Subjectivity
 
 The research focus "Sociology of the Subject, Speech Acts, and Communication in Digital Media" deals with forms of cultural production of subjectivity. Empirical investigations of subject formation processes are combined with general theoretical analyses. On the one hand, these analyses focus on subject genesis within the framework of empirical socialization research and the investigation of linguistic actions; on the other hand, they examine the establishment of subject positions in digital and analog communication and the resulting forms of communication power.
 

@@ -2,7 +2,6 @@
 title: "SEPLIVES: The Structural Conditions of Separated School Careers: A Combined Perspective on Ethnic Stratification and Segregation in German Secondary Education"
 ---
 
-# SEPLIVES: The Structural Conditions of Separated School Careers: A Combined Perspective on Ethnic Stratification and Segregation in German Secondary Education
 
 The integration of an increasingly diversified student body represents one of the most pressing current challenges for the school systems of many Western countries. In addition to central success factors such as targeted language support, the specific composition of schools and classes has increasingly become the subject of research in this area in recent years.
 

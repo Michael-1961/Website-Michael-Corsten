@@ -2,7 +2,6 @@
 title: "SEPLIVES: Die strukturellen Bedingungen getrennter Schullaufbahnen: Eine kombinierte Perspektive auf ethnische Stratifizierung und Segregation im deutschen Sekundarschulbereich"
 ---
 
-# SEPLIVES: Die strukturellen Bedingungen getrennter Schullaufbahnen: Eine kombinierte Perspektive auf ethnische Stratifizierung und Segregation im deutschen Sekundarschulbereich
 
 Die Integration einer zunehmend diversifizierten Schülerschaft stellt eine der drängendsten gegenwärtigen Herausforderungen für die Schulsysteme vieler westlicher Staaten dar. Neben zentralen Erfolgsbedingungen wie einer gezielten Sprachförderung ist in den letzten Jahren zunehmend die spezifische Zusammensetzung der Schulen und Klassen zum Gegenstand der Forschung in diesem Bereich geworden.
 

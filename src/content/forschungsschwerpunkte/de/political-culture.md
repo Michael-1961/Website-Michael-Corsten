@@ -2,7 +2,6 @@
 title: Politische Kultur und zivilgesellschaftliches Engagement
 ---
 
-# Politische Kultur und zivilgesellschaftliches Engagement
 
 Zivilgesellschaftliches Engagement wie die damit einhergehende Ausbildung einer Zivilen Kultur wird als wichtige Bindekraft und sozialer Integrationsfaktor in modernen Gesellschaften gesehen. Seit Beginn des 21. Jahrhunderts zeigen sich vermehrt Prozesse der Entsolidarisierung und Demokratieverdrossenheit.
 

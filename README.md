@@ -56,9 +56,14 @@ lead: "Project Lead"
 team: "Team Members"
 funding: "Funding Source"
 years: "2020-2023"
+papers:
+  - claiming-solidarity
+  - schnulze
 ---
 
 Content in markdown...
 ```
+
+The `papers` field links to publications from `publikationen.json` using their IDs. Each publication has a short ID (visible in the JSON file) that you can reference. The build process validates that all referenced IDs exist.
 
 Create or edit these files to update content.

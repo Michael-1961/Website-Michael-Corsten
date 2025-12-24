@@ -9,6 +9,7 @@ const forschungsprojekte = defineCollection({
     funding: z.string().optional(),
     duration: z.string().optional(),
     contact: z.string().optional(),
+    papers: z.array(z.string()).optional(),
   }),
 });
 
@@ -18,6 +19,7 @@ const forschungsschwerpunkte = defineCollection({
     lead: z.string().optional(),
     team: z.string().optional(),
     subtopics: z.array(z.string()).optional(),
+    papers: z.array(z.string()).optional(),
   }),
 });
 

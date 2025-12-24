@@ -2,6 +2,7 @@
 import BaseLayout from '../../../../layouts/BaseLayout.astro';
 import { getCollection, render } from 'astro:content';
 import labels from '../../../../content/labels.json';
+import RelatedPublications from '../../../../components/RelatedPublications.astro';
 
 export async function getStaticPaths() {
   const projects = (await getCollection('forschungsprojekte')).filter(p => p.id.startsWith('en/'));
@@ -83,6 +84,10 @@ const t = labels[lang];
           <h2 class="text-sm font-semibold text-slate-700 dark:text-slate-300 mb-2">{t.labels.contact}</h2>
           <p class="text-slate-900 dark:text-white">{project.data.contact}</p>
         </div>
+      )}
+
+      {project.data.papers && project.data.papers.length > 0 && (
+        <RelatedPublications paperIds={project.data.papers} lang={lang} />
       )}
     </div>
   </div>

@@ -4,6 +4,7 @@
       "year": 2025,
       "entries": [
         {
+          "id": "schnulze",
           "authors": "Corsten, Michael; Schubert, Volker",
           "title": "Die Schnulze. Warum wir sie trotzdem lieben. Erkundungen an den Grenzen des Geschmacks",
           "edition": "1. Aufl.",
@@ -13,6 +14,7 @@
           "link": "https://www.velbrueck.de/Programm-oxid/Die-Schnulze.html"
         },
         {
+          "id": "soziale-arbeit-solidarität",
           "authors": "Corsten, Michael; Kahle, Patrick",
           "title": "Soziale Arbeit als professionalisierte Solidarität",
           "in": "Soziale Arbeit und Soziologie",
@@ -28,6 +30,7 @@
       "year": 2024,
       "entries": [
         {
+          "id": "mythisierung-vergessen",
           "authors": "Corsten, Michael; Pierburg, Melanie",
           "title": "\"Was mit ihr passiert ist, weiß ich nicht mehr\": Mythisierungsweisen des Vergessenen",
           "journal": "Zeitschrift für Biographieforschung, Oral History und Lebensverlaufsanalysen (BIOS)",
@@ -37,6 +40,7 @@
           "link": "https://www.budrich-journals.de/index.php/bios/article/view/44983"
         },
         {
+          "id": "kohorte-generation",
           "authors": "Corsten, Michael; Holderberg, Per",
           "title": "Kohorte und Generation",
           "in": "Handbuch Sozialstrukturanalyse",
@@ -47,6 +51,7 @@
           "link": "https://link.springer.com/referenceworkentry/10.1007/978-3-658-39759-3_46-1"
         },
         {
+          "id": "identitätspolitik",
           "authors": "Corsten, Michael",
           "title": "Identitätspolitik und soziale Klassifikation",
           "in": "Handbuch Sozialstrukturanalyse",
@@ -62,6 +67,7 @@
       "year": 2022,
       "entries": [
         {
+          "id": "claiming-solidarity",
           "authors": "Kneuer, Marianne; Corsten, Michael; Schammann, Hannes; Kahle, Patrick; Wallaschek, Stefan; Ziegler, Franziska",
           "title": "Claiming solidarity: A multilevel discursive reconstruction of solidarity",
           "type": "article",
@@ -77,6 +83,7 @@
       "year": 2021,
       "entries": [
         {
+          "id": "claiming-solidarity-2021",
           "authors": "Kneuer, Marianne; Corsten, Michael; Heid, Ulrich; Schammann, Hannes; Kahle, Patrick; Wallaschek, Stefan; Ziegler, Franziska",
           "title": "Claiming Solidarity",
           "journal": "European Journal of Social Theory",
@@ -85,6 +92,7 @@
           "type": "article"
         },
         {
+          "id": "praxis-buch",
           "authors": "Corsten, Michael",
           "title": "Praxis. Ausüben. Begreifen",
           "location": "Weilerswist",
@@ -92,6 +100,7 @@
           "type": "edited"
         },
         {
+          "id": "praxis-kapitel",
           "authors": "Corsten, Michael",
           "title": "Praxis. Ausüben. Begreifen. (Aus der Praxis heraus die Welt begreifen)",
           "in": "Praxis. Ausüben. Begreifen",
@@ -102,6 +111,7 @@
           "type": "chapter"
         },
         {
+          "id": "mythos",
           "authors": "Corsten, Michael; Jafke, Larissa",
           "title": "Mythos",
           "in": "Handbuch Sozialwissenschaftliche Gedächtnisforschung",
@@ -112,6 +122,7 @@
           "type": "chapter"
         },
         {
+          "id": "generation-corona-beruf",
           "authors": "Corsten, Michael; Oswald, Sascha; Wittchen, Tobias",
           "title": "Gebremst oder gefordert? Berufliche Zukunftsgestaltung auf Widerruf für junge Erwachsene während der COVID-19-Pandemie",
           "journal": "BWP - Berufsbildung in Wissenschaft und Praxis",
@@ -120,6 +131,7 @@
           "type": "article"
         },
         {
+          "id": "generation-corona",
           "authors": "Corsten, Michael; Oswald, Sascha; Wittchen, Tobias",
           "title": "Gibt es eine Generation Corona?",
           "journal": "Impulse für Gesundheitsförderung",
@@ -133,6 +145,7 @@
       "year": 2020,
       "entries": [
         {
+          "id": "symbolische-praxis",
           "authors": "Corsten, Michael",
           "title": "Die symbolische Geltungsweise sozialer Praxis",
           "journal": "Zeitschrift für Soziologie",
@@ -141,6 +154,7 @@
           "type": "article"
         },
         {
+          "id": "lebenslauf-sozialisation",
           "authors": "Corsten, Michael",
           "title": "Lebenslauf und Sozialisation",
           "location": "Wiesbaden",
@@ -148,6 +162,7 @@
           "type": "book"
         },
         {
+          "id": "biographieren-bühne",
           "authors": "Corsten, Michael",
           "title": "Die Beschreibung des eigenen Lebens aufführen",
           "in": "BIOGRAFIEren auf der Bühne",
@@ -158,6 +173,7 @@
           "type": "chapter"
         },
         {
+          "id": "heimat-diskurse",
           "authors": "Corsten, Michael; Kahle, Patrick",
           "title": "Heimat-Diskurse in der Gesellschaft der Singularitäten",
           "journal": "Zeitschrift für Kultur- und Kollektivwissenschaft",
@@ -166,6 +182,7 @@
           "type": "article"
         },
         {
+          "id": "jugend-längsschnitt",
           "authors": "Schierbaum, Anja; Corsten, Michael",
           "title": "Jugend und Biographie - Zur längsschnittlichen Untersuchung von Herausforderungen im Jugendalter",
           "in": "Qualitative Längsschnittforschung. Bestimmungen, Forschungspraxis und Reflexionen",
@@ -176,6 +193,7 @@
           "type": "chapter"
         },
         {
+          "id": "videoanalyse",
           "authors": "Corsten, Michael; Pierburg, Melanie; Wolff, Dennis; Hauenschild, Katrin; Schmidt-Thieme, Barbara; Schütte, Ulrike; Zourelidis, Sabrina",
           "title": "Qualitative Videoanalyse in Schule und Unterricht",
           "location": "Weinheim",
@@ -188,6 +206,7 @@
       "year": 2019,
       "entries": [
         {
+          "id": "bilden-schnulzen",
           "authors": "Corsten, Michael; Schubert, Volker",
           "title": "Bilden Schnulzen?",
           "journal": "ZfK – Zeitschrift für Kulturwissenschaften",
@@ -196,6 +215,7 @@
           "type": "article"
         },
         {
+          "id": "soziologie-literatur",
           "authors": "Corsten, Michael",
           "title": "Die schwierige Liebe der Soziologie zur Literatur",
           "in": "Die Liebe der Soziologie",
@@ -206,6 +226,7 @@
           "type": "chapter"
         },
         {
+          "id": "bildungsaspirationen",
           "authors": "Corsten, Michael; Audehm, Kathrin",
           "title": "Quellen biographisch resistenter Bildungsaspirationen",
           "in": "Komplexe Dynamiken globaler und lokaler Entwicklungen. Verhandlungen des 39 Kongresses der Deutschen Gesellschaft für Soziologie in Göttingen 2018, 39",
@@ -214,6 +235,7 @@
           "link": "https://publikationen.soziologie.de/index.php/kongressband_2018/article/view/1042"
         },
         {
+          "id": "pop-schlager-60er",
           "authors": "Audehm, Kathrin; Corsten, Michael",
           "title": "Vergnüglich entrückt – Pop- und Schlager-Sternchen der 1960er Jahre",
           "in": "Zeiten des Aufbruchs. Populäre Musik als Medium des gesellschaftlichen Wandels seit den 1960er Jahren",
@@ -224,6 +246,7 @@
           "type": "chapter"
         },
         {
+          "id": "kohorteneffekte-wahl",
           "authors": "Holderberg, Per; Corsten, Michael",
           "title": "Zur Differenzierung von Alters-, Perioden- und Kohorten-effekten in Zeitreihendaten am Beispiel der Wahlbeteiligung",
           "in": "Einstellungen und Verhalten der deutschen Bevölkerung. Blickpunkt Gesellschaft",

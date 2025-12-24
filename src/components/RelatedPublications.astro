@@ -1,0 +1,30 @@
+---
+import { getPublicationsByIds } from '../utils/publications';
+import { formatPublication } from '../utils/formatPublication';
+import labels from '../content/labels.json';
+
+interface Props {
+  paperIds: string[];
+  lang: 'de' | 'en';
+}
+
+const { paperIds, lang } = Astro.props;
+const t = labels[lang];
+
+const papers = getPublicationsByIds(paperIds).sort((a, b) => b.year - a.year);
+---
+
+{papers.length > 0 && (
+  <div class="card">
+    <h2 class="text-sm font-semibold text-slate-700 dark:text-slate-300 mb-4">
+      {t.labels.relatedPublications}
+    </h2>
+    <div class="space-y-4">
+      {papers.map((pub) => (
+        <div class="pl-4 border-l-2 border-slate-200 dark:border-slate-700 hover:border-blue-500 dark:hover:border-blue-400 transition-colors">
+          <p class="text-sm leading-relaxed" set:html={formatPublication(pub, lang, true)} />
+        </div>
+      ))}
+    </div>
+  </div>
+)}

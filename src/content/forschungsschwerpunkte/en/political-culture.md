@@ -2,7 +2,6 @@
 title: Political Culture and Civil Society Engagement
 ---
 
-# Political Culture and Civil Society Engagement
 
 Civil society engagement and the accompanying development of civic culture are seen as important binding forces and social integration factors in modern societies. Since the beginning of the 21st century, processes of de-solidarization and disenchantment with democracy have increasingly emerged.
 

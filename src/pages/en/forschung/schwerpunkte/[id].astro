@@ -2,6 +2,7 @@
 import BaseLayout from '../../../../layouts/BaseLayout.astro';
 import { getCollection, render } from 'astro:content';
 import labels from '../../../../content/labels.json';
+import RelatedPublications from '../../../../components/RelatedPublications.astro';
 
 export async function getStaticPaths() {
   const focusAreas = (await getCollection('forschungsschwerpunkte')).filter(f => f.id.startsWith('en/'));
@@ -71,6 +72,10 @@ const t = labels[lang];
             ))}
           </ul>
         </div>
+      )}
+
+      {area.data.papers && area.data.papers.length > 0 && (
+        <RelatedPublications paperIds={area.data.papers} lang={lang} />
       )}
     </div>
   </div>
