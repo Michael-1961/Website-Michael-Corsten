@@ -3,16 +3,7 @@
     {
       "year": 2025,
       "entries": [
-        {
-          "id": "schnulze25",
-          "authors": "Corsten, Michael; Schubert, Volker",
-          "title": "Die Schnulze. Warum wir sie trotzdem lieben. Erkundungen an den Grenzen des Geschmacks",
-          "edition": "1. Aufl.",
-          "location": "Weilerswist",
-          "publisher": "Dittrich",
-          "type": "book",
-          "link": "https://www.velbrueck.de/Programm-oxid/Die-Schnulze.html"
-        },
+        
         {
           "authors": "Corsten, Michael; Maleyka, Laura",
           "title": "Die Präsentation der biographischen Visitenkarte: Erzählstimulus und Selbsteinführung am Interviewbeginn",
@@ -24,17 +15,26 @@
           "doi": "10.3224/bios.v37i1+2.06"
         },
         {
-          "id": "soziale-arbeit25",
-          "authors": "Corsten, Michael; Kahle, Patrick",
-          "title": "Soziale Arbeit als professionalisierte Solidarität",
-          "in": "Soziale Arbeit und Soziologie",
-          "editors": "Sander, T.; Langer, A.",
-          "location": "Weinheim",
-          "publisher": "Beltz Juventa",
-          "type": "chapter",
-          "link": "https://www.beltz.de/fileadmin/beltz/leseproben/9783779988885_shortened.pdf"
+          "id": "schnulze25",
+          "authors": "Corsten, Michael; Schubert, Volker",
+          "title": "Die Schnulze. Warum wir sie trotzdem lieben. Erkundungen an den Grenzen des Geschmacks",
+          "edition": "1. Aufl.",
+          "location": "Weilerswist",
+          "publisher": "Dittrich",
+          "type": "book",
+          "link": "https://www.velbrueck.de/Programm-oxid/Die-Schnulze.html"
         },
         {
+          "authors": "Corsten, Michael; Schubert, Volker",
+          "title": "Tod und Schnulze",
+          "journal": "Jahrbuch für Tod und Gesellschaft",
+          "volume": "1/2025",
+          "pages": "10-34",
+          "type": "article",
+          "id": "tod-schnulze",
+          "link": "https://library.oapen.org/bitstream/handle/20.500.12657/101608/1/9783779990024.pdf"
+        },
+         {
           "id": "gefilmte-Praxis",
           "authors": "Corsten, Michael",
           "title": "Interpretative Analyse gefilmter Praxis. Verheißungen und Fallstricke",
@@ -45,6 +45,17 @@
           "pages": "62-80",
           "type": "chapter",
           "link": "https://www.beltz.de/fileadmin/beltz/leseproben/9783779985242_shortened.pdf"
+        },
+        {
+          "id": "soziale-arbeit25",
+          "authors": "Corsten, Michael; Kahle, Patrick",
+          "title": "Soziale Arbeit als professionalisierte Solidarität",
+          "in": "Soziale Arbeit und Soziologie",
+          "editors": "Sander, T.; Langer, A.",
+          "location": "Weinheim",
+          "publisher": "Beltz Juventa",
+          "type": "chapter",
+          "link": "https://www.beltz.de/fileadmin/beltz/leseproben/9783779988885_shortened.pdf"
         },
         {
           "id": "B-Bildung-1",
@@ -105,17 +116,8 @@
           "pages": "193-195",
           "type": "chapter",
           "link": "https://www.beltz.de/fachmedien/erziehungswissenschaft/produkte/details/55423-b-wie-bildung-66-bedeutsame-begriffe.html"
-        },
-        {
-          "authors": "Corsten, Michael; Schubert, Volker",
-          "title": "Tod und Schnulze",
-          "journal": "Jahrbuch für Tod und Gesellschaft",
-          "volume": "1/2025",
-          "pages": "10-34",
-          "type": "article",
-          "id": "tod-schnulze",
-          "link": "https://library.oapen.org/bitstream/handle/20.500.12657/101608/1/9783779990024.pdf"
         }
+        
       ]
     },
     {
