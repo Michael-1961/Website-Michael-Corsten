@@ -128,9 +128,11 @@
         {
           "authors": "Corsten, Michael; Kahle, Patrick",
           "title": "Politische Kultur, Solidarität und zivilgesellschaftliches Engagement",
-          "in": "Kongress der Deutschen Gesellschaft für Soziologie: Polarisierte Welten",
+          "in": "Polarisierte Welten. Verhandlungen des 41. Kongresses der Deutschen Gesellschaft für Soziologie",
           "type": "conference",
-          "id": "polkultur23"
+          "id": "polkultur23",
+          "link": "https://publikationen.soziologie.de/index.php/kongressband_2022/de/article/view/1650",
+          "doi": "https://doi.org/10.21241/ssoar.99146"
         },
         {
           "authors": "Corsten, Michael",
