@@ -7,10 +7,10 @@ subtopics:
 - ‘Biography and Temporality’
 - ‘Biography, Life Course and Generation’
 papers:
+- biographie-realitaet94
 - bildungsaspir19
 - lebenslauf-so20
 - sich-subjekt22
-- biographie-realitaet94
 ---
 
 ## The Social Complexity of Biography
