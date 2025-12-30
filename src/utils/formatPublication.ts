@@ -12,7 +12,12 @@ export function formatPublication(pub: any, lang: 'de' | 'en', showYear: boolean
   }
 
   if (pub.in) {
-    result += `. In: ${pub.in}`;
+    result += `. In: `;
+    if (pub.editors) {
+      const editorAbbrev = lang === 'de' ? 'Hrsg.' : 'Eds.';
+      result += `${pub.editors} (${editorAbbrev}), `;
+    }
+    result += pub.in;
   }
 
   if (pub.journal) {
