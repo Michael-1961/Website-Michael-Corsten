@@ -32,8 +32,8 @@ Die Biographie beruht auf einem gleichfalls komplexen zeitlichen Zusammenhang. S
 
 ## Biographie, Lebenslauf und Generation
 
-Die besondere Zeitlichkeit der Biographie manifestiert sich in ihrem Verhältnis zum Lebenslauf als sozial strukturierter Institution, die wiederum von Geburtskohorten als Generation in einem besonderen historischen Erfahrungszusammenhang durchlaufen werden (Holderberg/Corsten 2019, Corsten/Holderberg 2024). Dabei konstituiert sich eine eigene Zeiterfahrung der Generation (Corsten 1999).
+Die besondere Zeitlichkeit der Biographie manifestiert sich in ihrem Verhältnis zum Lebenslauf als sozial strukturierter Institution, der wiederum von Geburtskohorten als Generation jeweils in einem besonderen historischen Erfahrungszusammenhang durchlaufen wird (Holderberg/Corsten 2019, Corsten/Holderberg 2024). Dabei konstituiert sich eine eigene Zeiterfahrung der Generation (Corsten 1999).
 
 ## Autobiographisches Erzählen und Mythisierung
 
-Aber nicht nur Generationen verfügen über kollektives Gedächtnis, sondern auch andere soziale Gruppen und Einheiten. Sedimente des kollektives Gedächtnis lassen anhand der Mythisisierung von Erinnertem im Rahmen von autobiographischen Erzählungen erkennen (Corsten et al. 2022, Corsten/Pierburg 2023, Corsten/Pierburg 2024). Mythisierungen dienen häufig auch als Rechtfertigungsgeschichten im Diskursraum von Basiserzählungen und Gegenerzählungen (Corsten/Leser/Pierburg in press).
+Aber nicht nur Generationen verfügen über kollektives Gedächtnis, sondern auch andere soziale Gruppen und Einheiten. Sedimente des kollektives Gedächtnis lassen sich anhand der Mythisisierung von Erinnertem im Rahmen von autobiographischen Erzählungen erkennen (Corsten et al. 2022, Corsten/Pierburg 2023, Corsten/Pierburg 2024). Mythisierungen dienen dabei häufig als Rechtfertigungsgeschichten im Diskursraum von Basiserzählungen und Gegenerzählungen (Corsten/Leser/Pierburg in press).
