@@ -15,6 +15,8 @@ papers:
 
 Dieses innovative Forschungsprojekt untersucht die mathematischen Grundlagen sozialer Netzwerke und deren zeitliche Entwicklung. Durch die Kombination von Graphentheorie, stochastischen Prozessen und soziologischer Theorie entwickeln wir neue Modelle zur Vorhersage und Analyse komplexer sozialer Phänomene.
 
+
+
 ## Theoretischer Rahmen
 
 Die zentrale Gleichung unseres Modells beschreibt die Wahrscheinlichkeit $P(t)$ einer sozialen Verbindung zum Zeitpunkt $t$:
