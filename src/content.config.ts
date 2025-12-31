@@ -11,6 +11,7 @@ const forschungsprojekte = defineCollection({
     duration: z.string().optional(),
     contact: z.string().optional(),
     papers: z.array(z.string()).optional(),
+    focus_area: z.string().optional(), // References a focus area ID (e.g., "Biographieforschung", "solidarity")
   }),
 });
 

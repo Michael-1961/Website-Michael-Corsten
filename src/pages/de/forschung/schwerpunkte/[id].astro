@@ -3,6 +3,7 @@ import BaseLayout from '../../../../layouts/BaseLayout.astro';
 import { getCollection, render } from 'astro:content';
 import labels from '../../../../content/labels.json';
 import RelatedPublications from '../../../../components/RelatedPublications.astro';
+import ProjectCard from '../../../../components/ProjectCard.astro';
 
 export async function getStaticPaths() {
   const focusAreas = (await getCollection('forschungsschwerpunkte')).filter(f => f.id.startsWith('de/'));
@@ -16,67 +17,103 @@ const { area } = Astro.props;
 const { Content } = await render(area);
 const lang = 'de';
 const t = labels[lang];
+
+// Get focus area ID for matching projects (strip .md extension)
+const focusAreaId = area.id.replace('de/', '').replace(/\.md$/, '');
+
+// Get all projects that belong to this focus area
+const allProjects = await getCollection('forschungsprojekte');
+const linkedProjects = allProjects
+  .filter(p => p.id.startsWith(`${lang}/`) && p.data.focus_area === focusAreaId)
+  .sort((a, b) => (a.data.order ?? Infinity) - (b.data.order ?? Infinity) || a.data.title.localeCompare(b.data.title));
+
+// Collect metadata items
+const metaItems = [
+  { icon: 'user', label: t.labels.responsible, value: area.data.lead },
+  { icon: 'team', label: t.labels.researchTeam, value: area.data.team },
+].filter(item => item.value);
 ---
 
 <BaseLayout title={`${area.data.title} - Prof. Dr. Michael Corsten`} lang={lang}>
   <div class="page-container">
     <!-- Back Navigation -->
-    <div class="mb-6">
-      <a href={`/${lang}/forschung`} class="text-blue-600 dark:text-blue-400 hover:underline flex items-center gap-2">
+    <nav class="mb-8">
+      <a href={`/${lang}/forschung`} class="inline-flex items-center gap-1.5 text-sm text-slate-500 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
         </svg>
         {t.nav.research}
       </a>
-    </div>
+    </nav>
 
-    <!-- Focus Area Header -->
-    <div class="mb-8">
-      <h1 class="text-3xl font-bold text-slate-900 dark:text-white mb-4">
-        {area.data.title}
-      </h1>
-    </div>
-
-    <!-- Focus Area Details -->
-    <div class="space-y-6">
-      {area.data.lead && (
-        <div class="card">
-          <h2 class="text-sm font-semibold text-slate-700 dark:text-slate-300 mb-2">{t.labels.responsible}</h2>
-          <p class="text-slate-900 dark:text-white">{area.data.lead}</p>
-        </div>
-      )}
-
-      {area.data.team && (
-        <div class="card">
-          <h2 class="text-sm font-semibold text-slate-700 dark:text-slate-300 mb-2">{t.labels.researchTeam}</h2>
-          <p class="text-slate-900 dark:text-white">{area.data.team}</p>
-        </div>
-      )}
-
-      <div class="card">
-        <h2 class="text-xl font-semibold text-slate-900 dark:text-white mb-4">Beschreibung</h2>
-        <div class="prose dark:prose-invert max-w-none">
-          <Content />
-        </div>
+    <!-- Hero Header -->
+    <header class="mb-10">
+      <div class="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-blue-600 dark:text-blue-400 mb-4">
+        <span class="w-2 h-2 rounded-full bg-blue-500"></span>
+        {t.labels.focusArea}
       </div>
 
-      {area.data.subtopics && area.data.subtopics.length > 0 && (
-        <div class="card">
-          <h2 class="text-xl font-semibold text-slate-900 dark:text-white mb-4">{t.labels.subtopics}</h2>
-          <ul class="space-y-2">
-            {area.data.subtopics.map((subtopic: string) => (
-              <li class="flex items-start gap-3">
-                <div class="w-1.5 h-1.5 rounded-full bg-blue-500 mt-2 flex-shrink-0"></div>
-                <span class="text-slate-700 dark:text-slate-300">{subtopic}</span>
-              </li>
-            ))}
-          </ul>
-        </div>
-      )}
+      <h1 class="text-3xl md:text-4xl font-bold text-slate-900 dark:text-white tracking-tight leading-tight">
+        {area.data.title}
+      </h1>
+    </header>
 
-      {area.data.papers && area.data.papers.length > 0 && (
-        <RelatedPublications paperIds={area.data.papers} lang={lang} />
-      )}
-    </div>
+    <!-- Metadata -->
+    {metaItems.length > 0 && (
+      <div class="flex flex-wrap gap-6 mb-8 text-sm text-slate-600 dark:text-slate-400">
+        {metaItems.map((item) => (
+          <div class="flex items-center gap-2">
+            {item.icon === 'user' && (
+              <svg class="w-4 h-4 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/>
+              </svg>
+            )}
+            {item.icon === 'team' && (
+              <svg class="w-4 h-4 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+              </svg>
+            )}
+            <span>{item.value}</span>
+          </div>
+        ))}
+      </div>
+    )}
+
+    <!-- Subtopics (context before content) -->
+    {area.data.subtopics && area.data.subtopics.length > 0 && (
+      <div class="mb-8">
+        <div class="flex flex-wrap gap-2">
+          {area.data.subtopics.map((subtopic: string) => (
+            <span class="text-sm text-slate-600 dark:text-slate-300 bg-slate-100 dark:bg-slate-800 px-3 py-1.5 rounded-full">
+              {subtopic}
+            </span>
+          ))}
+        </div>
+      </div>
+    )}
+
+    <!-- Main Content -->
+    <article class="mb-10">
+      <div class="prose dark:prose-invert max-w-none">
+        <Content />
+      </div>
+    </article>
+
+    <!-- Linked Projects Section -->
+    {linkedProjects.length > 0 && (
+      <section class="mb-10">
+        <h2 class="text-lg font-semibold text-slate-900 dark:text-white mb-4">{t.sections.linkedProjects}</h2>
+        <div class="grid gap-3 sm:grid-cols-2">
+          {linkedProjects.map((project) => (
+            <ProjectCard project={project} lang={lang} variant="compact" />
+          ))}
+        </div>
+      </section>
+    )}
+
+    <!-- Related Publications -->
+    {area.data.papers && area.data.papers.length > 0 && (
+      <RelatedPublications paperIds={area.data.papers} lang={lang} />
+    )}
   </div>
 </BaseLayout>

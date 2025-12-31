@@ -15,7 +15,7 @@ papers:
 
 ## Die soziale Komplexität der Biographie
 
-Biographieforschung befasst sich mit Beschreibungen des Lebens als sozialem Sachverhalt (Corsten 1994). Dies gilt auf zweifache Weise: Biographien sind erstens im kulturgeschichtlichen Prozess als soziale Form entwickelt worden und enthalten zweitens als Gegenstand die Alltags- und Lebenspraxen von einzelnen Menschen, wie sie im Zeitraum des vergangenen Lebens geführt wurden. 
+Biographieforschung befasst sich mit Beschreibungen des Lebens als sozialem Sachverhalt (Corsten 1994). Dies gilt auf zweifache Weise: Biographien sind erstens im kulturgeschichtlichen Prozess als soziale Form entwickelt worden und enthalten zweitens als Gegenstand die Alltags- und Lebenspraxen von einzelnen Menschen, wie sie im Zeitraum des vergangenen Lebens geführt wurden.
 Biographien dokumentieren insofern die Formen, in denen zu bestimmten Zeiten das Leben der Menschen beschrieben wurde, aber indirekt vermittelt über das Beschriebene auch die Lebensweisen der Menschen selbst. Biographien enthalten daher vielschichtige Bezüge zum Verhältnis von Individuum und Gesellschaft in einer geschichtlichen Phase.
 
 ## Autobiographie, Habitus und Subjektivierung

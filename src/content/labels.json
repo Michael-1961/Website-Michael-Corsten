@@ -11,6 +11,8 @@
       "about": "Über mich",
       "researchFocus": "Forschungsschwerpunkte",
       "researchProjects": "Forschungsprojekte",
+      "otherProjects": "Weitere Projekte",
+      "linkedProjects": "Zugehörige Projekte",
       "publications": "Publikationen",
       "cv": "Lebenslauf und Werdegang",
       "education": "Lebenslauf",
@@ -34,7 +36,9 @@
       "address": "Adresse",
       "pages": "S.",
       "university": "Universität Hildesheim",
-      "relatedPublications": "Publikationen"
+      "relatedPublications": "Publikationen",
+      "focusArea": "Forschungsschwerpunkt",
+      "backToFocusArea": "Zurück zum Schwerpunkt"
     },
     "footer": {
       "copyright": "Alle Rechte vorbehalten"
@@ -61,6 +65,8 @@
       "about": "About",
       "researchFocus": "Research Focus",
       "researchProjects": "Research Projects",
+      "otherProjects": "Other Projects",
+      "linkedProjects": "Related Projects",
       "publications": "Publications",
       "cv": "CV and Career",
       "education": "Education",
@@ -84,7 +90,9 @@
       "address": "Address",
       "pages": "pp.",
       "university": "University of Hildesheim",
-      "relatedPublications": "Publications"
+      "relatedPublications": "Publications",
+      "focusArea": "Research Focus",
+      "backToFocusArea": "Back to Focus Area"
     },
     "footer": {
       "copyright": "All rights reserved"

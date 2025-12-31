@@ -4,6 +4,7 @@ years: "2019-2023"
 lead: "Prof. Dr. Kathrin Audehm, Prof. Dr. Michael Corsten, PD Dr. Holger Herma"
 team: "Dr. Laura Maleyka, Jessica Schülein"
 funding: "DFG"
+focus_area: Biographieforschung
 ---
 
 

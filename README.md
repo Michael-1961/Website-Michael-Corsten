@@ -53,6 +53,7 @@ The files use frontmatter (metadata between `---` markers at the top) for inform
 ---
 title: "Project Title"
 order: 1
+focus_area: symbolic-practice
 lead: "Project Lead"
 team: "Team Members"
 funding: "Funding Source"
@@ -66,4 +67,5 @@ Content in markdown...
 ```
 
 - `order` controls display order. Entries are sorted by order (lowest first) then alphabetically by title. Missing order means last.
+- `focus_area` links project to a focus area (use focus area filename without extension)
 - `papers` links to publications from `publikationen.json` by ID

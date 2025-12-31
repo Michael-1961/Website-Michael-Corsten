@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import labels from '../../content/labels.json';
+import ProjectCard from '../ProjectCard.astro';
 
 interface Props {
   lang: 'de' | 'en';
@@ -11,12 +12,33 @@ const { lang } = Astro.props;
 const t = labels[lang];
 const allFocusAreas = await getCollection('forschungsschwerpunkte');
 const allProjects = await getCollection('forschungsprojekte');
+
 const focusAreas = allFocusAreas
   .filter(f => f.id.startsWith(`${lang}/`))
   .sort((a, b) => (a.data.order ?? Infinity) - (b.data.order ?? Infinity) || a.data.title.localeCompare(b.data.title));
+
 const projects = allProjects
   .filter(p => p.id.startsWith(`${lang}/`))
   .sort((a, b) => (a.data.order ?? Infinity) - (b.data.order ?? Infinity) || a.data.title.localeCompare(b.data.title));
+
+// Group projects by focus area
+const projectsByFocusArea = new Map<string, typeof projects>();
+const projectsWithoutFocusArea: typeof projects = [];
+
+projects.forEach(project => {
+  const focusAreaId = project.data.focus_area;
+  if (focusAreaId) {
+    if (!projectsByFocusArea.has(focusAreaId)) {
+      projectsByFocusArea.set(focusAreaId, []);
+    }
+    projectsByFocusArea.get(focusAreaId)!.push(project);
+  } else {
+    projectsWithoutFocusArea.push(project);
+  }
+});
+
+// Helper to get focus area ID from full path (strip lang prefix and .md extension)
+const getFocusAreaId = (area: typeof focusAreas[0]) => area.id.replace(`${lang}/`, '').replace(/\.md$/, '');
 ---
 
 <BaseLayout title={`${t.nav.research} - Prof. Dr. Michael Corsten`} lang={lang}>
@@ -29,78 +51,104 @@ const projects = allProjects
       </p>
     </div>
 
-    <!-- Research Focus Areas -->
+    <!-- Research Focus Areas with Projects -->
     <section class="mb-16">
-      <h2 class="text-2xl font-semibold text-slate-900 dark:text-white mb-6">{t.sections.researchFocus}</h2>
-      <div class="space-y-4">
-        {focusAreas.map((area) => (
-          <a href={`/${lang}/forschung/schwerpunkte/${area.id.replace(`${lang}/`, '')}`} class="card card-hover block group">
-            <div class="flex flex-col gap-2">
-              <h3 class="font-medium text-slate-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
-                {area.data.title}
-              </h3>
-              {area.data.lead && (
-                <p class="text-sm text-slate-600 dark:text-slate-400">
-                  <span class="font-medium">{t.labels.responsible}:</span> {area.data.lead}
-                </p>
-              )}
-              {area.data.team && (
-                <p class="text-sm text-slate-600 dark:text-slate-400">
-                  <span class="font-medium">{t.labels.team}:</span> {area.data.team}
-                </p>
-              )}
-              {area.data.subtopics && area.data.subtopics.length > 0 && (
-                <div class="text-sm text-slate-600 dark:text-slate-400">
-                  <span class="font-medium">{t.labels.subtopics}:</span>
-                  <ul class="list-disc list-inside mt-1 ml-2">
-                    {area.data.subtopics.map((topic: string) => (
-                      <li>{topic}</li>
-                    ))}
-                  </ul>
+      <h2 class="text-2xl font-semibold text-slate-900 dark:text-white mb-8">{t.sections.researchFocus}</h2>
+
+      <div class="space-y-8">
+        {focusAreas.map((area) => {
+          const areaId = getFocusAreaId(area);
+          const linkedProjects = projectsByFocusArea.get(areaId) || [];
+
+          return (
+            <div class="group">
+              <!-- Focus Area Card -->
+              <a
+                href={`/${lang}/forschung/schwerpunkte/${area.id.replace(`${lang}/`, '')}`}
+                class="block bg-gradient-to-r from-slate-50 to-white dark:from-slate-800 dark:to-slate-800/50 border border-slate-200 dark:border-slate-700 rounded-xl p-6 hover:shadow-lg hover:border-blue-300 dark:hover:border-blue-600 transition-all duration-300"
+              >
+                <div class="flex items-start justify-between gap-4">
+                  <div class="flex-1">
+                    <div class="flex items-center gap-3 mb-3">
+                      <div class="w-2 h-2 rounded-full bg-blue-500"></div>
+                      <h3 class="text-xl font-semibold text-slate-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+                        {area.data.title}
+                      </h3>
+                    </div>
+
+                    <div class="grid gap-2 text-sm mt-2">
+                      {area.data.lead && (
+                        <div class="flex items-start gap-2">
+                          <svg class="w-4 h-4 text-slate-400 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/>
+                          </svg>
+                          <span class="text-slate-600 dark:text-slate-400">{area.data.lead}</span>
+                        </div>
+                      )}
+                      {area.data.team && (
+                        <div class="flex items-start gap-2">
+                          <svg class="w-4 h-4 text-slate-400 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+                          </svg>
+                          <span class="text-slate-600 dark:text-slate-400">{area.data.team}</span>
+                        </div>
+                      )}
+                      {area.data.subtopics && area.data.subtopics.length > 0 && (
+                        <div class="flex items-start gap-2">
+                          <svg class="w-4 h-4 text-slate-400 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"/>
+                          </svg>
+                          <div class="text-slate-600 dark:text-slate-400">
+                            {area.data.subtopics.map((topic: string, i: number) => (
+                              <span>{topic}{i < area.data.subtopics!.length - 1 ? ', ' : ''}</span>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+                    </div>
+                  </div>
+
+                  <div class="flex-shrink-0">
+                    <svg class="w-5 h-5 text-slate-400 group-hover:text-blue-500 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                    </svg>
+                  </div>
+                </div>
+              </a>
+
+              <!-- Linked Projects -->
+              {linkedProjects.length > 0 && (
+                <div class="ml-6 mt-4 space-y-3 relative">
+                  <!-- Vertical connector line -->
+                  <div class="absolute left-0 top-0 bottom-4 w-px bg-gradient-to-b from-blue-300 to-transparent dark:from-blue-600"></div>
+
+                  {linkedProjects.map((project) => (
+                    <div class="ml-6 relative">
+                      <!-- Horizontal connector -->
+                      <div class="absolute -left-6 top-1/2 w-6 h-px bg-blue-200 dark:bg-blue-700"></div>
+                      <div class="absolute -left-6 top-1/2 -translate-y-1/2 w-2 h-2 rounded-full bg-blue-400 dark:bg-blue-500 border-2 border-white dark:border-slate-800"></div>
+
+                      <ProjectCard project={project} lang={lang} variant="compact" />
+                    </div>
+                  ))}
                 </div>
               )}
             </div>
-          </a>
-        ))}
+          );
+        })}
       </div>
     </section>
 
-    <!-- Research Projects -->
-    <section>
-      <h2 class="text-2xl font-semibold text-slate-900 dark:text-white mb-6">{t.sections.researchProjects}</h2>
-      <div class="space-y-4">
-        {projects.map((project) => (
-          <a href={`/${lang}/forschung/projekte/${project.id.replace(`${lang}/`, '')}`} class="card card-hover block group">
-            <div class="flex flex-col gap-2">
-              <div class="flex items-start justify-between gap-4">
-                <h3 class="font-medium text-slate-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
-                  {project.data.title}
-                </h3>
-                {project.data.years && (
-                  <span class="flex-shrink-0 text-sm text-slate-500 dark:text-slate-400 bg-slate-100 dark:bg-slate-700 px-2 py-1 rounded">
-                    {project.data.years}
-                  </span>
-                )}
-              </div>
-              {project.data.lead && (
-                <p class="text-sm text-slate-600 dark:text-slate-400">
-                  <span class="font-medium">{t.labels.projectLead}:</span> {project.data.lead}
-                </p>
-              )}
-              {project.data.team && (
-                <p class="text-sm text-slate-600 dark:text-slate-400">
-                  <span class="font-medium">{t.labels.team}:</span> {project.data.team}
-                </p>
-              )}
-              {project.data.funding && (
-                <p class="text-sm text-slate-600 dark:text-slate-400">
-                  <span class="font-medium">{t.labels.funding}:</span> {project.data.funding}
-                </p>
-              )}
-            </div>
-          </a>
-        ))}
-      </div>
-    </section>
+    <!-- Other Projects (without focus area) -->
+    {projectsWithoutFocusArea.length > 0 && (
+      <section>
+        <h2 class="text-2xl font-semibold text-slate-900 dark:text-white mb-6">{t.sections.otherProjects}</h2>
+        <div class="grid gap-4 sm:grid-cols-2">
+          {projectsWithoutFocusArea.map((project) => (
+            <ProjectCard project={project} lang={lang} />
+          ))}
+        </div>
+      </section>
+    )}
   </div>
 </BaseLayout>
