@@ -7,7 +7,7 @@ years: "2025-x"
 ---
 
 
-Automatic segmentation and segment classification of autobiographical narratives
+### Abstract
 
 Sociological analyses of autobiographical narratives are based on the reconstruction of narrative organisation through the classification of the function of narrative units (segments). The aim of the cooperation described here is to support sub-steps of this research methodology with language processing AI tools: sentence analysis and LLMs as aids for text segmentation and statement classification.
 Initial preliminary investigations suggest that it is possible to break down transcribed oral narratives into individual propositions using syntactically based tools or prompt-based approaches. The classification of these segments into those that introduce the description of new phases of life, into summarising parts (coda), and into different types of propositions that contain the progression of a biographical narrative is the subject of ongoing experiments.

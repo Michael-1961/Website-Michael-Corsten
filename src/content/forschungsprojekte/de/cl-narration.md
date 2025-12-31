@@ -6,6 +6,7 @@ funding: "Eigenmittel"
 years: "2025-x"
 ---
 
+### Abstract
 
 Soziologische Analysen von autobiographischen Erzählungen beruhen auf der Rekonstruktion der narrativen Organisation durch die Klassifikation der Funktion von Erzähleinheiten (Segmenten). Ziel der hier beschriebenen Kooperation ist es, Teilschritte dieser Untersuchungsmethodik durch Werkzeuge der sprachverarbeitenden KI zu unterstützen: Satzanalyse und LLMs als Hilfsmittel zur Textsegmentierung und Aussageklassifikation.
 Erste Voruntersuchungen legen nahe, dass eine Zerlegung der transkribierten mündlichen Erzählungen in einzelne Propositionen mit Hilfe syntaktisch basierter Werkzeuge oder über promptbasierte Ansätze möglich ist. Die Klassifikation dieser Segmente in solche, die die Beschreibung neuer Lebensphasen einführen, in resümierende Teile (Koda) sowie in verschiedene Arten von Propositionen, die den Fortgang einer Lebenslauferzählung zum Inhalt haben, ist Gegenstand laufender Experimente.
