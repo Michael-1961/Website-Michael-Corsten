@@ -2,7 +2,7 @@
 title: "Automatic segmentation and segment classification of autobiographical narratives"
 lead: "Prof. Dr. Michael Corsten, Prof. Dr. Ulrich Heid"
 team: "Dr. Fritz Kliche, Dr. Laura Maleyka"
-funding: "Eigenmittel"
+funding: "Own funds"
 years: "2025-x"
 ---
 
