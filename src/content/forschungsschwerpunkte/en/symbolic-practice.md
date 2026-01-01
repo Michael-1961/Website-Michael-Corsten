@@ -1,7 +1,6 @@
 ---
 title: Symbolic Practice and Modern Subjectivity
-lead: "apl. Prof. Dr. Holger Herma"
-team: "Prof. Dr. Michael Corsten, Dr. Laura Maleyka, Dr. Sascha Oswald, Tobias Wittchen M.A."
+order: 2
 subtopics:
   - "Empirical socialization research and habitus analysis"
   - "Symbolic practice, digital communication and self-reference frameworks"

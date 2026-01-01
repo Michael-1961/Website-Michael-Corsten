@@ -1,13 +1,11 @@
 ---
 title: Solidarity
-order: 1
-lead: "Prof. Dr. Michael Corsten, Prof. Dr. Hannes Schammann"
-team: "Franziska Ziegler, Clara Hoppe, Elisabeth Knoche, Anabel Röpcke, Laura Wörner"
+order: 3
 subtopics:
-  - "Solidarity discourses in crises"
-  - "Analysis and explanation of solidarity conceptions in migration contexts"
-  - "Civil society engagement"
+- ‘Solidarity’
+- ‘Discourses on solidarity in crises’
+- ‘Organisation of solidarity in the welfare state’
+- ‘Civil society engagement’
 ---
 
 
-???

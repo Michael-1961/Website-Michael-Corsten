@@ -1,5 +1,6 @@
 ---
 title: Biographical Research
+order: 1
 subtopics:
 - ‘Autobiography, Habitus and Subjectification'
 - ‘Biography and Spheres of Life Practice’
