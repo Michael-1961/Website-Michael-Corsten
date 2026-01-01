@@ -10,7 +10,7 @@ focus_area: Biographieforschung
 
 Beteiligte Institutionen: Bibliothek für Bildungsgeschichtliche Forschung Berlin, Humboldt Universität zu Berlin, Universität Rostock, Universität Hildesheim
 
-Link: 
+Link: https://bildungsmythen-ddr.de/projekt
 
 Sprecherin des Verbunds: Prof. Dr. Sabine Reh
 

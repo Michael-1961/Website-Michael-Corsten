@@ -8,7 +8,7 @@ focus_area: Biographieforschung
 # Joint project: Educational myths of the GDR
 
 Participating institutions: Library for Educational History Research Berlin, Humboldt University of Berlin, University of Rostock, University of Hildesheim
-Link:
+Link: https://educational-myths-gdr.de/project
 
 Spokesperson for the joint project: Prof. Dr. Sabine Reh
 
