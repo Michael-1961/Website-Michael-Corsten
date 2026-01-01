@@ -3,7 +3,7 @@ title: Myths in narrated educational and childhood experiences in the GDR
 team: ‘Prof. Dr. Michael Corsten, Dr. Melanie Pierburg, Larissa Jafke (2019-20), Dr. Simon Gordt (2020-21)’
 funding: “BMBF”
 years: ‘2019-2023’
-focus_area: Biographical research
+focus_area: Biographieforschung
 ---
 ## Summary
  
