@@ -5,6 +5,7 @@ import rehypeKatex from 'rehype-katex';
 import rehypeSlug from 'rehype-slug';
 
 export default defineConfig({
+  site: 'https://jancurse.github.io/Website-Michael-Corsten/',
   integrations: [tailwind()],
   i18n: {
     defaultLocale: 'de',
