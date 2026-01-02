@@ -50,8 +50,7 @@
       "contactDescription": "Kontaktinformationen und Sprechzeiten"
     },
     "research": {
-      "description": "Meine Forschung konzentriert sich auf zentrale gesellschaftliche Fragen der Bildung, politischen Kultur und sozialen Praktiken."
-    }
+      "description": "Meine Forschungsarbeiten widmen sich den gesellschaftlichen Sachverhalten der Biographie, der Symbolischen Praxis und der Solidarität zuordnen."
   },
   "en": {
     "nav": {
@@ -104,7 +103,6 @@
       "contactDescription": "Contact information and office hours"
     },
     "research": {
-      "description": "My research focuses on central societal questions of education, political culture, and social practices."
-    }
+      "description": "My research focuses on the social facts of biography, symbolic practice and solidarity."
   }
 }
