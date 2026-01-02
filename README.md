@@ -1,6 +1,6 @@
 # Prof. Dr. Michael Corsten - Personal Website
 
-**[🌐 View the site](https://jancurse.github.io/Website-Michael-Corsten/)**
+**[🌐 View the site](https://Michael-1961.github.io/Website-Michael-Corsten/)**
 
 Bilingual academic website built with Astro and Tailwind CSS.
 
