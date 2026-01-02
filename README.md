@@ -1,5 +1,7 @@
 # Prof. Dr. Michael Corsten - Personal Website
 
+**[🌐 View the site](https://jancurse.github.io/Website-Michael-Corsten/)**
+
 Bilingual academic website built with Astro and Tailwind CSS.
 
 ## Viewing the Site Locally
@@ -13,9 +15,11 @@ npm run dev
 
 Then open `http://localhost:4321` in your browser. The page automatically refreshes when you save changes to content files.
 
-## Building for Production
+## Deployment
 
-To create a production-ready version of the site for deployment:
+The site is automatically deployed when you push to the `main` branch.
+
+For manual testing, you can create a production-ready version locally:
 
 ```bash
 npm run build
