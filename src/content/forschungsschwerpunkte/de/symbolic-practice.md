@@ -2,7 +2,7 @@
 title: Symbolische Praxis
 order: 2
 subtopics:
-  - "Gesellschaftliche Praxis und symbolischer Gewalt"
+  - "Gesellschaftliche Praxis und symbolische Gewalt"
   - "Kommunikationsmacht und digitale Verbreitungsmedien"
   - "Populäre Kultur und die symbolische Modernisierung der Moderne"
   - "Ästhetische Praxis"
