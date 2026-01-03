@@ -24,7 +24,7 @@ Digitale Verbreitungsmedien, speziell die sich im Rahmen des WorldWideWeb ausdif
 
 Die gesellschaftliche Bedeutung Populärer Kultur hängt von ihrem enorm gesteigerten Potenzial ab, die Aufmerksamkeit innerhalb von Öffentlichkeiten zu attrahieren, die durch Versammlungen eines dispersen Publikums erzeugt werden. Auf diese Weise befördert Populäre Kultur einen Mainstream der Modernisierung [Hügel 2007](https://www.halem-verlag.de/produkt/lob-des-mainstreams/) der gegebener gesellschaftlicher Bedeutungshorizonte. Anders gesagt: die regelmäßige Erneuerung dessen, was als attraktive Populäre Kultur gilt, führt zu einer fortwährenden Entwertung bestehender (oder tradierter Kultur).
 
-Gleichwohl finden sich in der Populären Kultur auch Formen, die sich durch die Stilisierung des Vergangenen, Vermissten oder Verlorenen widmen, wie etwa Evergreens oder Schnulzen [Corsten/Schubert 2025](https://www.velbrueck.de/Programm-oxid/Die-Schnulze.html).
+Gleichwohl finden sich in der Populären Kultur auch Formen, die sich durch die Stilisierung des Vergangenen, Vermissten oder Verlorenen widmen, wie etwa Evergreens oder Schnulzen [Corsten/Schubert 2025][def].
 
 ## Ästhetische Praxis
 
@@ -33,3 +33,6 @@ Gleichwohl lässt sich innerhalb der Praxis eine Haltung zur Praxis entfalten, d
 Diese Beobachtung gehört zu den Ausgangspunkten des GRK "Ästhetische Praxis" an der Universität Hildesheim (https://www.uni-hildesheim.de/grk-2477/).
 
 
+
+
+[def]: https://www.velbrueck.de/Programm-oxid/Die-Schnulze.html
