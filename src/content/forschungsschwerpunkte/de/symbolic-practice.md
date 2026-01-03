@@ -24,8 +24,12 @@ Digitale Verbreitungsmedien, speziell die sich im Rahmen des WorldWideWeb ausdif
 
 Die gesellschaftliche Bedeutung Populärer Kultur hängt von ihrem enorm gesteigerten Potenzial ab, die Aufmerksamkeit innerhalb von Öffentlichkeiten zu attrahieren, die durch Versammlungen eines dispersen Publikums erzeugt werden. Auf diese Weise befördert Populäre Kultur einen Mainstream der Modernisierung [Hügel 2007](https://www.halem-verlag.de/produkt/lob-des-mainstreams/) der gegebener gesellschaftlicher Bedeutungshorizonte. Anders gesagt: die regelmäßige Erneuerung dessen, was als attraktive Populäre Kultur gilt, führt zu einer fortwährenden Entwertung bestehender (oder tradierter Kultur).
 
+Gleichwohl finden sich in der Populären Kultur auch Formen, die sich durch die Stilisierung des Vergangenen, Vermissten oder Verlorenen widmen, wie etwa Evergreens oder Schnulzen [Corsten/Schubert 2025](https://www.velbrueck.de/Programm-oxid/Die-Schnulze.html).
+
 ## Ästhetische Praxis
 
-
+Ästhetische Praxis lässt sich als ein Tun verstehen, das darauf zielt, die Wahrnehmung für das sinnliche Tun des Wahrnehmens zu schärfen. Mit ihr geht eine Weise der Geschmacksbildung einher, die den "Reflexionsgeschmack" gegenüber über dem "Sinnengeschmack" privilegiert. Für Bourdieu etwa ist daher Ästhetik eine Quelle distinktiver Praktiken, die es einer soziologischen "Vulgärkritik" der ästhetischen Urteilskraft zu unterziehen gilt. [Bourdieu 1982: 756pp, besonders: 761p.](https://www.suhrkamp.de/buch/pierre-bourdieu-die-feinen-unterschiede-t-9783518282588).
+Gleichwohl lässt sich innerhalb der Praxis eine Haltung zur Praxis entfalten, die darauf angelegt ist, der Art und Weise des Tuns gewahr zu bleiben. [Hetzel 2021, in Corsten <Hg.> 2021](https://www.velbrueck.de/Programm/Praxis-Ausueben-Begreifen.html).
+Diese Beobachtung gehört zu den Ausgangspunkten des GRK "Ästhetische Praxis" an der Universität Hildesheim (https://www.uni-hildesheim.de/grk-2477/).
 
 
