@@ -28,7 +28,7 @@ Gleichwohl finden sich in der Populären Kultur auch Formen, die sich durch die 
 
 ## Ästhetische Praxis
 
-Ästhetische Praxis lässt sich als ein Tun verstehen, das darauf zielt, die Wahrnehmung für das sinnliche Tun des Wahrnehmens zu schärfen. Mit ihr geht eine Weise der Geschmacksbildung einher, die den "Reflexionsgeschmack" gegenüber über dem "Sinnengeschmack" privilegiert. Für Bourdieu ([1982: 756pp, besonders: 761p.](https://www.suhrkamp.de/buch/pierre-bourdieu-die-feinen-unterschiede-t-9783518282588)) etwa ist daher Ästhetik eine Quelle distinktiver Praktiken, die es einer soziologischen "Vulgärkritik" der ästhetischen Urteilskraft zu unterziehen gilt.
+Ästhetische Praxis lässt sich als ein Tun verstehen, das die Wahrnehmung für das sinnliche Tun des Wahrnehmens aufmerksam macht. Mit ihr geht eine Weise der Geschmacksbildung einher, die den "Reflexionsgeschmack" gegenüber über dem "Sinnengeschmack" privilegiert. Für Bourdieu ([1982: 756pp, besonders: 761p.](https://www.suhrkamp.de/buch/pierre-bourdieu-die-feinen-unterschiede-t-9783518282588)) etwa ist daher Ästhetik eine Quelle distinktiver Praktiken, die es einer soziologischen "Vulgärkritik" der ästhetischen Urteilskraft zu unterziehen gilt.
 Gleichwohl lässt sich innerhalb der Praxis eine Haltung zur Praxis entfalten, die darauf angelegt ist, der Art und Weise des Tuns gewahr zu bleiben. ([Hetzel 2021, in Corsten <Hg.> 2021](https://www.velbrueck.de/Programm/Praxis-Ausueben-Begreifen.html)).
 Diese Beobachtung gehört zu den Ausgangspunkten des GRK ["Ästhetische Praxis"](https://www.uni-hildesheim.de/grk-2477/) an der Universität Hildesheim .
 
