@@ -14,7 +14,7 @@ In der Sozialtheorie und Soziologie existieren einige Ansätze, nach denen gesel
 
 ## Gesellschaftliche Praxis und symbolische Gewalt
 
-In der neueren Soziologie
+In der neueren Soziologie haben Pierre Bourdieu und Jean-Claude Passeron [1973](https://ixtheo.de/Record/125341954) das Theorem der symbolischen Gewalt eingeführt. Gesellschaftliche Praxis beruht demnach auf einer doppelten Konstitutionsweise. Auf der einen Seite erzeugen symbolische Kräfte Legitimationen, die geltende Bedeutungen sozialer Strukturen durchsetzen. Auf der anderen Seite beruht die Legitimation der sozial gültiger Bedeutung ebenso auf der faktisch ungleichen Verteilung von Machtmitteln und Durchsetzungschancen in den sozialen Verhältnissen, die sich qua symbolischer Praxis als legitim ausweisen. Bourdieu und Passeron ähneln sich dabei in ihrer Kritik an konsensualistischen Kommunikations- und Symboltheorien den Vertreter:innen des Poststrukturalismus wie Judith Butler oder Michel Foucault [Corsten 2017](https://www.researchgate.net/publication/323993104_The_Birth_of_Society_from_Symbolic_Violence). 
 
 ## Kommunikationsmacht und digitale Verbreitungsmedien
 
