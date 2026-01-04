@@ -21,7 +21,7 @@ interface Props {
 
 const { project, lang, variant = 'default' } = Astro.props;
 const t = labels[lang];
-const projectUrl = url(`/${lang}/de/forschung/projekte/${project.id.replace(`${lang}/`, '')}`);
+const projectUrl = url(`/${lang}/forschung/projekte/${project.id.replace(`${lang}/`, '')}`);
 ---
 
 <a href={projectUrl} class="block group">
