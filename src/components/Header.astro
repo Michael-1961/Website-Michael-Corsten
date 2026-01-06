@@ -24,12 +24,16 @@ const routeSlugs = {
 
 // Compute other language URL
 function getOtherLangUrl(path: string): string {
-  // Replace lang prefix (e.g., /Website-Michael-Corsten/de/ or /Website-Michael-Corsten/en/)
-  // First strip base path if present
-  const withoutBase = path.replace(/^\/Website-Michael-Corsten/, '');
-  // Then replace lang prefix
-  const newPath = withoutBase.replace(/^\/(de|en)/, `/${otherLang}`);
-  return url(newPath);
+  const base = import.meta.env.BASE_URL || '/';
+
+  // Remove base path and normalize trailing slash
+  let normalized = path.startsWith(base) ? path.slice(base.length) : path;
+  normalized = normalized.endsWith('/') ? normalized.slice(0, -1) : normalized;
+
+  // Swap language prefix
+  normalized = normalized.replace(/^\/(de|en)(\/|$)/, `/${otherLang}$2`);
+
+  return url(normalized);
 }
 
 const otherLangUrl = getOtherLangUrl(currentPath);

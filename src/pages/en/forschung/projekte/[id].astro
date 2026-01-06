@@ -4,6 +4,7 @@ import { getCollection, render } from 'astro:content';
 import labels from '../../../../content/labels.json';
 import RelatedPublications from '../../../../components/RelatedPublications.astro';
 import StatusBadge from '../../../../components/StatusBadge.astro';
+import { url } from '../../../../utils/paths';
 
 export async function getStaticPaths() {
   const projects = (await getCollection('forschungsprojekte')).filter(p => p.id.startsWith('en/'));
@@ -42,7 +43,7 @@ const metaItems = [
     <!-- Back Navigation -->
     <nav class="mb-8">
       <div class="flex flex-wrap items-center gap-2 text-sm">
-        <a href={`/Website-Michael-Corsten/en/forschung`} class="text-slate-500 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors flex items-center gap-1.5">
+        <a href={url(`${lang}/forschung`)} class="text-slate-500 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors flex items-center gap-1.5">
           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
           </svg>
@@ -52,7 +53,7 @@ const metaItems = [
           <>
             <span class="text-slate-300 dark:text-slate-600">/</span>
             <a
-              href={`/${lang}/en/forschung/schwerpunkte/${project.data.focus_area}.md`}
+              href={url(`${lang}/forschung/schwerpunkte/${project.data.focus_area}.md`)}
               class="text-slate-500 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
             >
               {focusArea.data.title}
@@ -66,7 +67,7 @@ const metaItems = [
     <header class="mb-10">
       {focusArea && (
         <a
-          href={`/${lang}/en/forschung/schwerpunkte/${project.data.focus_area}.md`}
+          href={url(`${lang}/forschung/schwerpunkte/${project.data.focus_area}.md`)}
           class="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 transition-colors mb-4"
         >
           <span class="w-2 h-2 rounded-full bg-blue-500"></span>
