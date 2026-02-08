@@ -47,17 +47,6 @@
           "link": "https://www.beltz.de/fileadmin/beltz/leseproben/9783779985242_shortened.pdf"
         },
         {
-          "id": "soziale-arbeit25",
-          "authors": "Corsten, Michael; Kahle, Patrick",
-          "title": "Soziale Arbeit als professionalisierte Solidarität",
-          "in": "Soziale Arbeit und Soziologie",
-          "editors": "Sander, T.; Langer, A.",
-          "location": "Weinheim",
-          "publisher": "Beltz Juventa",
-          "type": "chapter",
-          "link": "https://www.beltz.de/fileadmin/beltz/leseproben/9783779988885_shortened.pdf"
-        },
-        {
           "id": "B-Bildung-1",
           "authors": "Corsten, Michael",
           "title": "Babyboomer",
@@ -157,6 +146,17 @@
           "doi": "10.1007/978-3-658-39759-3_64-1"
         },
         {
+          "id": "soziale-arbeit25",
+          "authors": "Corsten, Michael; Kahle, Patrick",
+          "title": "Soziale Arbeit als professionalisierte Solidarität",
+          "in": "Soziale Arbeit und Soziologie",
+          "editors": "Sander, T.; Langer, A.",
+          "location": "Weinheim",
+          "publisher": "Beltz Juventa",
+          "type": "chapter",
+          "link": "https://www.beltz.de/fileadmin/beltz/leseproben/9783779988885_shortened.pdf"
+        },
+        {
           "authors": "Kahle, Patrick; Corsten, Michael",
           "title": "Why does domestic migration of refugees in rural arrival regions make no sense to professionals?",
           "in": "Rural Geographies in Transition: Rethinking sustainable futures of rural areas",
@@ -220,15 +220,6 @@
         },
         {
           "authors": "Corsten, Michael",
-          "title": "Sympathie für schmutzige Hände? Oder: Wie viel menschliche Imperfektion verträgt die Moral?",
-          "in": "Moral - Menschenrechte - Demokratie",
-          "pages": "11-23",
-          "type": "chapter",
-          "id": "haende23",
-          "doi": "10.1007/978-3-658-37698-7_2"
-        },
-        {
-          "authors": "Corsten, Michael",
           "title": "Pandemie-Respondenzen. Besonders die junge Generation ist stark gefordert.",
           "journal": "Weiterbildung. Zeitschrift für Grundlagen, Praxis und Trends.",
           "volume": "01/2023",
@@ -266,6 +257,7 @@
         {
           "authors": "Jafke, Larissa; Maleyka, Laura; Herma, Holger; Spindler, Karsten; Corsten, Michael; Audehm, Kathrin",
           "title": "Sich als Subjekt des Sprechens über das eigene Leben einführen",
+          "editors": "Bosančić, Saša; Brodersen, Folke; Pfahl, Lisa; Schürmann, Lena; Traue, Boris",
           "in": "Positioning the Subject: Methodologien der Subjektivierungsforschung",
           "type": "chapter",
           "id": "sich-subjekt22",
@@ -274,11 +266,22 @@
         {
           "authors": "Corsten, Michael",
           "title": "Biographie zwischen sozialer Funktion und sozialer Praxis",
+          "editors": "Klein, Christian",
           "in": "Handbuch Biographie: Methoden, Traditionen, Theorien",
           "pages": "143-151",
           "type": "chapter",
           "id": "biographie-funktion22",
           "doi": "10.1007/978-3-476-05229-2_15"
+        },
+        {
+          "authors": "Corsten, Michael",
+          "title": "Sympathie für schmutzige Hände? Oder: Wie viel menschliche Imperfektion verträgt die Moral?",
+          "in": "Moral - Menschenrechte - Demokratie",
+          "editors": "Rollmann, Olga; Kirchner, Anna; Benedetti, Sascha; Brück, Nina; Köbel, Nils",
+          "pages": "11-23",
+          "type": "chapter",
+          "id": "haende23",
+          "doi": "10.1007/978-3-658-37698-7_2"
         },
         {
           "authors": "Corsten, Michael",
@@ -510,6 +513,7 @@
           "authors": "Maleyka, Larissa; Oswald, Sascha; Herma, Holger; Corsten, Michael",
           "title": "Filmische Selbstdokumentationen als Datenmaterial",
           "in": "Handbuch Qualitative Videoanalyse",
+          "editors": "Moritz, Christine; Corsten, Michael",
           "pages": "719-733",
           "type": "chapter",
           "id": "filmische-sel18"
@@ -518,6 +522,7 @@
           "authors": "Audehm, Kathrin; Corsten, Michael; Frei, Peter; Hauenschild, Katrin",
           "title": "Ethnographie des Unterrichts mithilfe von Videodaten",
           "in": "Handbuch Qualitative Videoanalyse",
+          "editors": "Moritz, Christine; Corsten, Michael",
           "pages": "503-520",
           "type": "chapter",
           "id": "ethnographie18"
@@ -526,6 +531,7 @@
           "authors": "Corsten, Michael",
           "title": "Die 68er - The last Generation",
           "in": "Jahrbuch für Historische Bildungsforschung. Generationen- und Lebensverläufe",
+          "editors": "Baader, Meike; Casale, Rita",
           "type": "chapter",
           "id": "68er18"
         }
