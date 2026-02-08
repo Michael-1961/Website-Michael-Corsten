@@ -189,6 +189,9 @@
           "in": "Sozialwissenschaftliche Methoden und Methodologien: Temporalität, Materialität, Prozessorientierung - Gedächtnis",
           "editors": "Sebald, Gerd; Dimbath, Oliver; Haag, Hanna; Heinlein, Michael",
           "type": "chapter",
+          "pages": "117-136",
+          "location":"Wiesbaden",
+          "publisher":"Springer VS",
           "id": "laengsschnitt-designs23",
           "doi": "10.1007/978-3-658-41914-1_6"
         },
@@ -225,7 +228,7 @@
           "in": "Die Ökonomisierung des Sozialen – Vergesellschaftungsdynamiken in der Familie",
           "editors": "Funcke, Dorett; Krüger, Franziska",
           "locatiion": "Wiesbaden",
-          "publisher":"VS Springer",
+          "publisher":"Springer VS",
           "pages": "192-241",
           "id": "emotionsbalance23",
           "link": "https://www.researchgate.net/publication/396810349_Re-Traditionalisierung_oder_moralokonomische_Emotionsbalance_Familiarer_Alltag_vor_und_wahrend_Corona"
@@ -272,6 +275,9 @@
           "editors": "Bosančić, Saša; Brodersen, Folke; Pfahl, Lisa; Schürmann, Lena; Traue, Boris",
           "in": "Positioning the Subject: Methodologien der Subjektivierungsforschung",
           "type": "chapter",
+          "pages": "115-138",
+          "location":"Wiesbaden",
+          "publisher":"Springer VS",
           "id": "sich-subjekt22",
           "doi": "10.1007/978-3-658-38539-2_6"
         },
@@ -282,6 +288,8 @@
           "in": "Handbuch Biographie: Methoden, Traditionen, Theorien",
           "pages": "143-151",
           "type": "chapter",
+          "location": "Stuttgart",
+          "publisher": "Metzler",
           "id": "biographie-funktion22",
           "doi": "10.1007/978-3-476-05229-2_15"
         },
@@ -292,6 +300,8 @@
           "editors": "Rollmann, Olga; Kirchner, Anna; Benedetti, Sascha; Brück, Nina; Köbel, Nils",
           "pages": "11-23",
           "type": "chapter",
+          "location":"Wiesbaden",
+          "publisher":"Springer VS",
           "id": "haende23",
           "doi": "10.1007/978-3-658-37698-7_2"
         },
