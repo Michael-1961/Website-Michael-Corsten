@@ -505,6 +505,7 @@
           "authors": "Corsten, Michael",
           "title": "Videoanalyse - Quo vadis?",
           "in": "Handbuch Qualitative Videoanalyse",
+          "editors": "Moritz, Christine; Corsten, Michael",
           "pages": "799-817",
           "type": "chapter",
           "id": "videoanalyse-quo18"
@@ -534,6 +535,38 @@
           "editors": "Baader, Meike; Casale, Rita",
           "type": "chapter",
           "id": "68er18"
+        },
+        {
+          "authors": "Corsten, Michael",
+          "title": "Weltgesellschaft - eine soziologische Theoriechimäre",
+          "in": "Weltgesellschaft",
+          "editors": "Gehler, Michael; Vietta, Silvio",
+          "pages": "107-127",
+          "type": "chapter",
+          "id": "weltgesell",
+          "location": "Wien",
+          "publisher": "Böhlau"
+        },
+        {
+          "authors": "Corsten; Michael",
+          "title": "Dilettantisch/Professionell. Zur Autonomisierung des Felds der ästhetischen Praxis",
+          "in": "De-Professionalisierung der Künste",
+          "editors": "Krankenhagen, Stefan; Roselt, Jens",
+          "pages": "9-27",
+          "type": "chapter",
+          "id": "dilettantisch",
+          "location": "Berlin",
+          "publisher": "Kadmos"
+        },
+        {
+          "authors": "Corsten, Michael",
+          "title": "Erste Gedanken zum Buch »Erfindet Euch neu« von Michel Serres",
+          "in": "Eine Uni - ein Buch: Das zweite Buch",
+          "editors": "Graf, Guido; Schreiner, Martin",
+          "type": "chapter",
+          "id": "erfindetSerres",
+          "location": "Hildesheim",
+          "publisher": "Universitätsverlag"
         }
       ]
     },
