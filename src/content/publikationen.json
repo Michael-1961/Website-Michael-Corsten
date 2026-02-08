@@ -545,6 +545,7 @@
           "title": "Die 68er - The last Generation",
           "in": "Jahrbuch für Historische Bildungsforschung. Generationen- und Lebensverläufe",
           "editors": "Baader, Meike; Casale, Rita",
+          "pages": "227-253",
           "type": "chapter",
           "id": "68er18"
         },
@@ -552,7 +553,7 @@
           "authors": "Corsten, Michael",
           "title": "Weltgesellschaft - eine soziologische Theoriechimäre",
           "in": "Weltgesellschaft",
-          "editors": "Gehler, Michael; Vietta, Silvio",
+          "editors": "Gehler, Michael; Vietta, Silvio; Ziethen, Sanne",
           "pages": "107-127",
           "type": "chapter",
           "id": "weltgesell",
@@ -586,25 +587,61 @@
       "year": 2017,
       "entries": [
         {
+          "authors":"Corsten, Michael",
+          "title": "Generation und historische Zäsur",
+          "in": "Die Generationenforschung. Perspektiven und Grenzen der Methode für die historische Forschung der Geschichte des langen 20. Jahrhundert.",
+          "editors": "Hiebl, Ewald",
+          "type": "chapter",
+          "pages": "7-28",
+          "location": "Münster",
+          "id": "generation-zaesur",
+          "publisher": "LIT"
+        },
+        {
           "authors": "Corsten, Michael; Schierbaum, Anja",
           "title": "Habitusgenese und bildungsbiographische Selbsteliminierung",
-          "in": "Kongress der Deutschen Gesellschaft für Soziologie: Geschlossene Gesellschaften",
+          "in": "Geschlossene Gesellschaften. Verhandlungen des 38. Kongresses der Deutschen Gesellschaft für Soziologie: Geschlossene Gesellschaften",
+          "editors": "Lessenich, Stephan",
           "type": "conference",
+          "location": "Bamberg",
           "id": "habitusgenese17",
-          "doi": "10.21241/ssoar.104190"
+          "doi": "10.21241/ssoar.104190",
+          "link": "https://www.ssoar.info/ssoar/bitstream/handle/document/104190/ssoar-2017-corsten_et_al-Habitusgenese_und_bildungsbiographische_Selbsteliminierung.pdf?sequence=2"
         },
         {
           "authors": "Corsten, Michael",
           "title": "The Birth of Society from Symbolic Violence",
           "in": "112th Annual Meeting of the American Sociological Association: Culture, Cognition and Communication",
           "type": "conference",
-          "id": "birth-society17"
+          "location": "Montreal",
+          "id": "birth-society17",
+          "link": "https://www.researchgate.net/publication/323993104_The_Birth_of_Society_from_Symbolic_Violence"
         }
       ]
     },
     {
       "year": 2016,
       "entries": [
+        {
+          "authors":"Corsten, Michael",
+          "title": "Gegenkulturen und die Krise des Wir-Sinns. Worin sich »PEGIDA« und die »68er« überschneiden und unterscheiden",
+          "in": "INDES. Heft 3",
+          "type": "article",
+          "id": "Gegenkulturen",
+          "pages": "62-69",
+          "link": "https://indes-online.de/3-2016-gegenkulturen-und-die-krise-des-wir-sinns-pegida-68er"
+        },
+        {
+          "authors": "Corsten, Michael",
+          "title": "Wohin führen uns all diese Einführungen?",
+          "in": "Soziologische Revue",
+          "volume": "39, (3)",
+          "type": "article",
+          "id": "wohin_2016",
+          "pages": "365-378",
+          "doi":"10.1515/srsr-2016-0049",
+          "link":"https://www.degruyter.com/view/j/srsr.2016.39.issue-3/srsr-2016-0049/srsr-2016-0049.xml?format=INT"
+        },
         {
           "authors": "Audehm, Kathrin; Corsten, Michael; Frei, Peter; Hauenschild, Katrin",
           "title": "Resonanz als Individualisierung von Unterricht?",
@@ -620,6 +657,45 @@
           "type": "chapter",
           "id": "kinderrechte16",
           "doi": "10.1007/978-3-658-11687-3_11"
+        },
+        {
+          "authors": "Corsten, Michael; Gehler, Michael; Kneuer, Marianne (Hg.)",
+          "title": "Welthistorische Zäsuren. 1989 - 2001 - 2011",
+          "type":"book",
+          "id": "zaesuren-hg",
+          "location": "Hildesheim",
+          "publisher": "Olms"
+        },
+        {
+          "authors": "Corsten, Michael",
+          "title": "Wozu welthistorische Zäsuren?",
+          "in": "Welthistorische Zäsuren. 1989 - 2001 - 2014",
+          "editors": "Corsten, Michael; Gehler, Michael; Kneuer, Marianne",
+          "type": "chapter",
+          "pages": "13-36",
+          "id": "wozu-zaesuren",
+          "publisher": "Olms",
+          "location":"Hildesheim"
+        },
+        {
+          "authors": "Corsten, Michael",
+          "title": "Folgerungen für den Begriff der welthistorischen Zäsur",
+          "in": "Welthistorische Zäsuren. 1989 - 2001 - 2014",
+          "editors": "Corsten, Michael; Gehler, Michael; Kneuer, Marianne",
+          "type": "chapter",
+          "pages": "253-258",
+          "id": "zaesuren-folgen",
+          "publisher": "Olms",
+          "location":"Hildesheim"
+        },
+        {
+          "authors": "Corsten, Michael",
+          "title": "Nicht-Normale Normalität. Anspruchslogiken aus der Arbeitnehmermitte. Rezension des gleichnamigen Buches von Stefanie Hürtgen und Stefan Voswinkel",
+          "in": "sozialersinn",
+          "volume": "16 (1)",
+          "pages": "103-107",
+          "type": "article",
+          "id": "nicht-normal"
         }
       ]
     },
