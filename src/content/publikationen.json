@@ -106,7 +106,7 @@
           "link": "https://www.beltz.de/fachmedien/erziehungswissenschaft/produkte/details/55423-b-wie-bildung-66-bedeutsame-begriffe.html"
         },
         {
-          "id": "B-Bildung-",
+          "id": "B-Bildung-5",
           "authors": "Corsten, Michael",
           "title": "Broiler",
           "in": "B wie Bildung",
@@ -142,7 +142,7 @@
           "in": "Handbuch Sozialstrukturanalyse",
           "editors": "Böhnke, Petra; Konietzka, Dirk",
           "location": "Wiesbaden",
-          "publisher": "Springer VS",
+          "publisher": "Springer",
           "type": "chapter",
           "doi": "10.1007/978-3-658-39759-3_46-1"
         },
@@ -153,7 +153,7 @@
           "in": "Handbuch Sozialstrukturanalyse",
           "editors": "Böhnke, Petra; Konietzka, Dirk",
           "location": "Wiesbaden",
-          "publisher": "Springer VS",
+          "publisher": "Springer",
           "type": "chapter",
           "doi": "10.1007/978-3-658-39759-3_64-1"
         },
@@ -192,7 +192,7 @@
           "type": "chapter",
           "pages": "117-136",
           "location":"Wiesbaden",
-          "publisher":"Springer VS",
+          "publisher":"Springer",
           "id": "laengsschnitt-designs23",
           "doi": "10.1007/978-3-658-41914-1_6"
         },
@@ -229,7 +229,7 @@
           "in": "Die Ökonomisierung des Sozialen – Vergesellschaftungsdynamiken in der Familie",
           "editors": "Funcke, Dorett; Krüger, Franziska",
           "locatiion": "Wiesbaden",
-          "publisher":"Springer VS",
+          "publisher":"Springer",
           "pages": "192-241",
           "id": "emotionsbalance23",
           "link": "https://www.researchgate.net/publication/396810349_Re-Traditionalisierung_oder_moralokonomische_Emotionsbalance_Familiarer_Alltag_vor_und_wahrend_Corona"
@@ -278,7 +278,7 @@
           "type": "chapter",
           "pages": "115-138",
           "location":"Wiesbaden",
-          "publisher":"Springer VS",
+          "publisher":"Springer",
           "id": "sich-subjekt22",
           "doi": "10.1007/978-3-658-38539-2_6"
         },
@@ -302,14 +302,14 @@
           "pages": "11-23",
           "type": "chapter",
           "location":"Wiesbaden",
-          "publisher":"Springer VS",
+          "publisher":"Springer",
           "id": "haende23",
           "doi": "10.1007/978-3-658-37698-7_2"
         },
         {
           "authors": "Corsten, Michael",
           "title": "Soziologie der Dinge [Book Review]",
-          "journal": "KZfSS Kölner Zeitschrift für Soziologie und Sozialpsychologie",
+          "journal": "Kölner Zeitschrift für Soziologie und Sozialpsychologie",
           "volume": "74 (1)",
           "pages": "133-136",
           "type": "article",
@@ -357,7 +357,7 @@
           "in": "Handbuch Sozialwissenschaftliche Gedächtnisforschung",
           "editors": "Berek, Mathias et al.",
           "location": "Wiesbaden",
-          "publisher": "VS Springer",
+          "publisher": "Springer",
           "type": "chapter",
           "doi": "10.1007/978-3-658-26593-9_82-1"
         },
@@ -399,7 +399,7 @@
           "authors": "Corsten, Michael",
           "title": "Lebenslauf und Sozialisation",
           "location": "Wiesbaden",
-          "publisher": "VS Springer",
+          "publisher": "Springer",
           "type": "book",
           "doi": "10.1007/978-3-658-30397-6"
         },
@@ -441,7 +441,7 @@
           "authors": "Corsten, Michael; Pierburg, Melanie; Wolff, Dennis; Hauenschild, Katrin; Schmidt-Thieme, Barbara; Schütte, Ulrike; Zourelidis, Sabrina",
           "title": "Qualitative Videoanalyse in Schule und Unterricht",
           "location": "Weinheim",
-          "publisher": "Beltz/Juventa",
+          "publisher": "Beltz",
           "type": "edited"
         }
       ]
@@ -498,7 +498,7 @@
           "in": "Einstellungen und Verhalten der deutschen Bevölkerung. Blickpunkt Gesellschaft",
           "editors": "Siegers, Patrick et al.",
           "location": "Wiesbaden",
-          "publisher": "Springer VS",
+          "publisher": "VS Springer",
           "pages": "191-227",
           "type": "chapter",
           "doi": "10.1007/978-3-658-21999-4_7"
@@ -511,7 +511,7 @@
         {
           "authors": "Corsten, Michael; Moritz, Christine",
           "title": "Handbuch Qualitative Videoanalyse",
-          "publisher": "Springer VS",
+          "publisher": "VS Springer",
           "type": "edited",
           "id": "handbuch-qual18",
           "doi": "10.1007/978-3-658-15894-1"
@@ -522,6 +522,8 @@
           "in": "Alternative religions among European youth",
           "pages": "91-124",
           "type": "chapter",
+          "location": "Aldershot (2nd edition)",
+          "publisher": "Ashgate",
           "id": "ecstasy18"
         },
         {
@@ -531,6 +533,8 @@
           "editors": "Moritz, Christine; Corsten, Michael",
           "pages": "799-817",
           "type": "chapter",
+          "location": "Wiesbaden",
+          "publisher": "VS Springer",
           "id": "videoanalyse-quo18"
         },
         {
@@ -540,6 +544,8 @@
           "editors": "Moritz, Christine; Corsten, Michael",
           "pages": "719-733",
           "type": "chapter",
+          "location": "Wiesbaden",
+          "publisher": "VS Springer",
           "id": "filmische-sel18"
         },
         {
@@ -549,15 +555,17 @@
           "editors": "Moritz, Christine; Corsten, Michael",
           "pages": "503-520",
           "type": "chapter",
+          "location": "Wiesbaden",
+          "publisher": "VS Springer",
           "id": "ethnographie18"
         },
         {
           "authors": "Corsten, Michael",
           "title": "Die 68er - The last Generation",
-          "in": "Jahrbuch für Historische Bildungsforschung. Generationen- und Lebensverläufe",
+          "Journal": "Jahrbuch für Historische Bildungsforschung. Generationen- und Lebensverläufe (Special Issue)",
           "editors": "Baader, Meike; Casale, Rita",
           "pages": "227-253",
-          "type": "chapter",
+          "type": "article",
           "id": "68er18"
         },
         {
@@ -636,7 +644,7 @@
         {
           "authors":"Corsten, Michael",
           "title": "Gegenkulturen und die Krise des Wir-Sinns. Worin sich »PEGIDA« und die »68er« überschneiden und unterscheiden",
-          "in": "INDES. Heft 3",
+          "Journal": "INDES. Heft 3",
           "type": "article",
           "id": "Gegenkulturen",
           "pages": "62-69",
@@ -645,7 +653,7 @@
         {
           "authors": "Corsten, Michael",
           "title": "Wohin führen uns all diese Einführungen?",
-          "in": "Soziologische Revue",
+          "Journal": "Soziologische Revue",
           "volume": "39, (3)",
           "type": "article",
           "id": "wohin_2016",
@@ -672,7 +680,7 @@
         {
           "authors": "Corsten, Michael; Gehler, Michael; Kneuer, Marianne (Hg.)",
           "title": "Welthistorische Zäsuren. 1989 - 2001 - 2011",
-          "type":"book",
+          "type":"edited",
           "id": "zaesuren-hg",
           "location": "Hildesheim",
           "publisher": "Olms"
@@ -702,7 +710,7 @@
         {
           "authors": "Corsten, Michael",
           "title": "Nicht-Normale Normalität. Anspruchslogiken aus der Arbeitnehmermitte. Rezension des gleichnamigen Buches von Stefanie Hürtgen und Stefan Voswinkel",
-          "in": "sozialersinn",
+          "Journal": "sozialersinn",
           "volume": "16 (1)",
           "pages": "103-107",
           "type": "article",
@@ -752,7 +760,7 @@
         {
           "authors": "Beetz, Michael; Corsten, Michael; Rosa, Hartmut; Winkler, Torsten",
           "title": "Was bewegt Deutschland?",
-          "publisher": "Beltz Verlagsgruppe",
+          "publisher": "Beltz",
           "location": "Wiesbaden",
           "type": "book",
           "id": "was-bewegt14"
@@ -760,7 +768,7 @@
         {
           "authors": "Corsten, Michael",
           "title": "In this world of trouble my music pulls me through",
-          "in": "Musik Forum",
+          "Journal": "Musik Forum",
           "volume": "4/14",
           "type": "article",
           "id": "musicpullsme",
@@ -901,12 +909,14 @@
           "in": "Soziologie des Privaten",
           "pages": "201-223",
           "type": "chapter",
+          "location": "Wiesbaden",
+          "publisher": "VS Springer",
           "id": "private-populaer11"
         },
          {
           "authors": "Corsten, Michael",
           "title": "Karl Mannheim: Soziologie und Denkkrise der 1920er und 1930er Jahre. Sammelrezension neuerer englischsprachiger Titel zu Karl Mannheim",
-          "in": "Kölner Zeitschrift für Soziologie und Sozialpsychologie",
+          "Journal": "Kölner Zeitschrift für Soziologie und Sozialpsychologie",
           "type": "article",
           "volume": "63(4)",
           "id": "MannheimDenkkrise",
@@ -928,7 +938,7 @@
         {
           "authors": "Corsten, Michael; Krug, Melanie; Moritz, Christine",
           "title": "Videographie praktizieren: Herangehensweisen, Möglichkeiten und Grenzen",
-          "publisher": "Springer-Verlag",
+          "publisher": "VS Springer",
           "location": "Wiesbaden",
           "type": "edited",
           "id": "videographie10",
@@ -950,6 +960,8 @@
           "in": "Macht - Eigensinn - Engagement: Lernprozesse gesellschaftlicher Teilhabe",
           "pages": "41-61",
           "type": "chapter",
+          "location": "Wiesbaden",
+          "publisher": "VS Springer",
           "id": "nicht-engagierte10"
         },
         {
@@ -958,6 +970,8 @@
           "in": "Begegnungen von Kulturen",
           "pages": "7-13",
           "type": "chapter",
+          "location": "Wiesbaden",
+          "publisher": "VS Springer",
           "id": "kulturen-einleitung10"
         },
         {
@@ -995,6 +1009,8 @@
           "in": "Unsichere Zeiten: Herausforderungen gesellschaftlicher Transformationen",
           "pages": "263-264",
           "type": "chapter",
+          "publisher": "Campus Verlag",
+          "location": "Frankfurt am Main",
           "id": "transformation10"
         }
       ]
@@ -1005,7 +1021,12 @@
        {
           "authors": "Corsten, Michael; Rosa, Hartmut",
           "title": "Prekäre biographische Lagen und der Wir-Sinn einer neuen Jugendgeneration",
-          "type": "book",
+          "type": "chapter",
+          "in": "Zwischen Prekarisierung und Protest",
+          "editors": "Busch, Michael; Jeskow, Jan; Stutz, Rüdiger",
+          "publisher": "transcript",
+          "location": "Bielefeld",
+          "pages": "447-484",
           "id": "prekaer10"
         },
         {
@@ -1017,6 +1038,37 @@
           "type": "article",
           "id": "lokales-sozia09",
           "doi": "10.1515/fjsb-2009-0310"
+        },
+        {
+          "authors": "Corsten, Michael; Seidel, Romy",
+          "title": "Re-Aktiviert bürgerschaftliches Engagement",
+          "Journal": "WSI-Mitteilungen",
+          "volume": "62 (10)",
+          "pages": "567-572",
+          "id": "reaktiviert"
+        },
+        {
+          "authors": "Corsten, Michael",
+          "title": "Gesellschaft als institutionalisierte Anerkennungsordnung. Rezension des gleichnamigen Buchs von Christine Wimbauer, Annette Henninger und Markus Gottwald",
+          "Journal": "Kölner Zeitschrift für Soziologie und Sozialpsychologie",
+          "volume": "61 (3)",
+          "type": "article",
+          "pages": "478-483",
+          "id": "anerkennungsordnung"
+        },
+        {
+          "authors": "Corsten, Michael",
+          "title": "Wissenssoziologie. Online-Rezension des gleichnamigen Buchs von Sabine Maasen",
+          "Journal": "Socialnet",
+          "link": "http://www.socialnet.de/rezensionen/8168.php",
+          "id": "Wissenssoziologie"
+        },
+        {
+          "authors": "Corsten, Michael",
+          "title": "Handbuch Soziologische Theorien. Online-Rezension des gleichnamigen Buchs von Georg Kneer und Markus Schroer",
+          "Journal": "Socialnet",
+          "link": "http://www.socialnet.de/rezensionen/8168.php",
+          "id": "Handbuch-Theorie"
         }
       ]
     },
@@ -1029,6 +1081,14 @@
           "publisher": "VS Verlag für Sozialwissenschaften",
           "type": "book",
           "id": "quellen-b08"
+        },
+        {
+          "authors": "Corsten, Michael",
+          "title": "Beschleunigte Gesellschaftssysteme und verstockte Biographien",
+          "Journal": "Kritisches Jahrbuch der Philosophie",
+          "Volume": "12 (Special Issue: \"Rasender Stillstand\")",
+          "id": "verstockteBiographien",
+          "pages": "245-267"
         }
       ]
     },
