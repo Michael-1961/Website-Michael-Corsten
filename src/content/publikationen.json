@@ -123,6 +123,7 @@
     {
       "year": 2024,
       "entries": [
+
         {
           "id": "mythisierung24",
           "authors": "Corsten, Michael; Pierburg, Melanie",
@@ -716,8 +717,32 @@
           "authors": "Corsten, Michael; Herma, Holger",
           "title": "Internetbasierte Daten als sprachsoziologische Rätsel",
           "in": "Die qualitative Analyse internetbasierter Daten: Methodische Herausforderungen und Potenziale",
+          "editors": "Schirmer, Dominique; Sander, Nicole, Wenninger, Andreas",
           "type": "chapter",
-          "id": "internetdaten15"
+          "id": "internetdaten15",
+          "location": "Wiesbaden",
+          "publisher": "VS Springer",
+          "pages": "199-226"
+        },
+        {
+          "authors": "Corsten, Michael; Leser, Irene",
+          "title": "Wir haben da eine in unserer Klasse, die heißt Betty",
+          "in": "Sozialer Sinn",
+          "type": "article",
+          "volume": "15 (2)",
+          "pages": "197-218",
+          "id": "betty15"
+        },
+        {
+          "authors": "Corsten, Michael",
+          "title": "Geschlecherverhältnisse im Hollywoodfilm",
+          "in": "Bildung - Selbst(bild) - Geschlechterbilder",
+          "editors": "Baader, Meike et al.",
+          "id": "Hollywood",
+          "publisher": "LIT",
+          "type": "chapter",
+          "location": "Münster",
+          "pages": "343-372"
         }
       ]
     },
@@ -725,11 +750,31 @@
       "year": 2014,
       "entries": [
         {
-          "authors": "Beetz, Michael; Rosa, Hartmut; Winkler, Tobias; Corsten, Michael",
+          "authors": "Beetz, Michael; Corsten, Michael; Rosa, Hartmut; Winkler, Torsten",
           "title": "Was bewegt Deutschland?",
           "publisher": "Beltz Verlagsgruppe",
+          "location": "Wiesbaden",
           "type": "book",
           "id": "was-bewegt14"
+        },
+        {
+          "authors": "Corsten, Michael",
+          "title": "In this world of trouble my music pulls me through",
+          "in": "Musik Forum",
+          "volume": "4/14",
+          "type": "article",
+          "id": "musicpullsme",
+          "pages": "59-60"
+        },
+        {
+          "authors": "Corsten, Michael",
+          "title": "Leichtfertiger Beziehungstaumel - Gedanken zur Aktualität der Belle Époque",
+          "type": "chapter",
+          "in": "Programmheft zur Aufführung »Das weite Land«",
+          "editors": "Deutsches Theater",
+          "location": "Berlin",
+          "id": "belleepoque",
+          "pages": "10-15"
         }
       ]
     },
@@ -739,7 +784,8 @@
         {
           "authors": "Brose, Hans-Georg; Wohlrab-Sahr, Monika; Corsten, Michael",
           "title": "Soziale Zeit und Biographie: Über die Gestaltung von Alltagszeit und Lebenszeit",
-          "publisher": "Springer-Verlag",
+          "publisher": "VS Springer (2. elektronische Auflage)",
+          "location": "Wiesbaden",
           "type": "book",
           "id": "soziale-zeit13",
           "doi": "10.1007/978-3-322-97034-3"
@@ -747,23 +793,26 @@
         {
           "authors": "Corsten, Michael",
           "title": "Das Ich und die Liebe: Subjektivität, Intimität, Vergesellschaftung",
-          "publisher": "Springer-Verlag",
+          "publisher": "VS Springer (2. elektronische Auflage)",
           "type": "book",
+          "location": "Wiesbaden",
           "id": "liebe13",
           "doi": "10.1007/978-3-322-93666-0"
         },
         {
-          "authors": "Barlösius, Eva; Bröckling, Ulrich; Deutschmann, Christoph; Fischer, Joachim; Giegel, Hans-Joachim; Hark, Sabine; et al.",
+          "authors": "Corsten, Michael; Kauppert, Michael",
           "title": "Der Mensch - nach Rücksprache mit der Soziologie",
           "publisher": "Campus Verlag",
+          "location": "Frankfurt am Main",
           "type": "edited",
           "id": "mensch13"
         },
         {
-          "authors": "Kauppert, Michael; Corsten, Michael",
-          "title": "Tiefsinnige Frage, leichtfertige Antworten? Der Mensch vor einer Rücksprache mit der Soziologie",
+          "authors": "Corsten, Michael",
+          "title": "Nachwort",
           "in": "Der Mensch - nach Rücksprache mit der Soziologie",
-          "pages": "7-31",
+          "editors": "Corsten, Michael; Kauppert, Michael",
+          "pages": "303-318",
           "type": "chapter",
           "id": "mensch-frage13"
         }
@@ -777,14 +826,32 @@
           "title": "Die subjektive Entschiedenheit beruflicher Praxis - Annotationen zur Theorie des beruflichen Habitus",
           "in": "Beruflichkeit zwischen institutionellem Wandel und biographischem Projekt",
           "type": "chapter",
-          "id": "subjektive-entschieden12"
+          "editors": "Bolder, Axel",
+          "id": "subjektive-entschieden12",
+          "publisher":"VS Springer",
+          "location": "Wiesbaden",
+          "pages": "319-335"
         },
         {
           "authors": "Beetz, Michael; Corsten, Michael; Rosa, Hartmut; Winkler, Tobias",
           "title": "Mitmachen und Mitreden. Sozialmoralische Orientierungen von bürgerschaftlich Engagierten im Ost-West-Vergleich",
           "in": "Aufbruch der entsicherten Gesellschaft: Deutschland nach der Wiedervereinigung",
+          "editors": "Best, Heinrich; Holtmann, Everhard",
           "type": "chapter",
-          "id": "sozialmoralisch12"
+          "id": "sozialmoralisch12",
+          "publisher":"Campus Verlag",
+          "location": "Frankfurt am Main",
+          "pages": "328-346"
+        },
+        {
+          "authors": "Corsten, Michael; Winkler, Torsten",
+          "title": "Sozialmoralische Landkarten transnationaler Solidarität",
+          "in": "Transnationale Vergesellschaftungen",
+          "editors": "Soeffner, Hans-Georg",
+          "id": "transnationalsolidar",
+          "type": "conference",
+          "location": "Wiesbaden",
+          "publisher": "VS Springer"
         }
       ]
     },
@@ -802,12 +869,23 @@
           "id": "medien11"
         },
         {
+         "authors": "Corsten, Michael",
+         "title": "I Media come novita storice per le giovani generazioni",
+         "in": "Media + Generations. Identità Generazionale e Processi mediatizzazione",
+         "editors": "Aroldi, Piermarco",
+         "location": "Milano",
+         "id": "novita",
+         "pages": "19-33"
+        },
+        {
           "authors": "Corsten, Michael",
           "title": "Quantitative und qualitative Methoden: Methodenpluralismus in den Kulturwissenschaften?",
           "in": "Handbuch der Kulturwissenschaften",
           "pages": "175-192",
           "type": "chapter",
-          "id": "quantitative11"
+          "id": "quantitative11",
+          "location": "Stuttgart",
+          "publisher": "Metzler"
         },
         {
           "authors": "Corsten, Michael",
@@ -819,46 +897,42 @@
         },
         {
           "authors": "Corsten, Michael",
-          "title": "Was ist eigentlich aus den katholischen Arbeitertöchtern vom Lande geworden?",
-          "in": "Genderkompetenz und Schulwelten: Alte Ungleichheiten - neue Hemmnisse",
-          "pages": "55-67",
-          "type": "chapter",
-          "id": "arbeitertoechter11"
-        },
-        {
-          "authors": "Bohler, Karl Friedrich; Corsten, Michael",
-          "title": "Begegnungen von Kulturen",
-          "publisher": "VS Verlag",
-          "type": "edited",
-          "id": "kulturen11"
-        },
-        {
-          "authors": "Corsten, Michael",
           "title": "Das Private im Populären - der charmante Dilettantismus der Lena Meyer-Landrut",
           "in": "Soziologie des Privaten",
           "pages": "201-223",
           "type": "chapter",
           "id": "private-populaer11"
-        }
+        },
+         {
+          "authors": "Corsten, Michael",
+          "title": "Karl Mannheim: Soziologie und Denkkrise der 1920er und 1930er Jahre. Sammelrezension neuerer englischsprachiger Titel zu Karl Mannheim",
+          "in": "Kölner Zeitschrift für Soziologie und Sozialpsychologie",
+          "type": "article",
+          "volume": "63(4)",
+          "id": "MannheimDenkkrise",
+          "pages": "676-682"
+          }
       ]
     },
     {
       "year": 2010,
       "entries": [
+       {
+          "authors": "Corsten, Michael",
+          "title": "Karl Mannheims Kultursoziologie: Eine Einführung",
+          "publisher": "Campus Verlag",
+          "location": "Frankfurt am Main",
+          "type": "book",
+          "id": "karl-mannheim10"
+        },
         {
           "authors": "Corsten, Michael; Krug, Melanie; Moritz, Christine",
           "title": "Videographie praktizieren: Herangehensweisen, Möglichkeiten und Grenzen",
           "publisher": "Springer-Verlag",
+          "location": "Wiesbaden",
           "type": "edited",
           "id": "videographie10",
           "doi": "10.1007/978-3-531-92054-2"
-        },
-        {
-          "authors": "Corsten, Michael",
-          "title": "Karl Mannheims Kultursoziologie: Eine Einführung",
-          "publisher": "Campus Verlag",
-          "type": "book",
-          "id": "karl-mannheim10"
         },
         {
           "authors": "Corsten, Michael",
@@ -866,6 +940,8 @@
           "in": "Videographie praktizieren: Herangehensweisen, Möglichkeiten und Grenzen",
           "pages": "7-22",
           "type": "chapter",
+          "location": "Wiesbaden",
+          "publisher": "VS Springer",
           "id": "videographie-einleitung10"
         },
         {
@@ -885,25 +961,33 @@
           "id": "kulturen-einleitung10"
         },
         {
-          "authors": "Corsten, Michael; Rosa, Hartmut",
-          "title": "Prekäre biographische Lagen und der Wir-Sinn einer neuen Jugendgeneration",
-          "type": "book",
-          "id": "prekaer10"
+          "authors": "Bohler, Karl Friedrich; Corsten, Michael",
+          "title": "Begegnungen von Kulturen",
+          "publisher": "VS Springer",
+          "location": "Wiesbaden",
+          "type": "edited",
+          "id": "kulturen11"
+        },
+        {
+          "authors": "Corsten, Michael",
+          "title": "Was ist eigentlich aus den katholischen Arbeitertöchtern vom Lande geworden?",
+          "in": "Genderkompetenz und Schulwelten: Alte Ungleichheiten - neue Hemmnisse",
+          "editors": "Krüger, Dorothea",
+          "pages": "55-67",
+          "type": "chapter",
+          "id": "arbeitertoechter11",
+          "location": "Wiesbaden",
+          "publisher": "VS Springer"
         },
         {
           "authors": "Corsten, Michael",
           "title": "Berufliche Sozialisationstheorie und -forschung",
+          "in": "Enzyklopädie Erziehungswissenschaften Online. Berufs- und Wirtschaftspädagogik",
+          "editors": "Büchter, Karin",
           "publisher": "Juventa-Verlag",
-          "type": "book",
-          "id": "berufsozialis10"
-        },
-        {
-          "authors": "Corsten, Michael; Bohler, Karl Friedrich; Rosa, Hartmut",
-          "title": "Kultur und gesellschaftliche Praxis",
-          "in": "Videographie praktizieren: Herangehensweisen, Möglichkeiten und Grenzen",
-          "publisher": "VS-Verlag",
           "type": "chapter",
-          "id": "kultur-praxis10"
+          "id": "berufsozialis10",
+          "link": "https://www.beltz.de/fachmedien/erziehungswissenschaft/enzyklopaedie_erziehungswissenschaft_online_eeo/artikel/10006-berufliche-sozialisationstheorie-und-forschung.html"
         },
         {
           "authors": "Best, Heinrich; Bluhm, Katharina; Corsten, Michael",
@@ -918,6 +1002,12 @@
     {
       "year": 2009,
       "entries": [
+       {
+          "authors": "Corsten, Michael; Rosa, Hartmut",
+          "title": "Prekäre biographische Lagen und der Wir-Sinn einer neuen Jugendgeneration",
+          "type": "book",
+          "id": "prekaer10"
+        },
         {
           "authors": "Corsten, Michael",
           "title": "Lokales Sozialkapital als sozial-moralische Landkarte: Subjektive Visualisierungen der eigenen Stadt",
