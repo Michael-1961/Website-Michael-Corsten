@@ -2,8 +2,8 @@
 title: On the Analytical Potential of Qualitative Longitudinal Interviews in Empirical Socialization Research
 years: "2019-2023"
 status: abgeschlossen
-lead: "Prof. Dr. Kathrin Audehm, Prof. Dr. Michael Corsten, PD Dr. Holger Herma"
-team: "Dr. Laura Maleyka, Jessica Schülein"
+lead: "Prof. Dr. Kathrin Audehm, Prof. Dr. Michael Corsten, Prof. Dr. Holger Herma"
+team: "Dr. Laura Maleyka, Dr. Jessica Schülein"
 funding: "DFG"
 focus_area: Biographieforschung
 ---

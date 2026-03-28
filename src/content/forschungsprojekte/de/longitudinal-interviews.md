@@ -3,7 +3,7 @@ title: Zum analytischen Potential qualitativer Längsschnittinterviews im Rahmen
 years: "2019-2023"
 status: abgeschlossen
 lead: "Prof. Dr. Kathrin Audehm, Prof. Dr. Michael Corsten, Prof. Dr. Holger Herma"
-team: "Dr. Laura Maleyka, Jessica Schülein"
+team: "Dr. Laura Maleyka, Dr. Jessica Schülein"
 funding: "DFG"
 focus_area: Biographieforschung
 ---
