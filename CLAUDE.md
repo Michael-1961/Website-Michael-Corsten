@@ -6,21 +6,18 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This is a bilingual (German/English) academic website for Prof. Dr. Michael Corsten, a sociology professor at the University of Hildesheim. The site is built with Astro 5.0, uses static site generation, and features research projects, publications, and curriculum vitae.
 
-## Development Commands
+## Workflow
 
-```bash
-# Start development server
-npm run dev
+1. **Local development**: `npm run dev` — starts the Astro dev server with hot-reload
+2. **Deploy**: Push to `main` — GitHub Actions (`.github/workflows/deploy.yml`) automatically builds and deploys to GitHub Pages
 
-# Build for production (validates publications automatically)
-npm run build
+The build step (run by CI) includes publication reference validation, so broken references will fail the deploy.
 
-# Validate publication references independently
-npm run validate:publications
+### Other available commands (not needed for normal workflow)
 
-# Preview production build
-npm run preview
-```
+- `npm run build` — run the production build locally (includes publication validation)
+- `npm run validate:publications` — validate publication references without building
+- `npm run preview` — serve the last local production build
 
 ## Architecture
 
