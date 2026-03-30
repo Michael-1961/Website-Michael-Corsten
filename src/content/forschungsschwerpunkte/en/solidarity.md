@@ -6,6 +6,8 @@ subtopics:
 - ‘Discourses on solidarity in crises’
 - ‘Organisation of solidarity in the welfare state’
 - ‘Civil society engagement’
+papers:
+- claiming-soli22
 ---
 
 

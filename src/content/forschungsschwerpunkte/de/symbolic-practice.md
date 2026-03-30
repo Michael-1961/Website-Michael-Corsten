@@ -6,6 +6,11 @@ subtopics:
   - "Kommunikationsmacht und digitale Verbreitungsmedien"
   - "Populäre Kultur und die symbolische Modernisierung der Moderne"
   - "Ästhetische Praxis"
+papers:
+  - resonanz25
+  - identitaet24
+  - kommacht23
+  - symbolische-p20
 ---
 
 Der Forschungsschwerpunkt befasst sich mit der Frage, inwiefern symbolische Praxis und im Besonderen symbolische Gewalt konstitutiv für Prozesse der Vergesellschaftung sind.

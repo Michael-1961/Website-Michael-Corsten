@@ -6,6 +6,11 @@ subtopics:
 - ‘Communicative Power and Digital Distribution Media’
 - ‘Popular Culture and the Symbolic Modernisation of Modernity’
 - ‘Aesthetic Practice’
+papers:
+  - resonanz25
+  - identitaet24
+  - kommacht23
+  - symbolische-p20
 ---
 This research focus addresses the question of the extent to which symbolic practice, and symbolic violence in particular, are constitutive for processes of socialisation.
 In social theory and sociology, there are several approaches according to which social practice is based on the use of signs or meaning. These include Ludwig Wittgenstein's “theory of the use of meaning” in linguistic philosophy, speech act theory (John L. Austin, John Searle) and Pierre Bourdieu's theory of symbolic practice. My research builds on these approaches and also integrates further elements from sociological theories of knowledge and social pragmatism (Karl Mannheim, William I. Thomas, John Dewey). see [Corsten 2020](https://www.degruyterbrill.com/document/doi/10.1515/zfsoz-2020-0002/html).

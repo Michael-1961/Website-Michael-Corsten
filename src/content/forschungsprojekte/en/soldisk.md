@@ -7,6 +7,11 @@ team:
 funding: "Lower Saxony Ministry of Science and Culture, Volkswagen Foundation"
 years: "2019-2021"
 focus_area: solidarity
+papers: 
+- claiming-soli22
+- polkultur23
+- refugees24
+- soziale-arbeit25
 ---
 ## Analysis and explanation of notions of solidarity in migration contexts
 

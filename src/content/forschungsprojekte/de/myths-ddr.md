@@ -11,6 +11,9 @@ funding: "BMBF"
 years: "2019-2023"
 status: abgeschlossen
 focus_area: Biographieforschung
+papers: 
+- schicksal23
+- mythos21
 ---
 
 ## Zusammenfassung

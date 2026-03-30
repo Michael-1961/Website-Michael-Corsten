@@ -7,6 +7,8 @@ subtopics:
   - "Solidaritätsdiskurse in Krisen"
   - "Organisation von Solidarität im Sozialstaat"
   - "Zivilgesellschaftliches Engagement"
+papers:
+- claiming-soli22
 ---
 
 

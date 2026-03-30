@@ -9,6 +9,8 @@ team:
 funding: "DFG"
 years: "2019-2028"
 focus_area: symbolic-practice
+papers:
+- praxis21
 ---
 
 
