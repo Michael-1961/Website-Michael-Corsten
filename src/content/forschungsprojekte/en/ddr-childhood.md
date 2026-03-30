@@ -8,8 +8,8 @@ funding: ‘BMBF/BMFTR’
 years: ‘2023-2025’
 focus_area: Biographieforschung
 papers: 
-- mythisierung24
-- ddr23
+  - mythisierung24
+  - ddr23
 ---
 
 ## Case study: Re-mythologisation as a real product of socialist personality development

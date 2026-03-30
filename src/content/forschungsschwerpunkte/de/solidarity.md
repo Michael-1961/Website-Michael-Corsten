@@ -8,7 +8,7 @@ subtopics:
   - "Organisation von Solidarität im Sozialstaat"
   - "Zivilgesellschaftliches Engagement"
 papers:
-- claiming-soli22
+  - claiming-soli22
 ---
 
 

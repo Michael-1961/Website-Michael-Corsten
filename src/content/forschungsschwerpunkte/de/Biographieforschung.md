@@ -8,10 +8,10 @@ subtopics:
   - "Biographie, Lebenslauf und Generation"
   - "Autobiographisches Erzählen und Mythisierung"
 papers:
-- biographie-realitaet94
-- bildungsaspir19
-- lebenslauf-so20
-- sich-subjekt22
+  - biographie-realitaet94
+  - bildungsaspir19
+  - lebenslauf-so20
+  - sich-subjekt22
 ---
 
 ## Die soziale Komplexität der Biographie

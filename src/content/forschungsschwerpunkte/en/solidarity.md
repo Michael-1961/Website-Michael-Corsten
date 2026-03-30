@@ -7,7 +7,7 @@ subtopics:
 - ‘Organisation of solidarity in the welfare state’
 - ‘Civil society engagement’
 papers:
-- claiming-soli22
+    - claiming-soli22
 ---
 
 

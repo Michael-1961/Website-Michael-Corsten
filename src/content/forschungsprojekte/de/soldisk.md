@@ -8,10 +8,10 @@ funding: "Niedersächsisches Ministerium für Wissenschaft und Kultur, Volkswage
 years: "2019-2021"
 focus_area: solidarity
 papers: 
-- claiming-soli22
-- polkultur23
-- refugees24
-- soziale-arbeit25
+  - claiming-soli22
+  - polkultur23
+  - refugees24
+  - soziale-arbeit25
 ---
 
 ## Analyse und Erklärung von Solidaritätsvorstellungen in Migrationkontexten

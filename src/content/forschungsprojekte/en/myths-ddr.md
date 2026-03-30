@@ -11,8 +11,8 @@ funding: “BMBF”
 years: ‘2019-2023’
 focus_area: Biographieforschung
 papers: 
-- schicksal23
-- mythos21
+  - schicksal23
+  - mythos21
 ---
 ## Summary
  
