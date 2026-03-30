@@ -1,7 +1,12 @@
 ---
 title: "Automatic segmentation and segment classification of autobiographical narratives"
-lead: "Prof. Dr. Michael Corsten, Prof. Dr. Ulrich Heid"
-team: "Dr. Fritz Kliche, Dr. Laura Maleyka"
+lead:
+  - name: "Prof. Dr. Michael Corsten"
+  - name: "Prof. Dr. Ulrich Heid"
+    url: "https://www.uni-hildesheim.de/fb3/institute/iwist/mitglieder/heid/"
+team:
+  - name: "Dr. Fritz Kliche"
+  - name: "Dr. Laura Maleyka"
 funding: "Own funds"
 years: "2025-x"
 focus_area: Biographieforschung

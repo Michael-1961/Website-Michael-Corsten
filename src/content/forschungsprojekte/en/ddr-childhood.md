@@ -1,6 +1,8 @@
 ---
 title: Re-mythologisation as a real product of socialist personality development
-team: ‘Prof. Dr. Michael Corsten, Dr. Melanie Pierburg’
+team:
+  - name: "Prof. Dr. Michael Corsten"
+  - name: "Dr. Melanie Pierburg"
 funding: ‘BMBF/BMFTR’
 years: ‘2023-2025’
 focus_area: Biographieforschung

@@ -5,6 +5,7 @@ import labels from '../../../../content/labels.json';
 import RelatedPublications from '../../../../components/RelatedPublications.astro';
 import ProjectCard from '../../../../components/ProjectCard.astro';
 import StatusBadge from '../../../../components/StatusBadge.astro';
+import PersonList from '../../../../components/PersonList.astro';
 import { url } from '../../../../utils/paths';
 
 // Helper function to create URL-friendly IDs from text
@@ -41,9 +42,9 @@ const linkedProjects = allProjects
 
 // Collect metadata items
 const metaItems = [
-  { icon: 'user', label: t.labels.responsible, value: area.data.lead },
-  { icon: 'team', label: t.labels.researchTeam, value: area.data.team },
-].filter(item => item.value);
+  { icon: 'user', label: t.labels.responsible, people: area.data.lead },
+  { icon: 'team', label: t.labels.researchTeam, people: area.data.team },
+].filter(item => item.people && item.people.length > 0);
 ---
 
 <BaseLayout title={`${area.data.title} - Prof. Dr. Michael Corsten`} lang={lang}>
@@ -88,7 +89,7 @@ const metaItems = [
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
               </svg>
             )}
-            <span>{item.value}</span>
+            <span class="text-slate-600 dark:text-slate-400"><PersonList people={item.people!} /></span>
           </div>
         ))}
       </div>

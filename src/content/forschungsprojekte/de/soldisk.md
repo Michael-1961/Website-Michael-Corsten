@@ -1,6 +1,8 @@
 ---
 title: "SOLDISK: Solidaritätsdiskurse in Krisen - Mesoebene: die soziale Organisation von Solidarität"
-team: "Prof. Dr. Michael Corsten, Patrick Kahle"
+team:
+  - name: "Prof. Dr. Michael Corsten"
+  - name: "Patrick Kahle"
 funding: "Niedersächsisches Ministerium für Wissenschaft und Kultur, VolkswagenStiftung"
 years: "2019-2021"
 focus_area: solidarity

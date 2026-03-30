@@ -1,0 +1,30 @@
+---
+interface Person {
+  name: string;
+  url?: string;
+}
+
+interface Props {
+  people: Person[];
+}
+
+const { people } = Astro.props;
+---
+
+{people.map((person, i) => (
+  <>
+    {person.url ? (
+      <a
+        href={person.url}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="text-blue-600 dark:text-blue-400 hover:underline"
+      >
+        {person.name}
+      </a>
+    ) : (
+      <span>{person.name}</span>
+    )}
+    {i < people.length - 1 && ', '}
+  </>
+))}

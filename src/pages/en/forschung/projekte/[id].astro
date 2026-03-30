@@ -4,6 +4,7 @@ import { getCollection, render } from 'astro:content';
 import labels from '../../../../content/labels.json';
 import RelatedPublications from '../../../../components/RelatedPublications.astro';
 import StatusBadge from '../../../../components/StatusBadge.astro';
+import PersonList from '../../../../components/PersonList.astro';
 import { url } from '../../../../utils/paths';
 
 export async function getStaticPaths() {
@@ -28,14 +29,14 @@ if (project.data.focus_area) {
   );
 }
 
-// Collect metadata items
+// Collect metadata items (people = array of {name, url?}, value = plain string)
 const metaItems = [
-  { icon: 'user', label: t.labels.projectLead, value: project.data.lead },
-  { icon: 'team', label: t.labels.team, value: project.data.team },
+  { icon: 'user', label: t.labels.projectLead, people: project.data.lead },
+  { icon: 'team', label: t.labels.team, people: project.data.team },
   { icon: 'funding', label: t.labels.funding, value: project.data.funding },
   { icon: 'duration', label: t.labels.duration, value: project.data.duration },
   { icon: 'contact', label: t.labels.contact, value: project.data.contact },
-].filter(item => item.value);
+].filter(item => item.value || (item.people && item.people.length > 0));
 ---
 
 <BaseLayout title={`${project.data.title} - Prof. Dr. Michael Corsten`} lang={lang}>
@@ -115,7 +116,9 @@ const metaItems = [
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
               </svg>
             )}
-            <span>{item.value}</span>
+            <span class="text-slate-600 dark:text-slate-400">
+              {item.people ? <PersonList people={item.people} /> : item.value}
+            </span>
           </div>
         ))}
       </div>

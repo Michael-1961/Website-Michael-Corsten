@@ -1,6 +1,8 @@
 ---
 title: "SOLDISK: Discourses of solidarity in crises – Meso level: the social organisation of solidarity"
-team: "Prof. Dr. Michael Corsten, Patrick Kahle"
+team:
+  - name: "Prof. Dr. Michael Corsten"
+  - name: "Patrick Kahle"
 funding: "Lower Saxony Ministry of Science and Culture, Volkswagen Foundation"
 years: "2019-2021"
 focus_area: solidarity

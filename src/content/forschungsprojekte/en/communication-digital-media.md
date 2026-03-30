@@ -1,7 +1,11 @@
 ---
 title: Communication and Digital Media
-lead: "Prof. Dr. Michael Corsten, Prof. Dr. Holger Herma"
-team: "Dr. Laura Maleyka, Dr. Sascha Oswald"
+lead:
+  - name: "Prof. Dr. Michael Corsten"
+  - name: "Prof. Dr. Holger Herma"
+team:
+  - name: "Dr. Laura Maleyka"
+  - name: "Dr. Sascha Oswald"
 focus_area: symbolic-practice
 subtopics:
   - "Digital distribution media and communication power"

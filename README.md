@@ -58,8 +58,13 @@ The files use frontmatter (metadata between `---` markers at the top) for inform
 title: "Project Title"
 order: 1
 focus_area: symbolic-practice
-lead: "Project Lead"
-team: "Team Members"
+lead:
+  - name: "Prof. Dr. Michael Corsten"
+  - name: "Prof. Dr. Ulrich Heid"
+    url: "https://www.uni-hildesheim.de/fb3/institute/iwist/mitglieder/heid/"
+team:
+  - name: "Dr. Fritz Kliche"
+  - name: "Dr. Laura Maleyka"
 funding: "Funding Source"
 years: "2020-2023"
 papers:
@@ -70,6 +75,7 @@ papers:
 Content in markdown...
 ```
 
+- `lead` and `team` are lists of people. Each person has a `name` and an optional `url`. When `url` is provided, the name becomes a clickable link on detail pages.
 - `order` controls display order. Entries are sorted by order (lowest first) then alphabetically by title. Missing order means last.
 - `focus_area` links project to a focus area (use focus area filename without extension)
 - `papers` links to publications from `publikationen.json` by ID

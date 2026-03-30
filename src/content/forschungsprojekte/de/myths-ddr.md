@@ -1,6 +1,10 @@
 ---
 title: Mythen in erzählten Bildungs- und Kindheitserfahrungen der DDR
-team: "Prof. Dr. Michael Corsten, Dr. Melanie Pierburg, Larissa Jafke (2019-20), Dr. Simon Gordt (2020-21)"
+team:
+  - name: "Prof. Dr. Michael Corsten"
+  - name: "Dr. Melanie Pierburg"
+  - name: "Larissa Jafke (2019-20)"
+  - name: "Dr. Simon Gordt (2020-21)"
 funding: "BMBF"
 years: "2019-2023"
 status: abgeschlossen
@@ -8,8 +12,8 @@ focus_area: Biographieforschung
 ---
 
 ## Zusammenfassung
- 
-Die Fallstudie widmet sich der Analyse von "Mythen in erzählten Bildungs- und Kindheitserfahrungen der DDR" anhand von Zeitzeug_inneninterviews bezogen auf Bilder von Kindheit, Schule und Erziehung. Es wird eine auf Bildungsmythen bezogene Analyse der vorliegenden biographischen Interviews durchgeführt, neue Interviews mit damaligen Befragten werden erhoben, ausgewertet und mit den Ergebnissen der Re-Analyse verglichen. Konzeptionell und methodisch orientiert sich die Fallstudie an Theorien des sozialen Gedächtnisses (Halbwachs 1985, Assmann 1999, Welzer 2006), der strukturalen Mythentheorie (Barthes 2010) und an der Oral History (Thompson 1973, Niethammer 1991). 
+
+Die Fallstudie widmet sich der Analyse von "Mythen in erzählten Bildungs- und Kindheitserfahrungen der DDR" anhand von Zeitzeug_inneninterviews bezogen auf Bilder von Kindheit, Schule und Erziehung. Es wird eine auf Bildungsmythen bezogene Analyse der vorliegenden biographischen Interviews durchgeführt, neue Interviews mit damaligen Befragten werden erhoben, ausgewertet und mit den Ergebnissen der Re-Analyse verglichen. Konzeptionell und methodisch orientiert sich die Fallstudie an Theorien des sozialen Gedächtnisses (Halbwachs 1985, Assmann 1999, Welzer 2006), der strukturalen Mythentheorie (Barthes 2010) und an der Oral History (Thompson 1973, Niethammer 1991).
 Im Zentrum der Fallstudie steht das reflexive Transferpotenzial prägnanter Zeitzeugen-Erzählungen für das Problem wie historisches Wissen über die Bildungsprozesse der DDR im Zusammenspiel zwischen Weitergabe und Umdeutung im kommunikativen Gedächtnis der Gesellschaft bestehen bleibt und transformiert wird.
 
 Die Fallstudie gehört zum Forschungsverbund "Bildungsmythen der DDR" und ist an der Universität Hildesheim im Teilprojekt "Konstruktionen der Kindheit" verortet.
@@ -18,7 +22,7 @@ Die Fallstudie gehört zum Forschungsverbund "Bildungsmythen der DDR" und ist an
 
 Beteiligte Institutionen: Bibliothek für Bildungsgeschichtliche Forschung Berlin, Humboldt Universität zu Berlin, Universität Rostock, Universität Hildesheim
 
-Link: https://bildungsmythen-ddr.de/projekt
+Link: <https://bildungsmythen-ddr.de/projekt>
 
 Sprecherin des Verbunds: Prof. Dr. Sabine Reh
 
@@ -31,7 +35,3 @@ Team des Teilprojekts:
 Prof. Dr. Meike Sophia Baader, Prof. Dr. Michael Corsten, Dr. Simon Gordt (2020-2021), Dr. Sandra Koch, Friederike Neumann, Dr. Melanie Pierburg"
 
 Das Teilprojekt der Universität der Hildesheim besteht aus den Fallstudien „Mythen in erzählten Bildungs‐ und Kindheitserfahrungen der DDR“ (Prof. Dr. Michael Corsten) und "Bilderwelten in Kinderliteratur und Schulbüchern der DDR“ (Prof. Dr. Meike Sophia Baader)
-
-
- 
- 

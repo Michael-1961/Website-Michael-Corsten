@@ -1,12 +1,17 @@
 import { defineCollection, z } from 'astro:content';
 
+const person = z.object({
+  name: z.string(),
+  url: z.string().url().optional(),
+});
+
 const forschungsprojekte = defineCollection({
   schema: z.object({
     title: z.string(),
     order: z.number().optional(),
     years: z.string().optional(),
-    lead: z.string().optional(),
-    team: z.string().optional(),
+    lead: z.array(person).optional(),
+    team: z.array(person).optional(),
     funding: z.string().optional(),
     duration: z.string().optional(),
     contact: z.string().optional(),
@@ -20,8 +25,8 @@ const forschungsschwerpunkte = defineCollection({
   schema: z.object({
     title: z.string(),
     order: z.number().optional(),
-    lead: z.string().optional(),
-    team: z.string().optional(),
+    lead: z.array(person).optional(),
+    team: z.array(person).optional(),
     subtopics: z.array(z.string()).optional(),
     papers: z.array(z.string()).optional(),
     status: z.string().optional(), // e.g., "laufend", "abgeschlossen", "in Vorbereitung"
