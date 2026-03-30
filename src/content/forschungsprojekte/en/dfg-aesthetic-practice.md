@@ -3,7 +3,7 @@ title: DFG Research Training Group 2477 - Aesthetic Practice
 lead:
   - name: "Prof. Dr. Jens Roselt (Speaker)"
 team:
-  - name: "Dr. Sonja Dinter (Coordinator)"
+  - name: "Lisa Kalkowski (Coordinator)"
   - name: "10 PhD candidates"
   - name: "3 postdocs"
 funding: "DFG"
@@ -14,4 +14,4 @@ papers:
 ---
 
 
-???
+[homepage](https://www.uni-hildesheim.de/grk-2477/)

@@ -3,7 +3,7 @@ title: DFG-Graduiertenkolleg 2477 - Ästhetische Praxis
 lead:
   - name: "Prof. Dr. Jens Roselt (Sprecher)"
 team:
-  - name: "Dr. Sonja Dinter (Koordinatorin)"
+  - name: "Lisa Kalkowski (Koordinatorin)"
   - name: "10 Promovierende"
   - name: "3 Postdocs"
 funding: "DFG"
@@ -14,4 +14,4 @@ papers:
 ---
 
 
-???
+[homepage] (https://www.uni-hildesheim.de/grk-2477/)
