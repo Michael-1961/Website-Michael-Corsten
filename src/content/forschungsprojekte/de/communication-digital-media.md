@@ -9,11 +9,15 @@ team:
     url: "https://www.uni-hildesheim.de/fb1/institute/institut-fuer-sozialwissenschaften/soziologie/mitglieder/wissenschaftliche-angestellte/laura-maleyka/"
   - name: "Dr. Sascha Oswald"
 focus_area: symbolic-practice
+papers: 
+  - internetdaten15
+  - filmische-sel18
 subtopics:
   - "Digitale Verbreitungsmedien und Kommunikationsmacht"
   - "Generation und Medien"
   - "Instagram-Kommunikationskultur"
   - "Selbstthematisierung in digitalen Öffentlichkeiten"
+
 ---
 
 

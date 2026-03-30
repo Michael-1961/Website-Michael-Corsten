@@ -14,6 +14,10 @@ team:
   - name: "Dr. Jessica Schülein"
 funding: "DFG"
 focus_area: Biographieforschung
+papers: 
+  - visitenkarte25
+  - laengsschnitt-designs23
+  - sich-subjekt22
 ---
 
 
