@@ -3,6 +3,7 @@ title: Re-Mythisierungen als Realprokte einer sozialistischen Persönlichkeitsbi
 team:
   - name: "Prof. Dr. Michael Corsten"
   - name: "Dr. Melanie Pierburg"
+    url: "https://www.uni-hildesheim.de/fb1/institute/institut-fuer-sozialwissenschaften/soziologie/mitglieder/wissenschaftliche-angestellte/melanie-pierburg/"
 funding: "BMBF/BMFTR"
 years: "2023-2025"
 status: laufend

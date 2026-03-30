@@ -3,8 +3,10 @@ title: Mythen in erzählten Bildungs- und Kindheitserfahrungen der DDR
 team:
   - name: "Prof. Dr. Michael Corsten"
   - name: "Dr. Melanie Pierburg"
+    url: "https://www.uni-hildesheim.de/fb1/institute/institut-fuer-sozialwissenschaften/soziologie/mitglieder/wissenschaftliche-angestellte/melanie-pierburg/"
   - name: "Larissa Jafke (2019-20)"
   - name: "Dr. Simon Gordt (2020-21)"
+    url: "https://sowi.rptu.de/fgs/paedagogik/team/kreinulrike"
 funding: "BMBF"
 years: "2019-2023"
 status: abgeschlossen

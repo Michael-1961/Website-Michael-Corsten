@@ -4,10 +4,13 @@ years: "2019-2023"
 status: abgeschlossen
 lead:
   - name: "Prof. Dr. Kathrin Audehm"
+    url: "https://www.hf.uni-koeln.de/40974"
   - name: "Prof. Dr. Michael Corsten"
   - name: "Prof. Dr. Holger Herma"
+    url: "https://www.uni-hildesheim.de/fb1/institute/institut-fuer-sozialwissenschaften/soziologie/mitglieder/wissenschaftliche-angestellte/apl-prof-dr-holger-herma/"
 team:
   - name: "Dr. Laura Maleyka"
+    url: "https://www.uni-hildesheim.de/fb1/institute/institut-fuer-sozialwissenschaften/soziologie/mitglieder/wissenschaftliche-angestellte/laura-maleyka/"
   - name: "Dr. Jessica Schülein"
 funding: "DFG"
 focus_area: Biographieforschung

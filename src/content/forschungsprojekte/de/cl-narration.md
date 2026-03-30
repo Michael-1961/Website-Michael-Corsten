@@ -6,7 +6,9 @@ lead:
     url: "https://www.uni-hildesheim.de/fb3/institute/iwist/mitglieder/heid/"
 team:
   - name: "Dr. Fritz Kliche"
+    url: "https://www.uni-hildesheim.de/fb3/institute/iwist/mitglieder/kliche/"
   - name: "Dr. Laura Maleyka"
+    url: "https://www.uni-hildesheim.de/fb1/institute/institut-fuer-sozialwissenschaften/soziologie/mitglieder/wissenschaftliche-angestellte/laura-maleyka/"
 funding: "Eigenmittel"
 years: "2025-x"
 status: in Vorbereitung

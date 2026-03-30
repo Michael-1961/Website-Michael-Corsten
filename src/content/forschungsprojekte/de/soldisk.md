@@ -3,6 +3,7 @@ title: "SOLDISK: Solidaritätsdiskurse in Krisen - Mesoebene: die soziale Organi
 team:
   - name: "Prof. Dr. Michael Corsten"
   - name: "Patrick Kahle"
+    url: "https://ekvv.uni-bielefeld.de/pers_publ/publ/PersonDetail.jsp?personId=87857936"
 funding: "Niedersächsisches Ministerium für Wissenschaft und Kultur, VolkswagenStiftung"
 years: "2019-2021"
 focus_area: solidarity
