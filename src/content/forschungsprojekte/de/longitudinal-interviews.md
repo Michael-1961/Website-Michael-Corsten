@@ -15,12 +15,12 @@ team:
 funding: "DFG"
 focus_area: Biographieforschung
 papers: 
-  - visitenkarte25
-  - laengsschnitt-designs23
-  - sich-subjekt22
-  - biographie-funktion22
-  - lebenslauf-so20
-  - jugend-längss20
+ - visitenkarte25
+ - laengsschnitt-designs23 
+ - sich-subjekt22
+ - biographie-funktion22
+ - lebenslauf-so20
+ - jugend-längss20
 ---
 
 

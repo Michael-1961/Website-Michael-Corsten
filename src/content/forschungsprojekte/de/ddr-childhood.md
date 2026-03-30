@@ -9,8 +9,8 @@ years: "2023-2025"
 status: laufend
 focus_area: Biographieforschung
 papers: 
-  - mythisierung24
-  - ddr23
+ - mythisierung24
+ - ddr23
 ---
 
 ## Fallstudie: Re-Mythisierungen als Realprodukte einer sozialistischen Persönlichkeitsbildung
