@@ -19,7 +19,7 @@ const t = labels[lang];
       <div class="space-y-4">
         {cv.education.map((item) => (
           <div class="flex flex-col sm:flex-row sm:gap-4 border-l-4 border-blue-600 pl-4 py-2">
-            <div class="sm:w-32 flex-shrink-0 font-semibold text-blue-600">{item.years}</div>
+            <div class="sm:w-32 shrink-0 font-semibold text-blue-600">{item.years}</div>
             <div>
               <span class="font-semibold text-gray-800">{item.type[lang]}</span>
               <p class="text-gray-600">{item.description[lang]}</p>
@@ -34,7 +34,7 @@ const t = labels[lang];
       <div class="space-y-4">
         {cv.career.map((item) => (
           <div class="flex flex-col sm:flex-row sm:gap-4 border-l-4 border-green-600 pl-4 py-2">
-            <div class="sm:w-32 flex-shrink-0 font-semibold text-green-600">{item.date}</div>
+            <div class="sm:w-32 shrink-0 font-semibold text-green-600">{item.date}</div>
             <div>
               <span class="font-semibold text-gray-800">{item.position[lang]}</span>
               <p class="text-gray-600">{item.description[lang]}</p>

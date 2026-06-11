@@ -12,7 +12,7 @@ team:
 funding: "Eigenmittel"
 years: "2025-x"
 status: in Vorbereitung
-focus_area: "Biographieforschung"
+focus_area: biographieforschung
 ---
 
 ### Abstract

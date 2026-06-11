@@ -10,7 +10,7 @@ team:
 funding: "BMBF"
 years: "2019-2023"
 status: abgeschlossen
-focus_area: Biographieforschung
+focus_area: biographieforschung
 papers: 
   - schicksal23
   - mythos21

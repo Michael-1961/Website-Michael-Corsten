@@ -6,7 +6,7 @@ team:
     url: "https://www.uni-hildesheim.de/fb1/institute/institut-fuer-sozialwissenschaften/soziologie/mitglieder/wissenschaftliche-angestellte/melanie-pierburg/"
 funding: ‘BMBF/BMFTR’
 years: ‘2023-2025’
-focus_area: Biographieforschung
+focus_area: biographieforschung
 papers: 
   - mythisierung24
   - ddr23

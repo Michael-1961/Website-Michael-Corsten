@@ -8,7 +8,7 @@ funding: "BMBF/BMFTR"
 years: "2023-2025"
 status: abgeschlossen
 
-focus_area: Biographieforschung
+focus_area: biographieforschung
 papers: 
   - mythisierung24
   - ddr23

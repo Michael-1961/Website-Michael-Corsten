@@ -1,4 +1,5 @@
 import { defineCollection, z } from 'astro:content';
+import { glob } from 'astro/loaders';
 
 const person = z.object({
   name: z.string(),
@@ -6,6 +7,7 @@ const person = z.object({
 });
 
 const forschungsprojekte = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/forschungsprojekte' }),
   schema: z.object({
     title: z.string(),
     order: z.number().optional(),
@@ -22,6 +24,7 @@ const forschungsprojekte = defineCollection({
 });
 
 const forschungsschwerpunkte = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/forschungsschwerpunkte' }),
   schema: z.object({
     title: z.string(),
     order: z.number().optional(),

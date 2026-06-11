@@ -9,11 +9,11 @@ interface Props {
 const { lang } = Astro.props;
 ---
 
-<section class="bg-gradient-to-b from-primary-50 to-white py-16 md:py-24">
+<section class="bg-linear-to-b from-primary-50 to-white py-16 md:py-24">
   <div class="container-narrow">
     <div class="flex flex-col md:flex-row items-center gap-8 md:gap-12">
       <!-- Profile Image -->
-      <div class="flex-shrink-0">
+      <div class="shrink-0">
         <div class="w-48 h-48 md:w-56 md:h-56 rounded-full bg-primary-200 flex items-center justify-center overflow-hidden border-4 border-white shadow-lg">
           <img src={url('images/profile.png')} alt={contact.name} class="w-full h-full object-cover">
         </div>

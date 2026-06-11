@@ -68,7 +68,7 @@ const getFocusAreaId = (area: typeof focusAreas[0]) => area.id.replace(`${lang}/
               <!-- Accordion Header -->
               <button
                 data-accordion-trigger={uniqueId}
-                class="accordion-trigger w-full bg-gradient-to-r from-slate-50 to-white dark:from-slate-800 dark:to-slate-800/50 border border-slate-200 dark:border-slate-700 rounded-xl p-6 hover:shadow-md hover:border-blue-300 dark:hover:border-blue-600 transition-all duration-300 text-left"
+                class="accordion-trigger w-full bg-linear-to-r from-slate-50 to-white dark:from-slate-800 dark:to-slate-800/50 border border-slate-200 dark:border-slate-700 rounded-xl p-6 hover:shadow-md hover:border-blue-300 dark:hover:border-blue-600 transition-all duration-300 text-left"
               >
                 <div class="flex items-start justify-between gap-4">
                   <div class="flex-1">
@@ -86,7 +86,7 @@ const getFocusAreaId = (area: typeof focusAreas[0]) => area.id.replace(`${lang}/
                     <div class="grid gap-2 text-sm mt-2">
                       {area.data.lead && area.data.lead.length > 0 && (
                         <div class="flex items-start gap-2">
-                          <svg class="w-4 h-4 text-slate-400 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <svg class="w-4 h-4 text-slate-400 mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/>
                           </svg>
                           <span class="text-slate-600 dark:text-slate-400">{area.data.lead.map(p => p.name).join(', ')}</span>
@@ -94,7 +94,7 @@ const getFocusAreaId = (area: typeof focusAreas[0]) => area.id.replace(`${lang}/
                       )}
                       {area.data.team && area.data.team.length > 0 && (
                         <div class="flex items-start gap-2">
-                          <svg class="w-4 h-4 text-slate-400 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <svg class="w-4 h-4 text-slate-400 mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
                           </svg>
                           <span class="text-slate-600 dark:text-slate-400">{area.data.team.map(p => p.name).join(', ')}</span>
@@ -102,7 +102,7 @@ const getFocusAreaId = (area: typeof focusAreas[0]) => area.id.replace(`${lang}/
                       )}
                       {area.data.subtopics && area.data.subtopics.length > 0 && (
                         <div class="flex items-start gap-2">
-                          <svg class="w-4 h-4 text-slate-400 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <svg class="w-4 h-4 text-slate-400 mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"/>
                           </svg>
                           <div class="text-slate-600 dark:text-slate-400">
@@ -115,7 +115,7 @@ const getFocusAreaId = (area: typeof focusAreas[0]) => area.id.replace(`${lang}/
                     </div>
                   </div>
 
-                  <div class="flex-shrink-0">
+                  <div class="shrink-0">
                     <svg
                       data-accordion-icon={uniqueId}
                       class="accordion-icon w-5 h-5 text-slate-400 transition-transform duration-300"
@@ -136,7 +136,7 @@ const getFocusAreaId = (area: typeof focusAreas[0]) => area.id.replace(`${lang}/
                   class="accordion-content hidden ml-6 mt-2 mb-2 space-y-3 relative"
                 >
                   <!-- Vertical connector line -->
-                  <div class="absolute left-0 top-0 bottom-4 w-px bg-gradient-to-b from-blue-300 to-transparent dark:from-blue-600"></div>
+                  <div class="absolute left-0 top-0 bottom-4 w-px bg-linear-to-b from-blue-300 to-transparent dark:from-blue-600"></div>
 
                   {linkedProjects.map((project) => (
                     <div class="ml-6 relative">

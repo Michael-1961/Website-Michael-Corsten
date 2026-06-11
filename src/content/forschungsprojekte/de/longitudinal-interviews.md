@@ -13,7 +13,7 @@ team:
     url: "https://www.uni-hildesheim.de/fb1/institute/institut-fuer-sozialwissenschaften/soziologie/mitglieder/wissenschaftliche-angestellte/laura-maleyka/"
   - name: "Dr. Jessica Schülein"
 funding: "DFG"
-focus_area: Biographieforschung
+focus_area: biographieforschung
 papers: 
  - visitenkarte25
  - laengsschnitt-designs23 
