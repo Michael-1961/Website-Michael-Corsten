@@ -1,5 +1,5 @@
 ---
-title: Re-Mythisierungen als Realprokte einer sozialistischen Persönlichkeitsbildung
+title: Re-Mythisierungen als Realprodukte einer sozialistischen Persönlichkeitsbildung
 team:
   - name: "Prof. Dr. Michael Corsten"
   - name: "Dr. Melanie Pierburg"
