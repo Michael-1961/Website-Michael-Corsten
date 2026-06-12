@@ -1,6 +1,32 @@
 {
   "publications": [
     {
+      "year": 2026,
+      "entries": [
+        {
+          "authors": "Corsten, Michael; Schubert, Volker",
+          "title": "Zu komisch - ist das Klamauk",
+          "in": "HaHa. Auftritte, Kontexte und Problematisierungen von Komik und Lachen in der populären Kultur",
+          "type": "chapter",
+          "pages": "65-79",
+          "editors": "Bendix, Regina; Krankenhagen, Stefan",
+          "location": "Münster",
+          "publisher": "Waxmann",
+          "id": "komisch26",
+          "link": "https://elibrary.utb.de/doi/epdf/10.31244/9783818851064"
+        },
+        {
+          "authors": "Corsten, Michael; Schubert, Volker",
+          "title": "Notiz über das Populäre am Unpopulären",
+          "in": "Akzente. Zeitschrift für Literatur",
+          "type": "article",
+          "pages": "66-71",
+          "id": "arbeit26"
+        }
+      ]
+
+      },
+    {
       "year": 2025,
       "entries": [
         
