@@ -12,6 +12,14 @@
           "link": "https://publikationen.soziologie.de/index.php/kongressband_2025/de/article/view/1966"
         },
         {
+          "authors": "Corsten, Michael; Heid, Ulrich; Kahle, Patrick; Kliche, Fritz",
+          "title": "Topic Modeling und interpretative Erzählanalyse",
+          "in": "Transitionen. Verhandlungen des 42. Kongresses der Deutschen Gesellschaft für Soziologie in Duisburg 2025",
+          "type": "conference",
+          "id": "topicModel26",
+          "link": "https://publikationen.soziologie.de/index.php/kongressband_2025/de/article/view/1969"
+        },
+        {
           "authors": "Corsten, Michael; Schubert, Volker",
           "title": "Zu komisch - ist das Klamauk",
           "in": "HaHa. Auftritte, Kontexte und Problematisierungen von Komik und Lachen in der populären Kultur",
@@ -46,7 +54,7 @@
           "pages": "157-181",
           "type": "article",
           "id": "visitenkarte25",
-          "doi": "10.3224/bios.v37i1+2.06"
+          "doi": "https://doi.org/10.3224/bios.v37i1-2.06"
         },
         {
           "id": "schnulze25",
