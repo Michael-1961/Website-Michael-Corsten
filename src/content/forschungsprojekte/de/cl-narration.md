@@ -13,6 +13,8 @@ funding: "Eigenmittel"
 years: "2025-x"
 status: in Vorbereitung
 focus_area: biographieforschung
+papers: 
+- topicModel26
 ---
 
 ### Abstract

@@ -12,6 +12,8 @@ team:
 funding: "Own funds"
 years: "2025-x"
 focus_area: biographieforschung
+papers: 
+- topicModel26
 ---
 
 
