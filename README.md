@@ -27,6 +27,67 @@ npm run build
 
 The optimized static files are generated in the `dist/` directory.
 
+## Git Workflow
+
+### Option 1: Work on main
+
+Changes go live as soon as you push.
+
+#### Making changes
+
+```bash
+git pull                 # before you start
+git add . && git commit -m "Add new publication"   # as often as you like
+git pull --rebase        # when you are ready
+git push
+```
+
+#### If a conflict happens
+
+If `git pull --rebase` reports a conflict, undo it and move your commits to a new branch. Replace `<branch-name>` with a name you choose that has not been used before (for example `bios-article`):
+
+```bash
+git rebase --abort
+git switch -c <branch-name>
+git rebase origin/main
+```
+
+The rebase stops at the conflict. Resolve it (for example by asking Copilot or another AI assistant), then continue and bring `main` up to date:
+
+```bash
+git add <file>
+git rebase --continue
+git switch main
+git reset --hard origin/main
+git merge --ff-only <branch-name>
+git push
+```
+
+### Option 2: Work on a fresh branch
+
+This is the safer workflow, because your work stays separate from `main` until you publish it.
+
+#### Making changes
+
+Replace `<branch-name>` with a name you choose that has not been used before (for example `bios-article`):
+
+```bash
+git switch main
+git pull                           # before you start
+git switch -c <branch-name>
+git add . && git commit -m "Add new publication"   # as often as you like
+```
+
+#### Publishing
+
+```bash
+git fetch
+git rebase origin/main   # if a conflict happens, resolve it as in option 1
+git switch main
+git merge --ff-only <branch-name>
+git push
+```
+
 ## Updating Content
 
 ### Basic Information
